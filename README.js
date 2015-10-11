@@ -1,13 +1,15 @@
    // code for coloring
 date	task	desc	
-10月11日	tree view with check box	F:\wamp\www\git_repos\GitHub\GeneralUtility\chrome_plugin\tree	
+10/11	//tree view with check box	F:\wamp\www\git_repos\GitHub\GeneralUtility\chrome_plugin\tree	
 		http://jsfiddle.net/TrueBlueAussie/0s0p3716/20/	
 		https://www.google.com.hk/search?newwindow=1&es_sm=122&q=javascript+treeview+with+checkbox+stack+overflow&spell=1&sa=X&ved=0CBkQBSgAahUKEwiKl52Jv7nIAhUEXqYKHYjuASU&biw=1280&bih=643	
-		http://wwwendt.de/tech/dynatree/	
-		http://stackoverflow.com/questions/10920514/using-ajax-jquery-to-refresh-an-image	$img.attr('src'
-		http://www.w3schools.com/jquery/jquery_ref_selectors.asp	
+		//http://wwwendt.de/tech/dynatree/	
+		//http://stackoverflow.com/questions/10920514/using-ajax-jquery-to-refresh-an-image	$img.attr('src'
+		http://www.w3schools.com/jquery/jquery_ref_selectors.asp
+		http://www.cnblogs.com/cutepig/p/4865199.html
 		ajax attr vs prop	
-		showing-contents-of-array-object	JSON.stringify(data)
+		$el.prop('checked');vs $el.is(':checked');vs $el.attr("checked");vs $el[0].checked;	https://jsperf.com/prop-vs-ischecked/5
+		//showing-contents-of-array-object	JSON.stringify(data)
 			
 	javascript the good parts	F:\JS	
 			
@@ -19,3 +21,11 @@ date	task	desc
 			
 	沙发	https://item.taobao.com/item.htm?spm=a312a.7728559.2014082902.1.7ofpUB&id=41350745627&_lang=zh_CN:TB-GBK&thwarea=hw&toSite=main	
 		http://www.ikea.com/hk/zh/catalog/categories/departments/living_room/10661/	
+
+	英语	
+		马云的英语	https://www.youtube.com/watch?v=dllavGZ7abI
+		singapore english
+		ted		https://www.youtube.com/watch?v=HAnw168huqA
+		
+	岗厦村租房
+	
