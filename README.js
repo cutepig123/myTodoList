@@ -38,3 +38,11 @@ date	task	desc
 		
 		现在居然有这么多pattern了 https://en.wikipedia.org/wiki/Concurrency_pattern
 		
+		search from google: how to implement a thread pool学习别人的思路
+		implement a blocking queue dequeue操作会一直等待直到拿到一个task	http://stackoverflow.com/questions/20110013/implement-your-own-blocking-queue-in-java http://tutorials.jenkov.com/java-concurrency/blocking-queues.html 
+		how to implement a BlockingQueue c++
+		what is monitor?
+		what is condition variable? 1) wait(scoped_lock & lock) 2) notify_one 3) notify_all http://codereview.stackexchange.com/questions/12052/implementation-of-concurrent-blocking-queue-for-producer-consumer https://msdn.microsoft.com/en-us/library/windows/desktop/ms686903(v=vs.85).aspx
+		//Java: notify() vs. notifyAll() all over again
+		http://stackoverflow.com/questions/6316286/condition-variable-alternatives-c-c-on-windows-xp
+		
