@@ -29,3 +29,12 @@ date	task	desc
 		
 	岗厦村租房
 	
+10/14	//Impl a task scheduler F:\wamp\www\git_repos\GitHub\GeneralUtility\TestBoost
+		还缺什么？效率不是最好，如果queue里面有多个task，而因为只有一个event，现在的做法会导致最终都会在一个thread里面执行，效率会不理想（可以参考那个event+lock+count的做法，用来跟踪queue大小，只要有task就能不停地等到event）
+		需要用户派好task顺序，以后应该支持类似于task的lib，用户乱序输入task，只要告诉互相依赖关系，其余的都在lib里面搞定了
+		
+10/16	//学习boost threadgroup的做法		http://stackoverflow.com/questions/19500404/how-to-create-a-thread-pool-using-boost-in-c
+		Synchronized Queues http://www.boost.org/doc/libs/1_59_0/doc/html/thread/sds.html
+		
+		现在居然有这么多pattern了 https://en.wikipedia.org/wiki/Concurrency_pattern
+		
