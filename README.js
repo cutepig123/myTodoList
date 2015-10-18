@@ -55,3 +55,5 @@ date	task	desc
 		//Export and decrypt whats app data F:\WhatsApp  https://www.youtube.com/watch?v=fDEvAATH1m4 moni crypt + whatsapp viewer
 		//learn how whatsapp viewer custom control impl?
 		
+		Read NB vczh's blog
+		
