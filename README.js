@@ -56,4 +56,10 @@ date	task	desc
 		//learn how whatsapp viewer custom control impl?
 		
 		Read NB vczh's blog
+10/19		
+		task parallism  Braided task-granularity  Persistent threads  Dynamic queuing  Dependency resolution 
+		PPL https://paoloseverini.wordpress.com/2014/04/07/concurrency-in-c11/ https://msdn.microsoft.com/en-us/library/ee207192.aspx
+		work-stealing algorithm	https://en.wikipedia.org/wiki/Work_stealing http://stackoverflow.com/questions/9081382/work-stealing-algorithm
+		Java fork/join framework,[4] and the .NET Task Parallel Library.[5]
+		Dataflow programming	https://en.wikipedia.org/wiki/Dataflow_programming
 		

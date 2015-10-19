@@ -53,3 +53,6 @@
 		《Monadic Parser Combinator》
 		ajoo那篇著名的面向组合子编程系列
 	Python
+	
+	F:\c++\sicp.pdf
+	task parallism
