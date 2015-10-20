@@ -108,3 +108,7 @@
 	
 10/19	 first-class 
 	boost::asio with boost::unique_future	http://stackoverflow.com/questions/22424715/boostasio-with-boostunique-future 
+	Python
+	
+	F:\c++\sicp.pdf
+	task parallism
