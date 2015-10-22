@@ -67,4 +67,9 @@ date	task	desc
 		work-stealing algorithm	https://en.wikipedia.org/wiki/Work_stealing http://stackoverflow.com/questions/9081382/work-stealing-algorithm
 		Java fork/join framework,[4] and the .NET Task Parallel Library.[5]
 		Dataflow programming	https://en.wikipedia.org/wiki/Dataflow_programming
+		cooperative task scheduling and cooperative blocking
+		
+1020	Electron
+		http://i.100offer.com/projects/result https://github.com/leanote/desktop-app
+		http://stackoverflow.com/questions/704855/software-design-vs-software-architecture https://en.wikipedia.org/wiki/Software_design
 		
