@@ -1,0 +1,987 @@
+what-is-the-difference-between-mutex-and-critical-section?
+http://stackoverflow.com/questions/800383/what-is-the-difference-between-mutex-and-critical-section
+Linux futexes
+	http://www.akkadia.org/drepper/futex.pdf
+	
+Synchronization primitives 
+	such as mutexes, semaphores, and critical sections	
+		impl detail?
+	error conditions such as deadlock, livelock, and priority inversion
+	
+non-blocking algorithms 
+	use atomic read-modify-write primitives:CAS primitive	??
+	data structures such as stacks, queues, sets, and hash tables ??
+	
+https://en.wikipedia.org/wiki/Non-blocking_algorithm
+	memory barrier		??
+	ring buffer FIFO	??
+		 can unconditionally be implemented safely using only a memory barrier
+	in 2011 Kogan and Petrank[14] presented a wait-free queue building on the CAS primitive, 	??
+	
+3 Wait-freedom		every operation has a bound on the number of steps the algorithm will take before the operation completes
+4 Lock-freedom
+5 Obstruction-freedom
+	
+Test guide
+1. mil_wPrintON =1
+
+		
+todo
+1. FDC_InitLearnRTPara(&stFDCLrnRTPar); is wrong
+rExpAngle = 4.0935452e-034 is wong		
+
+-		pstLrnRTPar	0x000000000033e9a8 {wPreprocessMode=0 wPreprocessKSize=5 wIsCompleteVote=1 ...}	const FDC_LEARN_RT_PARA *
+
+stFDCTeachPara.pstRTPar = &stFDCLrnRTPar;
+
+2. 
+if(0)
+		{
+			// For test
+			stFDCLrnRTPar.ubUniqChk =IMG_TRUE;
+			stFDCLrnRTPar.ubFastSrch =1;
+			stFDCLrnRTPar.prcoRefPt = &rcoPkgCtr;
+		}
+3. logged in log
+
+1. 
+(stDaLrnCmd).ubApplyLrnMaskToSourceImage =IMG_TRUE;
+(stDaLrnCmd).wIsSaveLrnAlignMask =IMG_TRUE;
+
+in >	VISIONNT.exe!CLearnBPStripPage::OnBnClickedLearn()  Line 727 + 0x12 bytes	C++
+
+
+2. check pstAptBpRes		= pstCmd->pstAptResult;
+pstAptBpRes->wBpBlkAlnType			= BP_NOT_ALIGN_BLK;
+
+stInPar.stEdge.modeR0 = *paubKernelSiz
+stInPar.stEdge.modeR1 = *(paubKernelSi
+stInPar.stEdge.modeR2 = *(paubKernelSi
+pstPara->aubKernelSizes[0] = 5;
+pstPara->aubKernelSizes[1] = pstPara->
+2DView0PreprocessKnrl = 5
+2DView1EdgeThd 
+
+- rename wPurposeID to emPurpose
+- 
+pstCmd->stModelCosys.rcoOrigin
+
+struct		ITF_AUTOLIGHT_CMD
+{
+	PR_BYTE							abDevFile[PR_DEV_NAME_LEN];	
+	DS_COSYS						stModelCosys;		
+	IMG_REAL						rZTranslate;		
+	IMG_UWORD						uwNumUsagePurposes;
+	ITF_USAGE_PURPOSE_PAIR			astUsagePurposes[ITF_MAX_AUTOLIGHT_USAGEPURPOSE];
+};
+
+
+
+IMG_ULWORD		ulStationID = ITF_GetStationID();
+	ITF_STATION_INFO *pstStationInfo = ITF_GetStationInfoByID( (IMG_WORD)ulStationID, NULL ); 
+
+emPrCamIndex = pstStationInfo->astCameraInfo[0].emPRCamIndex;
+
+IMG_ULWORD		ulStationID = ITF_GetStationID();
+
+		ITF_STATION_INFO *pstStnInfo =ITF_GetStationInfoByID( (IMG_WORD)ITF_GetStationID(), NULL );
+
+		PR_CAMERA emPRCam = PR_CAMERA_1;
+		if(pstStnInfo)
+			emPRCam =pstStnInfo->astCameraInfo[0].emPRCamIndex;
+		else
+		{
+			GLM_LogError((IMG_UBYTE *)"Autolighting", 
+						(IMG_UBYTE *)"ITF_GetStationInfoByID return NULL, default PR_CAMERA_1 will be used");
+		}
+
+pstCmd->astUsagePurposes[i].emPurpose = (PR_PURPOSE)(
+					emPrCamIndex * 10 + awPurpose[i]);
+
+ITF_DataSummaryLogCtrl					
+oROIs.wIsLogImgs = pstStation->wIsEnableRawDataLogging?
+						   (pstStation->wRawDataLoggingStrategy==PR_DATA_SUMMARY_RAW_DATA_ALL_IMAGE) ||
+						   (pstStation->wRawDataLoggingStrategy==PR_DATA_SUMMARY_RAW_DATA_FAIL_IMAGE):
+						   IMG_FALSE;
+						   
+pstPara->stCmd.emDebug == PR_DEBUG_PERMANENT_MEM
+						   
+						   
+						   
+	PR_UBYTE			ubSaveRec;	// Whether save the record before upload
+	PR_UBYTE			ubZipOn;	// Whether zip the record to a small file
+} ITF_UPLOAD_RECORD_CMD;
+
+
+																	//or not
+	PR_BOOLEAN			emSaveRec;	// Whether save the record before upload
+	PR_BOOLEAN			emZipOn;	// Whether zip the record to a small file
+} PR_UPLOAD_RECORD_PROCESS_CMD;
+
+PR_UPLOAD_RECORD_CMD		stUploadRecordCmd;
+
+PR_UPLOAD_RECORD_INIT_CMD			*pstCmd
+
+
+PR_PackUploadRecordCmd
+
+if( pstCmd->emZipOn )
+
+ITF_DownloadRecordCmd
+	ITF_DownloadRecordInit
+
+PR_VVOID	PR_DownloadRecordCmd( PR_DOWNLOAD_RECORD_CMD			*pstCmd,
+								  PR_UBYTE							ubSenderID,
+							 	  PR_UBYTE							ubReceiverID,
+								  PR_DOWNLOAD_RECORD_RPY			*pstRpy)
+ITF_DownloadRecordCommun
+
+PR_DownloadRecordProcessCmd
+
+
+pstCmd->emSaveRec =PR_TRUE;
+	pstCmd->emZipOn =PR_TRUE;
+
+
+ITF_PackEnumeration(&pstCmd->emSaveRec, &pubMsgBuf);
+	ITF_PackEnumeration(&pstCmd->emZipOn, &pubMsgBuf);
+
+
+WTC_FUNC_TYPE_UPLOAD_RECORD
+WTC_FUNC_TYPE_DOWNLOAD_RECORD
+
+#define	WTC_FUNC_TYPE_UPLOAD_RECORD				(15)
+#define	WTC_FUNC_TYPE_DOWNLOAD_RECORD			(16)
+
+
+g:\host_itf\pc_itf\ul_dl.c
+
+- emSaveRec is invalid --> check pack
+- wStatus = DOS_CopyFile( (IMG_CHAR*) pstCmd->aubFilename, acDprReceiveFilename, IMG_TRUE);
+the dest file name is ""???
+
+CRIT_CDefList			DefList;
+ITF_ClassifyPkgAlignResult(&stAcceptLv, &DefList);
+
+Find all "priority", Find Results 2, Current Document
+  G:\Itf\Source\PkgInsp\INSPECT.CPP(13):#include	<DefPriority.h>
+  G:\Itf\Source\PkgInsp\INSPECT.CPP(844):	const CRIT_CDefPriorityList*	pDefPriority = &pstPara->DefPriority;
+  G:\Itf\Source\PkgInsp\INSPECT.CPP(1350):			pstRpy2->ulDefType = DefList.GetWorstDefCode(pDefPriority, pstRpy2->wAcceptLv);
+  G:\Itf\Source\PkgInsp\INSPECT.CPP(1573):	pstPara->stAcceptValue = DefList.GetAcceptValue(pDefPriority);
+  G:\Itf\Source\PkgInsp\INSPECT.CPP(1589):		pstRpy3->ulDefType = DefList.GetWorstDefCode(pDefPriority, pstRpy3->wAcceptLv);
+  
+  
+   CRIT_CDefList				*pstDefList
+   pstDefList->AddEntry( PR_SORT_MARK_OFFSET_X	,	pstAcceptLv->wOffsetX			  );
+   
+   G:\Itf\Source\SPI\Inspect.cpp(194):IMG_UWORD ITF_GetDefectCode(ITF_SPI_STENCIL_RESULT *pstRslt, 
+  G:\Itf\Source\SPI\Inspect.cpp(2455):			pstRsltRpy->uwMajorDefType = ITF_GetDefectCode(pstRsltRpy, 
+  
+  #define WTC_FUNC_TYPE_LRN_SMT						(2013)
+  PR_PROCESS_CMD_END_IMAGE_GRAB 
+	isImgCollectEnabled
+		ITF_SPI_IMG_STITCH_REDUCTION_X
+		
+	endImageGrab
+		ACTION_END_IMG_GRAB
+			ITF_SMTImgStitching
+				PR_SMT_PCB_IMG_SIZE_X
+  PR_PROCESS_CMD_MERGE_LRN_RESULT
+  
+  
+  typedef struct
+{
+	/* The control points number for the pin hole boundary */
+	PR_UWORD				uwCtrlPtNum;
+
+	/* The boundary key points'information */
+	PR_SMT_SHAPE_BOUNDARY   *pstPinHoleBoundaryInfo;
+}PR_SMT_PIN_HOLE;
+
+	PR_ULWORD				ulPinHoleNum;
+	PR_SMT_PIN_HOLE			*pstPinHoleInfo;
+} PR_SMT_DEV_INFO;
+
+PR_CreateSMTDevFileBin
+	PR_PackDevFile to pulData
+		PR_PackDevFileHeader to get lwHeaderLen
+			DS_PACK_DATA_HEADER
+			Pack ulPadNum
+			...
+			
+		PR_PackDevIndexAll to get lwIdxLen
+		for ..
+			PR_PackDevSolder
+		for ...
+			PR_PackDevPad
+		PR_PackDevFileHeader again
+		PR_PackDevIndexAll again
+	write PR_SPI_DEVFILE_FLAG
+	write PR_SPI_DEVFILE_VER
+	write  pulData
+	
+	
+template <class T>
+IMG_WORD	ITF_PackMyArchiveRecord( T		const	*pstRecord,
+							  IMG_ULWORD				**ppulData,
+							  IMG_LWORD					*plwLength )
+{
+	MyOArchive ar( ppulData? *ppulData: NULL);
+	ar & (*pstRecord);
+	*plwLength =ar.lwLength;
+	return OK;
+}
+
+template <class T>
+IMG_WORD	ITF_UnpackMyArchiveRecord ( //IMG_CHAR		const	*pacVisVerNum,
+								 IMG_ULWORD		const	**ppulData,
+								 T			*pstRecord )
+{
+	MyIArchive ar( ppulData? *ppulData: NULL);
+
+	ar & (*pstRecord);
+	return OK;
+}	
+
+{
+		MySerialization::MyOArchive ar( ppulData? *ppulData: NULL);
+		ar & (IMG_ULWORD&)pstObj->ulPinHoleNum;
+
+		if( !ar.is_saveing())
+			pstObj->pstPinHoleInfo = (PR_SMT_PIN_HOLE*)asm_realloc( pstObj->pstPinHoleInfo, pstObj->ulPinHoleNum *sizeof(PR_SMT_PIN_HOLE));
+
+		for( IMG_ULWORD i=0; i<pstObj->ulPinHoleNum; i++)
+		{
+			ar & pstObj->pstPinHoleInfo[i];
+		}
+		*plwLength +=ar.lwLength;
+	}
+	
+	
+PR_VVOID	PR_PackDevBoundary(PR_SMT_SHAPE_BOUNDARY *pstObj, 
+							   PR_ULWORD			 **ppulData, 
+							   PR_LWORD			  *plwLength);
+							   
+							   
+SpiShared.obj : error LNK2001: unresolved external symbol "void __cdecl ITF_UnpackDevBoundary(unsigned long const * *,struct PR_SMT_SHAPE_BOUNDARY *)" (?ITF_UnpackDevBoundary@@YAXPEAPEBKPEAUPR_SMT_SHAPE_BOUNDARY@@@Z)
+SpiShared.obj : error LNK2001: unresolved external symbol "void __cdecl PU_PackDataHeader(struct PU_DATA_HEADER const *,unsigned long * *)" (?PU_PackDataHeader@@YAXPEBUPU_DATA_HEADER@@PEAPEAK@Z)
+SpiShared.obj : error LNK2001: unresolved external symbol "void __cdecl PU_InitDataHeader(struct PU_DATA_HEADER *)" (?PU_InitDataHeader@@YAXPEAUPU_DATA_HEADER@@@Z)
+SpiShared.obj : error LNK2001: unresolved external symbol asm_realloc_int
+g:\build\v100+x64+Debug\Eagle_NT_ITF\Eagle_NT_ITF.dll : fatal error LNK1120: 4 unresolved externals
+
+
+#ifndef PR_HOST_SIDE_COMM
+		t.pstPinHoleBoundaryInfo =(PR_SMT_SHAPE_BOUNDARY*)asm_realloc( t.pstPinHoleBoundaryInfo, 
+			t.uwCtrlPtNum *sizeof(*t.pstPinHoleBoundaryInfo) );
+#else
+		assert(!"Unexpected: This code shouldnever called");
+#endif
+
+PR_LogSMTDevFile
+
+
+vis_spi
+
+
+net use /delete g:
+net use /delete j:
+net use /delete o:
+net use /delete s:
+net use /delete u:
+net use /delete v:
+net use /delete x:
+
+subst G: /d
+subst J: /d
+subst O: /d
+subst S: /d
+subst U: /d
+subst V: /d
+subst X: /d
+
+net use j: \\ahkex\ahkproj\vision
+net use m: \\ahknts230\proj\vision\eagle\alg_sys\atseagle\latest
+net use n: \\ahknts230\proj\vision
+net use x: \\ahknts230\SYS
+net use z: \\ahkex\ahkproj\VisionTesting
+
+subst G: C:\64bitSource_20140306\drv-G
+
+subst o: C:\64bitSource_20140306\CSyslib
+subst s: C:\64bitSource_20140306\PCimglib
+net use u: \\lab-pc\c$\VS2010\wineagle
+net use v: \\lab-pc\c$\VS2010\aaaeagle
+
+rem subst v: C:\64bitSource_20140306\aaaeagle
+rem subst u: C:\64bitSource_20140306\wineagle
+
+rem net use u: \\lab-pc\d$\Smith\NGBP\wineagle
+rem net use v: \\lab-pc\d$\Smith\NGBP\aaaeagle
+
+G:\setenv -u ASM_VIS_FRAME4_CORE	X:\SWREELib\FRAME4_CORE_64\V4-05-05
+G:\setenv -u ASM_VIS_MFCSTRIPMAP	X:\SWREELib\MFCStripMap\V1-05-03
+G:\setenv -u ASM_VIS_SPC		X:\SWREELib\SPC\V1-13-23
+G:\setenv -u ASM_VIS_WINLINGO		N:\SW_UTIL\WinLingo\VER2.0
+
+G:\setenv -u METEOR2DCF			c:\WinEagle\System\Camera\DCF
+
+G:\setenv -u PATH			C:\WinEagle\lib;C:\WinEagle\Utilities\Tools\General
+
+pause
+
+- init io crash (with appl verifier on)
+- model align crash in sha Z:\IMAGEDB\APP\Function\Autolighting\NGBP\Test2\MAO0005
+	IMG_UBYTE				ubEnableRCS;			// 
+	DS_COSYS				stAlignCosys;			// Expect position (usually body centre) in inspection	
+//	DS_TRANS_PAR 			stTransPar;				// Trans par to translate from learn pts to insp pts
+	
+	IMG_UBYTE				ubApplyLrnMaskToSourceImage;
+	
+} DA_GEN_ALIGN_PAR;
+
+wIsSaveLrnAlignMask
+
+stFDCLrnRTPar.ubUniqChk =IMG_TRUE;
+
+
+
+DS_SetCoSysRel(&stFDCCoSys, &stBdyCoSys, &pstFDCRec->stRelToAlignCoSys);
+
+stFDCSrchRTPar.rcoExpPos =stFDCCoordSys.rcoOrigin
+
+	IMG_UBYTE		ubApplyLrnMaskToSourceImage;
+	IMG_WORD		wIsSaveLrnAlignMask;
+
+
+ubEnableRCS
+
+1. learn
+1) fast search
+FDC_Teach_3_With_Record
+DS_SetCoSysRel(&stFDCCoSys, &stBdyCoSys, &pstFDCRec->stRelToAlignCoSys);
+
+2) Chk RelToAlignCS
+FDC_Teach_3_With_Record
+DS_SetCoSysRel(&stFDCCoSys, &stBdyCoSys, &pstFDCRec->stRelToAlignCoSys);
+
+3) generate ball mask??
+G:\Itf\Source\Da\LEARN.C(451):	stDALrnPara.stGen.wIsSaveLrnAlignMask =
+G:\Apt\Source\Da\LEARN.C(234):	if ( pstPar->stGen.wIsSaveLrnAlignMask =
+
+2. Ins
+1) BP set RCS
+ubEnableRCS
+stRefCoordSys
+G:\Itf\Source\Bstp\inspect.c(131):			pastDaCmd->ubEnableRCS =IMG_TRUE;
+
+2) Calc AlignCS
+G:\Itf\Source\Da\INSPECT.CPP(109):	stDASrchPara.stGen.ubEnableRCS =pstCmd->ubEnableRCS;
+
+3) Calc FDC expect pos
+G:\Apt\Source\Da\ALIGN.C(417):		wStatus=SYS_AssertEx(pstPar->stGen.ubEnableRCS);
+G:\Apt\Source\Da\Shasrch.c(2144):			DS_GetCoSysFromRel( &pstDARecord->astFDCRecord[i].stRelToAlignCoSys, &pstPar->stGen.stAlignCosys, &stFDCCoordSys );
+
+3) Ball mask?
+4) Fast srch
+g_ubFDCFastSrch
+  G:\Apt\Source\Da\Shasrch.c(2139):		if(g_ubFDCFastSrch)
+
+How FDC learn?
+- Strip level, user select Ball Array, and FDC, the flag in cmd is AlignAlg=FDC, AlignAlg2=0
+
+
+todo:
+- set (*pstCmd).wIsSaveLrnAlignMask (*pstCmd).ubApplyLrnMaskToSourceImage in UI
+
+
+\\vis_bep_5\NGBPFiles\Repeatability_file\Dinawan2_Dyn_3april(5x1)_mc1
+
+
+PR_SMT_DEV_INFO
+	PR_SMT_PIN_HOLE
+
+ITF_SMT_DEV_FILE
+	vstPinHoleInfo
+	
+	
+
+PR_SMT_DEV_INFO
+
+ITF_SMT_DEV_FILE_PAD ->
+
+
+PR_SMT_DEV_INFO
+	PR_SMT_PIN_HOLE
+
+ITF_SMT_DEV_FILE
+	vstPinHoleInfo
+	
+ G:\Itf\Source\SMT\Learn.c(1518):			pstSpiRec->stStencilRecord.vstStencilRecord.resize(stDevfile.vstSolderInfo.size());
+	ITF_DevFileToStencilInfo ->ITF_SPI_SHAPE_BOUNDARY
+	
+G:\Itf\Source\SPI\Learn.cpp(1990):			wStatus = ITF_DevBoundToAptBound(&pstStencilRec->vstStencilRecord[uli].vstOutline[0],
+	ITF_DevBoundToAptBound  ->SMT_SPI_PAD_BOUND_DES
+	ITF_AptBoundUmToPixel
+	
+ C:\jshe\g_ngbp2\Itf\Source\BpInsp\INSPECT.CPP(2970)
+
+ITF_InspMRBall
+	ITF_InspMRBall_AllViews
+		ITF_InspMRBall_OneView
+			ITF_ExtractBalls_OneView
+			ITF_WarpBalls_OneView
+			ITF_StitchMRBallImage
+			ITF_SrchForMRBalls
+
+
+
+ITF_MPIInspectProcess
+	ITF_MPI_3DPPGrab
+	ITF_MPIInspectMultiPkg
+		ITF_MPIInspectPkgWrapper
+			ITF_MPIInspectPkg
+			
+ITF_MPI_RECORD
+	stPPGrabInfo
+	
+	case PR_VISUAL_TASK_MULTI_PKG_INSP:
+		ITF_MPIExecute( dialog, pstThreadPara );
+		break;
+		
+- MPI test procedure
+1.Enable 		((ITF_MPI_RECORD*)pstRecord)->stPPGrabInfo.vrTrigPts.resize(2);	// For testing
+2.Test how to modify ITF_Submit3DGrab
+1) total 2 grab proxy (2=Num trigger points)
+
+
+todo
+1. Create same proxy for same lighting (Need test)
+??
+2. Test real grab
+
+3. stitch image
+G:\Itf\Source\Bp\SUPPORT.CPP(453):	wStatus = IST_StitchImage (&stStitchPara, &stStiImgSrc, &pstSAInfo->stCalibRec, pubbBuf, &coZero, pstDebug->acLogPath, uwDebug);
+
+4. Where to store the lighting?
+ModuleRecord[10]
+	[0..N)	Trig 1
+
+No alignment --> In arrangement, donot search pisition but get it from device fie
+
+Assumption
+Motion
+. scanning in x axis, ascending
+Device
+. Only 1 2D code in FOV
+. 2D code arranges in MxN matrix form
+. 2D code are ~0deg when learn/Insp (toleranced by 2D code's search angle)
+. 2D code offset between learn and inspection are small enough (toleranced by 2D code's search angle)
+
+Host set motor count resolution
+-> do calibrtion
+-> create device file: User define body & 2D code & ARR (Nothing to do)
+todo:
+1: Now Arr cannot define pitch out of FOV, need remove the checking?
+
+-> Host call home sensor
+-> Host move motor to a Upper left package
+-> Learn 2D code & ARR
+Need 
+1) update record in ARR page, 
+2) Test whether can learn without alignment )
+3) In learn page, allow user switch cameras under current station to see the lighting effect
+How to save more than one cameras lighting into a module? pass N purposes?
+ Check alighment, 2D code
+
+-> Modify criteria (need Test whether can run without alignment)
+-> Host call home sensor
+-> Host move motor across all packages
+-> inspection
+
+1) Click inspection button
+2) From host ->Do OTF inspection
+
+
+Test
+1. Check stPPGrabInfo and IMG_UWORD	CMpiArrApplRecordContent::updateByDev
+CApplWorkspace	*pWorkspace = CApplWorkspaceManager::instance()->getWorkspace();
+	CMpiApplRecord  *pMpiApplRecord = dynamic_cast< CMpiApplRecord* >( pWorkspace->getApplRecord() );
+	if(pMpiApplRecord)
+	{
+		pMpiApplRecord->getRecord()->stPPGrabInfo = this->m_stPPGrabInfo;
+	}
+
+
+todo
+1. set MC resolution =1	 (done)
+2. remove new vtask (done)
+3. redo learn
+check
+stPPGrabInfo.vrTrigPts
+4. learn ARR UI problem
+1) radio box problem
+2) learn is disabled
+
+5. check how many lighting is learnt in DA & ARR modules (done)
+
+6. debug
+IMG_UWORD i = 0, N = m_pGrabber->getViewCount( m_hHandle );
+
+				assert( N==1 );	// Now only support 1 trigger point
+
+COnTheFly3DPseudoGrabber::handle	COnTheFly3DPseudoGrabber::submitGrab
+
+7. sw hang IF Autorepeat vtask is wrong
+
+10 Logging is wrong
+1) image
+2) srch region
+
+11. problem when load image size != camera size
+
+Solar
+1. Check blocking camera
+2. 
+
+12. Not support load small images logged in non-fullimagesize=3 mode
+
+14 support more than one packages in one FOV --> need testing
+
+- NGBP Display offset
+
+todo
+1. Fill RCS in a function
+	CCriteriaScreen::Enter
+		VISIONNT.exe!CVisionNTApp::UI_GetTFCriteria(IPC_CServiceMessage & svMsg)  Line 417	C++
+			CCriteriaDefinition::begin
+				InspectionTest
+
+	UI_CRIT_NewCriteriaByRecordID
+		CCriteriaScreen::NewCriteriaByRecordID
+		UI_GetRecordType
+		Enter( pManager,pcomClient )
+			UI_GetTFCriteria
+		HostDisplayScreen
+		
+What need fill?
+	pApp->m_emObjType
+	m_stInvertCoSysRel
+	m_coInspAppSys = stAlignRpy.stAppCoordSys;
+		m_coInspRefSys = stAlignRpy.stRefCoordSys;
+1.		UpdateAppRefSys( m_pstTFRecord, m_coInspAppSys, m_coInspAppRefSys);
+		
+UI_CRIT_DF_UPDATESUBSYSTEM		
+	2. UI_CRIT_Definition UI_CRIT_UPDATESUBSYSTEM
+		CCriteriaDefinition::GetPOM2DCodeCrit		
+	
+
+IDC_BUTTON_ROI
+  G:\UI\FiducialMarkDevDLg.cpp
+  void CFiducialMarkDevDLg::OnBnClickedButtonRoi()
+	UI_DrawGraphByAttribute	UI_DEV_FILE_FDC_REGION
+		MyDrawDevFDCRegionFcn
+			stCoordSys.rcoOrigin.x	= pApp->m_rcoLrnDevCenter.x;
+			stCoordSys.rcoOrigin.y	= pApp->m_rcoLrnDevCenter.y;
+			stCoordSys.rOrientation	= pApp->m_rLrnDevAngle + pApp->m_nLrnDevPinOrient;
+
+
+pstGenResult->rcoDieCentre
+wIsUseInputAlignSystem
+stCentreToPointOfReturn
+
+DA_GetReturnCentre
+
+pstTempResult->rcoReturnedDieCentre
+
+
+--9pts thickness
+T9Pts_all Taf9Pts_all TOpt9Pts_all
+
+--3 pairs thickness
+T_all Taf_all TOpt_all
+-- compensation value
+DT_all DTOpt_all
+
+E:\Solar\case\compensation\1(10-logcase)\1(10-logcase)\WISI0041\buffer303.bmp
+E:\Solar\case\compensation\4(3-logcase)\4(3-logcase)\WISI0021
+
+close all,clc,clear
+
+id=0;
+PathA={ ['\\vis_3ds_vision\case\compensation\1(10-logcase)\1(10-logcase)\WISI0041\buffer30' sprintf('%d.bmp',id+3)],
+ ['\\vis_3ds_vision\case\compensation\4(3-logcase)\4(3-logcase)\WISI0021\buffer30' sprintf('%d.bmp',id+3)]
+};
+
+bRot90=0;
+logfile='1.txt';
+CZY=[41 117 268 460 554 570 615];
+HWy=[3 10 10 10 5 5 10];
+[SpixB]= GetPhaseShift_withRef_4(PathA, bRot90, logfile, CZY,HWy)
+
+PathA={ ['\\vis_3ds_vision\case\compensation\1(10-logcase)\1(10-logcase)\WISI0041\buffer30' sprintf('%d.bmp',id)],
+ ['\\vis_3ds_vision\case\compensation\4(3-logcase)\4(3-logcase)\WISI0021\buffer30' sprintf('%d.bmp',id)]
+};
+
+
+bRot90=0;
+logfile='1.txt';
+CZY=[18 117 268 460 554 570 615];
+HWy=[3 10 10 10  5 5 10];
+[SpixT]= GetPhaseShift_withRef_4(PathA, bRot90, logfile, CZY,HWy)
+
+SpixB*27,SpixT*27,(SpixB+SpixT)*27
+
+
+		Learn						RecID	Ins
+NoFDC  		C:\wineagle\log\lrn\LOGL0018\log\BP Strip 	6	C:\wineagle\log\insp\LOGI0019
+FDC		C:\wineagle\log\lrn\LOGL0019\log\BP Strip	11	C:\wineagle\log\insp\LOGI0018
+
+COmpare learn input
+COmpare SHA learn logging
+Compare learn reply
+
+c:\1\g_old		c:\1\old
+c:\jshe\g_spi	c:\1\spi
+c:\1\g_latest	J:\app\User\aeejshe\AppAutoTestScheme\SPI.txt_2014_12_18_13_48_49
+
+
+output 
+c:\1\g_latest_merge		c:\1\spi_merged
+
+C:\jshe\KDiff3
+
+- CHeck in notes
+1) Remove the code of 
+#ifndef JSHE_MYLIB_TOO_OLD
+
+2) check in bin\patch new files
+and
+itf_spi_internal.h
+G:\Apt\Source\Ds\MaskPU.cpp
+
+3) may need modify related 2003 vcproj too!
+
+
+\\vis_led_insp10\WinEagle\log\insp\LOGI0094	rect	19
+\\vis_led_insp10\WinEagle\log\insp\LOGI0096
+\\vis_led_insp10\WinEagle\log\insp\LOGI0099
+
+\\vis_led_insp10\WinEagle\log\insp\LOGI0092 trian	17
+\\vis_led_insp10\WinEagle\log\insp\LOGI0097
+\\vis_led_insp10\WinEagle\log\insp\LOGI0098
+
+m_OtfGrabber.get()
+
+wIsUseDefault
+
+user call COnTheFlyManager::setTrigPosition
+->
+ stOtfTempPara.emPRCamera	= m_OtfGrabber.get()->getCamID();
+
+wROIGrpNum
+aco3dGrpOff
+astZFine
+
+PR_OTFSynEncoder
+PR_OTFSetTrigPos
+PR_OTFRunStart_Ex / PR_OTFRunStart
+	PR_OTFGeneralCmd
+		ITF_OnTheFlyGenCmd
+	
+Move motor
+ ->another thread share grab, rply, insp
+PR_OTFRunEnd_Ex / PR_OTFRunEnd
+
+COnTheFlyGrabber::getIOOtfGrabProxy( )
+	RequestToIoRequest
+		GLM_LogEvent((IMG_UBYTE *)"OTF APP", (const IMG_UBYTE*)"Trig pt ? Camera %d, wTrigMode
+COnTheFlyGrabber::AllocateResourceBeforeStart()
+	GLM_LogEvent((IMG_UBYTE *)"OTF APP", (const IMG_UBYTE*)"IO_OtfEnable called");
+IMG_WORD	COnTheFlyGrabber::start( )
+		GLM_LogEvent((IMG_UBYTE *)"OTF APP", (const IMG_UBYTE*)"IO_OtfEnableGrab finished with wStatus = %d and is moving %d!(0=forward)",wStatus,wMoveDirection);
+		GLM_LogEvent((IMG_UBYTE *)"OTF APP", (const IMG_UBYTE*)"IO_OtfEnableTrig finished with wStatus = %d",wStatus);
+COnTheFlyGrabber::COnTheFlyMonitor::WaitEventThread
+	COnTheFlyGrabber::COnTheFlyMonitor::WaitEventThread
+	VMT: Finish Grab event index #3  status 0).
+	setState( State::Stopped )
+	
+COnTheFlyManager::IsGetImageReady(
+	
+	
+UI_CB_Start2dCalib
+	Start2dCalib
+	
+Remove getStoredOtfParaStruct, ITF_Otf2CamStartEnd, wIsUseDefault?
+
+PR_OTF_FUNC_SET_TRIG_POS
+	pOnTheFlyManager->setTrigPosition 
+		
+IDC_FDC_INDEX
+ID_NEW
+ID_DEL
+
+
+oninit -->
+	if No FDC) on New and select 0th FDC
+	else load and select 0th FDC
+	
+
+UI_DF_LoadFDCModel_MFC
+	LoadFDCModel_MFC
+		UI_GetFDCModelFromHmi
+			unpack data
+			fill g_stLocalFDC
+			UpdateUI	//Update UI according to device model
+			
+click ok
+	UI_DF_SetFDCDev(hmi)
+		CDevicePkg::SetFDCDev (hmi)
+			UI_GetFDCDevInfo
+				pack g_stLocalFDC
+			
+User draw ROI
+	MyDrawDevFDCRegionFcn
+		
+		
+
+DevideModelDIsplay -- screen
+	UI_DF_SetDisplay
+		SetDevDisplayed
+			m_bDisplayed = TRUE;
+df_display
+	OnDisplay
+		
+		
+Refactor OTF classes??
+
+how overlay function works??
+
+VIS_DisplayImageToRasterGraphic
+VIS_DisplayGrayImage
+
+IMG_WORD VIS_DisplayImageToRasterGraphic(IMG_UBBUF	const	*pubbSbuf,
+										IMG_COORD	const	*pcoSoff,
+										IMG_COORD	const	*pcoDoff,
+										IMG_SIZE	const	*pszOpSize,
+										IMG_LWORD	const	lwImageId)
+{
+
+	Image2DispID[lwImageId].DrawImage(*pubbSbuf, *pcoSoff, *pcoDoff, *pszOpSize);
+	return OK;
+}
+IMG_WORD VIS_CopyRasterGraphicToBuffer(	IMG_COORD	const	*pcoSoff,
+										IMG_UBBUF			*pubbDbuf,
+										IMG_COORD	const	*pcoDoff,
+										IMG_SIZE	const	*pszOpSize,
+										IMG_LWORD	const	lwImageId)
+{
+	Image2DispID[lwImageId].CopyToRGBBuffer(VIS_GRAPHIC_BUF, pcoSoff, pubbDbuf, pcoDoff, pszOpSize);
+	return OK;
+}
+
+\\ahknts230\Proj\Vision\WinEagle\WinXP\Alg_sys\NoMil library\Mil90_64Bit_VC2010\WinEagle\Source\Mildrv\DISPLAY.CPP
+\\ahknts230\Proj\Vision\WinEagle\WinXP\Alg_sys\NoMil library\Mil90_64Bit_VC2010\WinEagle\Source\Visual\CDisplay.hpp
+
+IMG_WORD ITF_GetOtfAbsPos(ITF_OTF_POS *pstPos)
+ITF_OTF_POS stPos;
+	ITF_GetOtfAbsPos(&stPos);
+	
+PR_UploadStationPortRefCmd
+	PR_UploadRecordProcessCmd
+		PR_InitUploadRecordTransferCmd
+#define	WTC_FUNC_TYPE_UPLOAD_STATION_PORT_REF	(17)		
+		
+PR_SetDebugFlag
+	pr_EMDEBUG
+	RT_AskEagleDbgFlag();
+	
+ITF_SetAndChkDisabledLgt
+	ITF_ReadAutoLightLGInfoByObjType
+		ITF_ReadAutoLightLGInfoBySection
+
+UI_FK_Camera
+	UI_CHG_CameraOrStation
+		UI_SelectCamera	
+			CVisionNTApp::UI_SelectCamera
+				UI_SelectCameraByPRCameraIndex
+					ITF_SelectDispSourceEx
+						ITF_SelectDispCamera
+							ITF_SelectDispCameraEx
+								ITF_SetChgCameraInfoForLiveVideo
+									HostChgCamFcn
+										UI_UpdateCameraInfoByPRCameraIndex
+						IO_SelDispSource
+		UI_ChangeReleatedInfoWhenChangeCamera
+		UI_ShowDeviceModelWhenChangeCamera
+		UI_InitAutoAndManualLightUIWhenChangeCamera
+
+- task optimization
+- aGUanzexin
+- BinSkip
+
+Raytrace https://msdn.microsoft.com/en-us/magazine/cc163340.aspx
+http://blogs.msdn.com/lukeh/archive/2007/04/03/a-ray-tracer-in-c-3-0.aspx
+
+3d point cloud opencv
+	http://pointclouds.org/
+	https://www.google.com.hk/search?hl=zh-HK&source=hp&q=3d+point+cloud+opencv&gbv=2&oq=3d+point+&gs_l=heirloom-hp.3.1.0l10.5744.7429.0.10059.9.7.0.2.2.0.241.927.2j4j1.7.0....0...1ac.1.34.heirloom-hp..0.9.952.3aQOWeWuMko
+generate point cloud from a CAD model
+3d point cloud display
+	PCLVisualizer
+compute graphics visualization
+3d point cloud to 3d printer format
+
+	
+
+ITF_SPI_Inspect
+	stInspPara.pubbPinHoleMsk =RTS(pstAptRcd->ubbPinHoleMsk)
+	ITF_VMTRunSPIDetailInspect
+		ITF_ProcessROI --> Call VMT
+			ProcessROI
+				RunDetailInpectROI.
+					SMT_SPI_DetailInspect
+						SMT_SPI_MeasureSolders
+							SMT_SPI_Measure3DInfo
+								ubbSolderCoarseSegMask &= child(pstInspPara->pubbPinHoleMsk)
+								
+PR_InspCmd
+	No wait reply
+	INSP_PKG
+	ITF_InspCommunMultiRpy
+		ITF_RunParallelProcess
+			Fill pPThreadProcess =ITF_MPIAssistantProcess =ITF_AssistantProcess
+				CMessageRouter.send
+					CHostAdaptor.send
+						::SendMsg
+							::SendMsg_
+								LOG_SendReply
+			Fill pIThreadProcess =ITF_MPIInspectProcess
+			activate I thread
+				I thread run the pIThreadProcess
+	HomeCtrAndStartOTF_impl
+	
+PR_InspRpy1_0
+PR_InspRpy2_0
+PR_InspRpy3_0
+
+__time64_t	t;
+		struct tm *newtime;
+		_time64( &t );                /* Get time as long integer. */
+		newtime = _localtime64( &t ); /* Convert to local time. */
+		std::string str = asctime(newtime);
+		*pApp->GetCmdStack()	<< "Inspection Statistics	"
+			<< newtime->tm_mon+1 << "/"
+			<< newtime->tm_mday <<"/"
+			<< newtime->tm_year+1900 << "	"
+			<< newtime->tm_hour << ":"
+			<< newtime->tm_min << ":"
+			<< newtime->tm_sec << "	"
+			<< "Number Of Inspection	" << pApp->GetStation(IO_camA0)->GetNumOfIns() << "	"
+			<< "Pass Count:	" << pApp->GetStation(IO_camA0)->GetPassCount() << "	"
+			<< "Fail Count:	" << pApp->GetStation(IO_camA0)->GetFailCount() << std::endl;
+			
+ITF_SPI_Learn
+	ITF_SubmitGrab
+	stCRes =ITF_SPI_ConstructProfile_CoarseSubs
+	astZC =ITF_SPI_ConstructProfile
+	fill stSynLrnPara.pstPadBoundInfo[]		 	(vstStencilRecord)
+	fill stSynLrnPara.pstMetalPadBoundInfo		stPadsInfo.vstPadRecord[] come from device file pad info, which is not used now
+	SMT_SPI_2DLearn								??
+	VMT_parallel_for SPILrnHeightCompCaller		?? ROI-Group coarse compensation
+	ITF_VMTRunSPI3DLearn						??
+	SMT_SPI_MergeFM_ToLrnBaseMask				??
+	SMT_SPI_UpdateRecord						?
+	->I can get mean of stPadsInfo.prHICtrPts as nominal height
+	Calculate the median height by component	??
+	
+	
+PR_SMT_DEV_INFO									PR_PackDevFileHeader
+	PR_ULWORD				ulPinHoleNum;
+	PR_SMT_PIN_HOLE			*pstPinHoleInfo;		PR_PackDevPinHole
+		PR_UWORD				uwCtrlPtNum;
+		PR_SMT_SHAPE_BOUNDARY   *pstPinHoleBoundaryInfo;
+
+ITF_LoadSMTDevFileInFrame_bin
+ITF_SMT_DEV_FILE								ITF_LoadSMTDevFileInFrame_Bin ITF_LoadSMTDevFileInFrame
+	std::vector<ITF_SMT_DEV_FILE_PINHOLE>		 vstPinHoleInfo;	ITF_UnpackDevPinHole
+		std::vector<ITF_SPI_SHAPE_BOUNDARY> vstOutline;
+
+PR_VVOID	PR_PackDevPinHole(PR_SMT_PIN_HOLE	  *pstObj, 
+					 PR_ULWORD			**ppulData,
+					 PR_LWORD		 *plwLength)
+IMG_VVOID	ITF_UnpackDevPinHole(const IMG_ULWORD	   **ppulData,
+								const IMG_UWORD			uwFrameIDFlag,
+								 ITF_SMT_DEV_FILE_PINHOLE  *pstObj)	
+								 
+ITF_SPI_SHAPE_BOUNDARY vs ITF_SPI_PAD_BOUNDARY								 
+= PR_SMT_SHAPE_BOUNDARY vs PR_SMT_PAD_BOUNDARY
+==
+
+ITF_SPI_LRN_CMD
+	std::vector<ITF_SMT_DEV_FILE_PINHOLE>	(stDevfile).vstPinHoleInfo
+	
+Flow:
+1. lighting value are copied from ITF_PSI_RECORD to ITF_PSI_CRIT criteria at function UI_WritePKGCriteria,UI_WriteTFCriteria,UI_WriteTAPECriteria
+
+2, compare the lighting at function  ITF_ProcessMgtParChk() PR_PROCESS_CMD_CHANGE_PRODUCT
+
+return PR_ERR_REC_CRIT_LIGHTING_MISMATCH			"Lighting in record and criteria mismatch"
+
+Suggested lighting definition in criteria:
+struct	ITF_CRIT_LIGHTING
+{
+	IMG_UWORD	uwNumGrabset;
+	IMG_CHAR 	acGrabset[10][100];
+};
+
+IMG_WORD	ITF_CreateCritLighting(ITF_MODULE_RECORD	const *pstRec, ITF_CRIT_LIGHTING *pstLighting);
+IMG_WORD	ITF_LogCritLighting(ITF_CRIT_LIGHTING *pstLighting, IMG_CHAR const *acFile);
+IMG_WORD	ITF_CmpCritLighting(ITF_CRIT_LIGHTING const *pstLhs, ITF_CRIT_LIGHTING const *pstRhs, IMG_UWORD *pubIsSame);
+	
+	
+CreateTask(callback, dependent task list, &my task handle)
+
+CreateTask(Grab, NULL, &hGrab);
+CreateTask(Reconstr, {hGrab}, &hRecon);
+CreateTask(Merge, {hRecon}, &hMerge);
+CreateTask(Ins, {hMerge}, &hIns);
+
+struct Ins: Task
+{
+	Ins(profile, result);
+	
+	void Run()
+	{
+		for(i=0; i<3; i++)
+			CreateTask(Shear5degSinglePair, getdepends(), &hShear5degSinglePair[i]);
+		CreateTask(DetectWaferAngle, {hShear5degSinglePair[1]}, hDetectWaferAngle);
+		for(i=0; i<3; i++)
+			CreateTask(InspectSinglePair, {hShear5degSinglePair[i], hDetectWaferAngle}, &hInspectSinglePair[i])
+			
+		CreateTask(waitAndSet, {hInspectSinglePair[0..3]}, getresult())
+	}
+}
+
+struct InspectSinglePair: Task
+{
+	for(i=range(2))
+	{
+		CreateTask(ShearProfileWrapper, getdepends(), &hShearProfileWrapper[i]);
+		CreateTask(GenerateProfileForInspectWrapper, {hShearProfileWrapper[i]}, &hGenerateProfileForInspectWrapper[i])
+		CreateTask(ReduceBufferWrapper, {hGenerateProfileForInspectWrapper[i]}, &hReduceBufferWrapper[i])
+	}
+	
+	CreateTask(CalcThicknessBuf, {hReduceBufferWrapper[0,2]}, &hCalcThicknessBuf)
+	
+}
+
+Beause the task are run at any thread any time, 
+The data shared by tasks cannot free it until task is done
+
+Method
+1. handle provide wait() function
+2. use shared_ptr to store the buffer, resource memagement are automatically
+
+since 1. is not asyn programming style, it is not suggested
+
+	
