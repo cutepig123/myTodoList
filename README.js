@@ -62,7 +62,7 @@ date	task	desc
 		
 		Read NB vczh's blog
 10/19		
-		task parallism  Braided task-granularity  Persistent threads  Dynamic queuing  Dependency resolution 
+		//task parallism  Braided task-granularity  Persistent threads  Dynamic queuing  Dependency resolution 
 		PPL https://paoloseverini.wordpress.com/2014/04/07/concurrency-in-c11/ https://msdn.microsoft.com/en-us/library/ee207192.aspx
 		work-stealing algorithm	https://en.wikipedia.org/wiki/Work_stealing http://stackoverflow.com/questions/9081382/work-stealing-algorithm
 		Java fork/join framework,[4] and the .NET Task Parallel Library.[5]
@@ -72,4 +72,13 @@ date	task	desc
 1020	Electron
 		http://i.100offer.com/projects/result https://github.com/leanote/desktop-app
 		http://stackoverflow.com/questions/704855/software-design-vs-software-architecture https://en.wikipedia.org/wiki/Software_design
+1027	how-should-i-unit-test-threaded-code
+			http://stackoverflow.com/questions/12159/how-should-i-unit-test-threaded-code
+			https://www.google.com.hk/search?hl=zh-HK&source=hp&biw=&bih=&q=how+to+test+multithreaded+code&gbv=2&oq=how+to+test+multithre&gs_l=heirloom-hp.1.5.0i30l3j0i13i10i30j0i30l5j0i10i30.1315.10568.0.16102.21.17.0.4.4.0.200.1505.11j3j1.15.0....0...1ac.1.34.heirloom-hp..2.19.1577.CGH0fFmJPhk
+		
+		Cache coherency
+			https://fgiesen.wordpress.com/2014/07/07/cache-coherency/
+			
+1029			
+		architecture of node.js
 		
