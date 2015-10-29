@@ -35,4 +35,4 @@
 		中孝介--各自遠颺 
 		http://www.rainymood.com/ + 中学时代一起听
 		
-		
+1020	//https://www.youtube.com/watch?v=ilzoIUMA0UE		

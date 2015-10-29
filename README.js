@@ -63,3 +63,36 @@ date	task	desc
 		Java fork/join framework,[4] and the .NET Task Parallel Library.[5]
 		Dataflow programming	https://en.wikipedia.org/wiki/Dataflow_programming
 		
+1021	Cholesky 分解
+		
+		https://github.com/pedrovgs/EffectiveAndroidUI
+		
+		write a MFC control ( support N in, M out, and some properties), and support user connect N control together
+		ref F:\wamp\www\git_repos\GitHub\GeneralUtility\UI\MFCRectTrack
+		F:\wamp\www\git_repos\GitHub\GeneralUtility\UI\qtransformtracker
+		F:\wamp\www\git_repos\GitHub\GeneralUtility\UI\scriptstudio_src
+		UpdateWindow vs invalidate vs RedrawWindow ?
+		//DrawText VS TextOut Win32? 
+		
+1023	//sui bian kank kan F:\wamp\www\git_repos\GitHub\GeneralUtility\alg\alg
+1025		
+		//学习direct ui https://github.com/miniwebkit  -- compile erro, to make this work is hard, i'd rather got a Node.JS ui lib directly
+		http://www.zhihu.com/question/24462113 F:\_codes\edxgui.zip
+		//学习下 WTL 的 thunk	--useless
+		yanjiu F:\wamp\www\git_repos\GitHub\GeneralUtility\Win\GuiPreview_Regex\Library\Windows
+		//what is WPF冒泡事件? 预览事件（隧道事件）	http://www.cnblogs.com/luminji/archive/2011/02/04/1949142.html
+		what is dependency property?
+		Parser Combinators?
+		context-free grammar ? 只要算出一个grammar 的predict set，就能很容易写出一个LL(1) parser。
+		http://bolt.xunlei.com/
+		学习Qt最新版
+		Windows Graphics Programming by Feng Yuan
+		A Guide to WIN32 Clipping Regions http://www.codeproject.com/Articles/2095/A-Guide-to-WIN-Clipping-Regions
+		PatBlt vs paintRgn
+		windows grapohic programming
+		opengl programming
+1029	JSＥｘａｍ　		http://www.mitbbs.com/article_t/Programming/31196029.html
+1030	阅读windows图形编程	开头--》2.6节
+			DirectX DDI interface
+		architecture of android graphics?
+		
