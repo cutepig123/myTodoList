@@ -30,10 +30,15 @@ date	task	desc
 		//还缺什么？效率不是最好，如果queue里面有多个task，而因为只有一个event，现在的做法会导致最终都会在一个thread里面执行，效率会不理想（可以参考那个event+lock+count的做法，用来跟踪queue大小，只要有task就能不停地等到event）
 		//需要用户派好task顺序，以后应该支持类似于task的lib，用户乱序输入task，只要告诉互相依赖关系，其余的都在lib里面搞定了 (再说了)
 		
+		
+		
+		
+		
+		
 10/16	//学习boost threadgroup的做法		http://stackoverflow.com/questions/19500404/how-to-create-a-thread-pool-using-boost-in-c
 		//Synchronized Queues http://www.boost.org/doc/libs/1_59_0/doc/html/thread/sds.html
 		
-		现在居然有这么多pattern了 https://en.wikipedia.org/wiki/Concurrency_pattern
+		so many pattern了 https://en.wikipedia.org/wiki/Concurrency_pattern
 		
 		//search from google: how to implement a thread pool学习别人的思路
 		//implement a blocking queue dequeue操作会一直等待直到拿到一个task	http://stackoverflow.com/questions/20110013/implement-your-own-blocking-queue-in-java http://tutorials.jenkov.com/java-concurrency/blocking-queues.html 
@@ -57,11 +62,32 @@ date	task	desc
 		
 		Read NB vczh's blog
 10/19		
-		task parallism  Braided task-granularity  Persistent threads  Dynamic queuing  Dependency resolution 
+		//task parallism  Braided task-granularity  Persistent threads  Dynamic queuing  Dependency resolution 
 		PPL https://paoloseverini.wordpress.com/2014/04/07/concurrency-in-c11/ https://msdn.microsoft.com/en-us/library/ee207192.aspx
 		work-stealing algorithm	https://en.wikipedia.org/wiki/Work_stealing http://stackoverflow.com/questions/9081382/work-stealing-algorithm
 		Java fork/join framework,[4] and the .NET Task Parallel Library.[5]
 		Dataflow programming	https://en.wikipedia.org/wiki/Dataflow_programming
+		cooperative task scheduling and cooperative blocking
+		
+1020	Electron
+		http://i.100offer.com/projects/result https://github.com/leanote/desktop-app
+		http://stackoverflow.com/questions/704855/software-design-vs-software-architecture https://en.wikipedia.org/wiki/Software_design
+1027	how-should-i-unit-test-threaded-code
+			http://stackoverflow.com/questions/12159/how-should-i-unit-test-threaded-code
+			https://www.google.com.hk/search?hl=zh-HK&source=hp&biw=&bih=&q=how+to+test+multithreaded+code&gbv=2&oq=how+to+test+multithre&gs_l=heirloom-hp.1.5.0i30l3j0i13i10i30j0i30l5j0i10i30.1315.10568.0.16102.21.17.0.4.4.0.200.1505.11j3j1.15.0....0...1ac.1.34.heirloom-hp..2.19.1577.CGH0fFmJPhk
+		
+		Cache coherency
+			https://fgiesen.wordpress.com/2014/07/07/cache-coherency/
+			
+1029			
+		architecture of node.js
+1103
+		//flicker free drawing https://msdn.microsoft.com/en-us/library/ms969905.aspx
+		rust http://special.csdncms.csdn.net/rust/index.shtml
+		android ui http://blog.csdn.net/nugongahou110/article/details/49557875
+		http://wsztrush.github.io/dsl/2015/08/01/Compiler-Theory.html
+		nodejs archi A:\JSHe\docs\nodejsSubmission2.pdf
+		http://thenodeway.io/introduction/
 		
 1021	Cholesky 分解
 		
