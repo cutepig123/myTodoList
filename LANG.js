@@ -56,3 +56,9 @@
 	
 	F:\c++\sicp.pdf
 	task parallism
+	
+1031	Javascripot
+			Bootstrap/Angular等前端框架，熟悉html5、jQuery
+			Javascript的面向对象、模块化编程
+			有数据可视化技术经验更佳，比如D3js、WebGL等2维、3维图形展现技术
+			

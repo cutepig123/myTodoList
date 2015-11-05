@@ -95,4 +95,26 @@ date	task	desc
 1030	阅读windows图形编程	开头--》2.6节
 			DirectX DDI interface
 		architecture of android graphics?
+		windows rpc?
+		LPC?
+		
+1031	香港 室内空气质素检测
+			香港检测和认证局 http://www.hkctc.gov.hk/sc/pst_construction_materials_d.html 室 内 空 气 质 素 量 度 和 检 验  http://www.iaq.gov.hk/tc/iaq-certification-scheme/certification-steps.aspx
+			http://www.iaq.gov.hk/media/2858/poster5.jpg
+			表1： 辦公室及公眾場所的室內空氣質素指標 http://www.iaq.gov.hk/media/9745/tables_ch.html#T1
+			http://www.iaq.gov.hk/guidance/ch_publications_guidance.htm
+			
+			IAQ Information Centre HK - 室內空氣質素資訊中心
+			http://www.castco.com.hk/services/envir_air.aspx
+			http://www.roboclean.com.hk/chi/index.htm
+			
+			甲醛 (HCHO)	<30f μg/m3, or < 24 ppbv
+			
+1102	
+1104
+		android vs linux ui architecture
+1105
+		程序员一般通过什么途径接私活？ - 兼职- 知乎
+		//zhengli F:\wamp\www\git_repos\GitHub\myTodoList -->github
+		
 		
