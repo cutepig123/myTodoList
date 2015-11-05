@@ -81,4 +81,11 @@ date	task	desc
 			
 1029			
 		architecture of node.js
+1103
+		//flicker free drawing https://msdn.microsoft.com/en-us/library/ms969905.aspx
+		rust http://special.csdncms.csdn.net/rust/index.shtml
+		android ui http://blog.csdn.net/nugongahou110/article/details/49557875
+		http://wsztrush.github.io/dsl/2015/08/01/Compiler-Theory.html
+		nodejs archi A:\JSHe\docs\nodejsSubmission2.pdf
+		http://thenodeway.io/introduction/
 		
