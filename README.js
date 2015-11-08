@@ -142,5 +142,53 @@ date	task	desc
 1105
 		程序员一般通过什么途径接私活？ - 兼职- 知乎
 		//zhengli F:\wamp\www\git_repos\GitHub\myTodoList -->github
+		//chengli F:\wamp\www\git_repos\GitHub\vislib1 -->bitbucket
 		
-		
+1107	
+		//换领通行证hkd290
+		老是有please wait while windows configures microsoft visual studio professional 2013
+		windows右键菜单很慢
+		保险
+1108		
+				what-is-the-difference-between-mutex-and-critical-section?
+		http://stackoverflow.com/questions/800383/what-is-the-difference-between-mutex-and-critical-section
+		Linux futexes
+			http://www.akkadia.org/drepper/futex.pdf
+			
+		Synchronization primitives 
+			such as mutexes, semaphores, and critical sections	
+				impl detail?
+			error conditions such as deadlock, livelock, and priority inversion
+			
+		non-blocking algorithms 
+			use atomic read-modify-write primitives:CAS primitive	??
+			data structures such as stacks, queues, sets, and hash tables ??
+			
+		https://en.wikipedia.org/wiki/Non-blocking_algorithm
+			memory barrier		??
+			ring buffer FIFO	??
+				 can unconditionally be implemented safely using only a memory barrier
+			in 2011 Kogan and Petrank[14] presented a wait-free queue building on the CAS primitive, 	??
+			
+		3 Wait-freedom		every operation has a bound on the number of steps the algorithm will take before the operation completes
+		4 Lock-freedom
+		5 Obstruction-freedom
+			
+
+		- task optimization
+		- aGUanzexin
+		- BinSkip
+
+		Raytrace https://msdn.microsoft.com/en-us/magazine/cc163340.aspx
+		http://blogs.msdn.com/lukeh/archive/2007/04/03/a-ray-tracer-in-c-3-0.aspx
+
+		3d point cloud opencv
+			http://pointclouds.org/
+			https://www.google.com.hk/search?hl=zh-HK&source=hp&q=3d+point+cloud+opencv&gbv=2&oq=3d+point+&gs_l=heirloom-hp.3.1.0l10.5744.7429.0.10059.9.7.0.2.2.0.241.927.2j4j1.7.0....0...1ac.1.34.heirloom-hp..0.9.952.3aQOWeWuMko
+		generate point cloud from a CAD model
+		3d point cloud display
+			PCLVisualizer
+		compute graphics visualization
+		3d point cloud to 3d printer format
+
+	
