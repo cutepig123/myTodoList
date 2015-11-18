@@ -191,4 +191,48 @@ date	task	desc
 		compute graphics visualization
 		3d point cloud to 3d printer format
 
+	jobs：	https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=6&jid=204494&jlang=EN&pp=SS
+1109 
+	how to imple a critical section
+	LONG __cdecl InterlockedCompareExchange(
+	  _Inout_ LONG volatile *Destination,
+	  _In_    LONG          Exchange,
+	  _In_    LONG          Comparand
+	);
+	
+	t = Destination;
+	if(Destination ==Comparand )
+		Destination= Exchange;
+	return t;
+	
+	nLockCount= 0
+	many thread call: 	while (InterlockedCompareExchange(&nLockCount, 1, 0));
+	only 1 thread can set nLockCount to 1 and return 0, i.e. break from loop
+	all other threads are waiting, since  nLockCount is changed to 1, unless the thread changes it back to 0
+	
+	http://www.codeproject.com/Articles/18371/Fast-critical-sections-with-timeout
+	
+1112
+	//- check HD space
+	- JJ buy her things
+	- ASM 4DX run cases
+	//- Prepare tomorrow's bags...
+	-->Send thins
+	- Bkup wechat records
+	- Ask visa expire time
+	//- Gao tie price
+	//- SIM pre charge
+	- Whewre is the HK sim card?
+
+	- buy some boks
+		聪明的投资者
+		windows图形编程
+	- 私活
+	
+	High Performance Python.pdf
+	木工全书
+	保险.doc
+	wpf
+	CplusplusConcurrencyInAction.pdf
+		https://chenxiaowei.gitbooks.io/cpp_concurrency_in_action/content/
 	
