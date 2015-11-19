@@ -122,3 +122,13 @@ date	task	desc
 			DirectX DDI interface
 		architecture of android graphics?
 		
+1117
+		API hook, instrument member function, global function, virtual function
+		
+		multiple top most window which is the top most?
+1118	WPA	https://msdn.microsoft.com/en-us/library/windows/hardware/hh162931.aspx
+			Windows Performance Analyzer (WPA)
+			Windows Performance Recorder (WPR) or Xperf.
+			
+		//A:\JSHe\codes\python\compare_folder.py
+		
