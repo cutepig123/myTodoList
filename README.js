@@ -233,6 +233,7 @@ date	task	desc
 	木工全书
 	保险.doc
 	wpf
-	CplusplusConcurrencyInAction.pdf
-		https://chenxiaowei.gitbooks.io/cpp_concurrency_in_action/content/
+	//CplusplusConcurrencyInAction.pdf	除了lockfree那一章其他的没啥好看的
+	//	https://chenxiaowei.gitbooks.io/cpp_concurrency_in_action/content/
+	How Debuggers Work.pdf
 	
