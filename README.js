@@ -121,6 +121,120 @@ date	task	desc
 1030	阅读windows图形编程	开头--》2.6节
 			DirectX DDI interface
 		architecture of android graphics?
+		windows rpc?
+		LPC?
+		
+1031	香港 室内空气质素检测
+			香港检测和认证局 http://www.hkctc.gov.hk/sc/pst_construction_materials_d.html 室 内 空 气 质 素 量 度 和 检 验  http://www.iaq.gov.hk/tc/iaq-certification-scheme/certification-steps.aspx
+			http://www.iaq.gov.hk/media/2858/poster5.jpg
+			表1： 辦公室及公眾場所的室內空氣質素指標 http://www.iaq.gov.hk/media/9745/tables_ch.html#T1
+			http://www.iaq.gov.hk/guidance/ch_publications_guidance.htm
+			
+			IAQ Information Centre HK - 室內空氣質素資訊中心
+			http://www.castco.com.hk/services/envir_air.aspx
+			http://www.roboclean.com.hk/chi/index.htm
+			
+			甲醛 (HCHO)	<30f μg/m3, or < 24 ppbv
+			
+1102	
+1104
+		android vs linux ui architecture
+1105
+		程序员一般通过什么途径接私活？ - 兼职- 知乎
+		//zhengli F:\wamp\www\git_repos\GitHub\myTodoList -->github
+		//chengli F:\wamp\www\git_repos\GitHub\vislib1 -->bitbucket
+		
+1107	
+		//换领通行证hkd290
+		老是有please wait while windows configures microsoft visual studio professional 2013
+		windows右键菜单很慢
+		保险
+1108		
+				what-is-the-difference-between-mutex-and-critical-section?
+		http://stackoverflow.com/questions/800383/what-is-the-difference-between-mutex-and-critical-section
+		Linux futexes
+			http://www.akkadia.org/drepper/futex.pdf
+			
+		Synchronization primitives 
+			such as mutexes, semaphores, and critical sections	
+				impl detail?
+			error conditions such as deadlock, livelock, and priority inversion
+			
+		non-blocking algorithms 
+			use atomic read-modify-write primitives:CAS primitive	??
+			data structures such as stacks, queues, sets, and hash tables ??
+			
+		https://en.wikipedia.org/wiki/Non-blocking_algorithm
+			memory barrier		??
+			ring buffer FIFO	??
+				 can unconditionally be implemented safely using only a memory barrier
+			in 2011 Kogan and Petrank[14] presented a wait-free queue building on the CAS primitive, 	??
+			
+		3 Wait-freedom		every operation has a bound on the number of steps the algorithm will take before the operation completes
+		4 Lock-freedom
+		5 Obstruction-freedom
+			
+
+		- task optimization
+		- aGUanzexin
+		- BinSkip
+
+		Raytrace https://msdn.microsoft.com/en-us/magazine/cc163340.aspx
+		http://blogs.msdn.com/lukeh/archive/2007/04/03/a-ray-tracer-in-c-3-0.aspx
+
+		3d point cloud opencv
+			http://pointclouds.org/
+			https://www.google.com.hk/search?hl=zh-HK&source=hp&q=3d+point+cloud+opencv&gbv=2&oq=3d+point+&gs_l=heirloom-hp.3.1.0l10.5744.7429.0.10059.9.7.0.2.2.0.241.927.2j4j1.7.0....0...1ac.1.34.heirloom-hp..0.9.952.3aQOWeWuMko
+		generate point cloud from a CAD model
+		3d point cloud display
+			PCLVisualizer
+		compute graphics visualization
+		3d point cloud to 3d printer format
+
+	jobs：	https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=6&jid=204494&jlang=EN&pp=SS
+1109 
+	how to imple a critical section
+	LONG __cdecl InterlockedCompareExchange(
+	  _Inout_ LONG volatile *Destination,
+	  _In_    LONG          Exchange,
+	  _In_    LONG          Comparand
+	);
+	
+	t = Destination;
+	if(Destination ==Comparand )
+		Destination= Exchange;
+	return t;
+	
+	nLockCount= 0
+	many thread call: 	while (InterlockedCompareExchange(&nLockCount, 1, 0));
+	only 1 thread can set nLockCount to 1 and return 0, i.e. break from loop
+	all other threads are waiting, since  nLockCount is changed to 1, unless the thread changes it back to 0
+	
+	http://www.codeproject.com/Articles/18371/Fast-critical-sections-with-timeout
+	
+1112
+	//- check HD space
+	- JJ buy her things
+	- ASM 4DX run cases
+	//- Prepare tomorrow's bags...
+	-->Send thins
+	- Bkup wechat records
+	- Ask visa expire time
+	//- Gao tie price
+	//- SIM pre charge
+	- Whewre is the HK sim card?
+
+	- buy some boks
+		聪明的投资者
+		windows图形编程
+	- 私活
+	
+	High Performance Python.pdf
+	木工全书
+	保险.doc
+	wpf
+	CplusplusConcurrencyInAction.pdf
+		https://chenxiaowei.gitbooks.io/cpp_concurrency_in_action/content/
 		
 1117
 		API hook, instrument member function, global function, virtual function
