@@ -235,7 +235,7 @@ date	task	desc
 	wpf
 	//CplusplusConcurrencyInAction.pdf	除了lockfree那一章其他的没啥好看的
 	//	https://chenxiaowei.gitbooks.io/cpp_concurrency_in_action/content/
-	How Debuggers Work.pdf
+	//How Debuggers Work.pdf	不感兴趣
 		
 1117
 		API hook, instrument member function, global function, virtual function
@@ -247,3 +247,16 @@ date	task	desc
 			
 		//A:\JSHe\codes\python\compare_folder.py
 		
+1119	//High-level language debugger architectures 大概看了看
+		//Showing the stack trace from a running Python application	http://stackoverflow.com/questions/132058/showing-the-stack-trace-from-a-running-python-application
+		Exploit writing tutorial part 1 : Stack Based Overflows 
+		C++多线程内存模型 顺序一致性模型(Sequential Consistency) http://blogread.cn/it/article/4261 sequential consistency for data race free programs，它就是即将到来的C++1x标准中多线程内存模型的基础
+		
+		游戏引擎架构
+		C++反汇编与逆向分析技术揭秘
+		 
+1122	//接爸爸妈妈
+		无语，居然三个人送宝宝来深圳，还是指定必须做飞机，并且来深圳玩几天就直接回去！她爸妈一点都不心疼女儿女婿的钱啊
+		android advanced ui tutorial
+		android 高级界面
+		全国各大城市蔬菜价格排名
