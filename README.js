@@ -264,3 +264,79 @@ date	task	desc
 1125
 	netmeeting OpenH323-based clients such as Ekiga, OpenH323
 	
+	compare products
+	surface pro 4	12.3"	6988
+	macbook air		11"		6688
+	macbook air		13"		7488
+	
+1126
+	asterisk get user input, reload extension file
+	1, exten => s,1,Answer
+	what does "s" mean?
+	2, cheng
+1127
+	设置家里的笔记本linux+asterisk
+	设置家里的newifi openwrt+asterisk	
+	
+	https://www.freelancer.com
+	
+20160430
+	
+Home:			Learn wpf				20160401-20160501
+Company:		Learn AutotestII	20160408-20160410
+Home/Company	Learn the GUI control program	20160408-20160410
+宝宝保险	bf 4/16
+确定冷气机	bf 4/16
+// 确定宽频	bf 4/16	http://www.threebb.com.hk/Service/groupbuy-tc.html $119/月
+	// http://www.netvigator.com/chi/self_registration.php
+	// 500M 光纖入屋寬頻計劃
+	// HK$208 / 月
+	// 30個月承諾期
+	
+	// 安裝 / 啟動服務費用 
+	// HK$680 (一次性)  
+	
+	// 如果你是打算轉台的話最好落街找找街邊sales，那些的價錢通常都會比網上、門市便宜一點。
+build you own angularjs	
+	https://github.com/xufei/Make-Your-Own-AngularJS/blob/master/01.md
+// bb回乡证
+	// 我们的所以证件及复印件：hk身份证，sz身份证，港澳通行证，签注
+	// 回鄉證申請表1份
+	// 申請人近半年內拍攝的正面免冠白底彩色照片１張（貼在申請表上）及該相片的合格檢測回執。
+	// 宝宝出生纸
+	
+国内互联网公司待遇
+	BAT和微软应届生年薪应该都是20W出头（百度 13K*14.5，阿里 13K*16，腾讯记不太清了，微软加年终奖大约是24W），差距也不太大，英特尔应该低一些（12K*14）
+	
+如何分析开源代码
+基于已有程序实现一个flowchart框架 F:\wamp\www\git_repos\GitHub\GeneralUtility\UI\scriptstudio_src
+lua c混合编程的框架
+实现大数加减乘除算法？
+multiple dispatch
+wind.js
+	http://www.infoq.com/cn/articles/interview-jscex-author-part-1
+Google、微软等企业疯狂地刷题
+	https://www.zhihu.com/question/35133069
+	《程序员面试金典》８０个编程题目　程序员面试金典
+《剑指Offer》６６个编程题　剑指Offer_牛客网
+互联网名企往年真题　【IT题库】笔试练习_C++Java前端笔试面试题
+ 《黑客与画家》，《从0到1》
+ 
+// 安装trac				20160430
+// 安装ccleaner，清理垃圾	删除了1.5g在c：
+ mfc消息路由机制
+//	mfc how to implement chain msg？
+	//	https://stackoverflow.com/questions/5443031/how-to-embed-ccmdtarget-derived-class-into-mfc-message-chain/5443856#5443856?newreg=c479dcc68f8147f38f27d7cb2872b1ce
+	https://www.microsoft.com/msj/0795/dilascia/dilascia.aspx
+
+wtl学习
+	类图，每个主要类的作用
+	http://www.cnblogs.com/fwycmengsoft/p/4043087.html
+	http://www.codeproject.com/Articles/3867/WTL-for-MFC-Programmers-Part-II-WTL-GUI-Base-Class
+	https://wizardforcel.gitbooks.io/wtl-for-mfc-programmer/content/2.html
+0503	
+	z缓冲
+	光照算法
+	MFC HTML dialog
+0509
+	各种一步的方法比较，aasyn await,自己实现多线程，coroutine,promise
