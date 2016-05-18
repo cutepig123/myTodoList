@@ -324,7 +324,8 @@ Google、微软等企业疯狂地刷题
  
 // 安装trac				20160430
 // 安装ccleaner，清理垃圾	删除了1.5g在c：
- mfc消息路由机制
+ //mfc消息路由机制 大概看了，重新做个mfc的轮子貌似也没啥用吧，
+	需不需要弄个mini mfc，支持一个dialog就可以了？
 //	mfc how to implement chain msg？
 	//	https://stackoverflow.com/questions/5443031/how-to-embed-ccmdtarget-derived-class-into-mfc-message-chain/5443856#5443856?newreg=c479dcc68f8147f38f27d7cb2872b1ce
 	https://www.microsoft.com/msj/0795/dilascia/dilascia.aspx
@@ -334,9 +335,17 @@ wtl学习
 	http://www.cnblogs.com/fwycmengsoft/p/4043087.html
 	http://www.codeproject.com/Articles/3867/WTL-for-MFC-Programmers-Part-II-WTL-GUI-Base-Class
 	https://wizardforcel.gitbooks.io/wtl-for-mfc-programmer/content/2.html
+	F:\_codes\WTL91_5321_Final
+	//用wtl实现一个简单的mfc封装dialog实例	F:\wamp\www\git_repos\GitHub\GeneralUtility\UI\MFCDialogByWTL
+	
 0503	
 	z缓冲
 	光照算法
-	MFC HTML dialog
+	//MFC HTML dialog	俺已经弄了一个了，其实最烦的是好像在不同电脑上显示效果不一样，又不知道怎么搞的
 0509
 	各种一步的方法比较，aasyn await,自己实现多线程，coroutine,promise
+0516	
+	F:\dfq\HJVision\HJVision
+0518
+	leecode
+	
