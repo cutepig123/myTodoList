@@ -1,0 +1,7 @@
+#the_menu .menu { margin-right: 15px; }
+#banner_results { margin-top: 20px; }
+#banner_submit { margin-left: 25px; }
+.banner-item { background: white; padding-left: 200px; cursor: move; height: 130px;}
+#jk_banner input.todel { position: relative; left: 50px; top: -50px; cursor: pointer; background: #2ea2cc; color: white; }
+#jk_banner img { height: 120px; margin-top: 5px; }
+#tips { color: green; display: inline-block; font-size: 20px; margin-left: 50px; margin-top: 5px; }
