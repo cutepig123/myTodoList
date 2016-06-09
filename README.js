@@ -124,7 +124,7 @@ date	task	desc
 		windows rpc?
 		LPC?
 		
-1031	香港 室内空气质素检测
+1031	/*香港 室内空气质素检测
 			香港检测和认证局 http://www.hkctc.gov.hk/sc/pst_construction_materials_d.html 室 内 空 气 质 素 量 度 和 检 验  http://www.iaq.gov.hk/tc/iaq-certification-scheme/certification-steps.aspx
 			http://www.iaq.gov.hk/media/2858/poster5.jpg
 			表1： 辦公室及公眾場所的室內空氣質素指標 http://www.iaq.gov.hk/media/9745/tables_ch.html#T1
@@ -135,12 +135,12 @@ date	task	desc
 			http://www.roboclean.com.hk/chi/index.htm
 			
 			甲醛 (HCHO)	<30f μg/m3, or < 24 ppbv
-			
+			*/
 1102	
 1104
 		android vs linux ui architecture
 1105
-		程序员一般通过什么途径接私活？ - 兼职- 知乎
+		
 		//zhengli F:\wamp\www\git_repos\GitHub\myTodoList -->github
 		//chengli F:\wamp\www\git_repos\GitHub\vislib1 -->bitbucket
 		
@@ -191,7 +191,7 @@ date	task	desc
 		compute graphics visualization
 		3d point cloud to 3d printer format
 
-	jobs：	https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=6&jid=204494&jlang=EN&pp=SS
+	
 1109 
 	how to imple a critical section
 	LONG __cdecl InterlockedCompareExchange(
@@ -250,7 +250,7 @@ date	task	desc
 1119	//High-level language debugger architectures 大概看了看
 		//Showing the stack trace from a running Python application	http://stackoverflow.com/questions/132058/showing-the-stack-trace-from-a-running-python-application
 		Exploit writing tutorial part 1 : Stack Based Overflows 
-		C++多线程内存模型 顺序一致性模型(Sequential Consistency) http://blogread.cn/it/article/4261 sequential consistency for data race free programs，它就是即将到来的C++1x标准中多线程内存模型的基础
+	//	C++多线程内存模型 顺序一致性模型(Sequential Consistency) http://blogread.cn/it/article/4261 sequential consistency for data race free programs，它就是即将到来的C++1x标准中多线程内存模型的基础
 		
 		游戏引擎架构
 		C++反汇编与逆向分析技术揭秘
@@ -259,7 +259,7 @@ date	task	desc
 		无语，居然三个人送宝宝来深圳，还是指定必须做飞机，并且来深圳玩几天就直接回去！她爸妈一点都不心疼女儿女婿的钱啊
 		android advanced ui tutorial
 		android 高级界面
-		全国各大城市蔬菜价格排名
+	//	全国各大城市蔬菜价格排名
 		
 1125
 	netmeeting OpenH323-based clients such as Ekiga, OpenH323
@@ -305,10 +305,7 @@ build you own angularjs
 	// 申請人近半年內拍攝的正面免冠白底彩色照片１張（貼在申請表上）及該相片的合格檢測回執。
 	// 宝宝出生纸
 	
-国内互联网公司待遇
-	BAT和微软应届生年薪应该都是20W出头（百度 13K*14.5，阿里 13K*16，腾讯记不太清了，微软加年终奖大约是24W），差距也不太大，英特尔应该低一些（12K*14）
-	外企的google 微软 雅虎，国内的 搜狗，有道，网易游戏 是出了名的高薪，高于阿里华为（以上仅比较普通offer，不包括特殊人才）
-	
+
 如何分析开源代码
 
 lua c混合编程的框架
@@ -316,17 +313,12 @@ lua c混合编程的框架
 multiple dispatch
 wind.js
 	http://www.infoq.com/cn/articles/interview-jscex-author-part-1
-Google、微软等企业疯狂地刷题
-	https://www.zhihu.com/question/35133069
-	《程序员面试金典》８０个编程题目　程序员面试金典
-《剑指Offer》６６个编程题　剑指Offer_牛客网
-互联网名企往年真题　【IT题库】笔试练习_C++Java前端笔试面试题
- 《黑客与画家》，《从0到1》
+
  
 // 安装trac				20160430
 // 安装ccleaner，清理垃圾	删除了1.5g在c：
  //mfc消息路由机制 大概看了，重新做个mfc的轮子貌似也没啥用吧，
-	需不需要弄个mini mfc，支持一个dialog就可以了？
+	//需不需要弄个mini mfc，支持一个dialog就可以了？ 已经写了，很弱智
 //	mfc how to implement chain msg？
 	//	https://stackoverflow.com/questions/5443031/how-to-embed-ccmdtarget-derived-class-into-mfc-message-chain/5443856#5443856?newreg=c479dcc68f8147f38f27d7cb2872b1ce
 	https://www.microsoft.com/msj/0795/dilascia/dilascia.aspx
@@ -348,7 +340,7 @@ wtl学习
 0516	
 	F:\dfq\HJVision\HJVision
 0518
-	leecode
+	
 	labview replacement	http://alternativeto.net/software/labview/
 		https://myopenlab.de/
 		https://github.com/jesseengel/PyView
@@ -358,9 +350,7 @@ wtl学习
 //	没啥用的东西，懒得整
 //	折腾一些好玩的 树莓派 公众号 sae
 //		https://zhuanlan.zhihu.com/p/21284127
-		
-	基于已有程序实现一个flowchart框架 F:\wamp\www\git_repos\GitHub\GeneralUtility\UI\scriptstudio_src
-	
+
 	//宝宝英语 -->已经 买了，不需要下载了
 	//	http://pan.baidu.com/share/link?shareid=1567382368&uk=657517708&third=0&dir=%2F%E5%B9%BC%E6%95%99%E7%B3%BB%E5%88%97%2F%E3%80%90%E8%8B%B1%E8%AF%AD%E5%90%AF%E8%92%99%E3%80%915%20%E8%BF%AA%E5%A3%AB%E5%B0%BC%E8%8B%B1%E8%AF%AD(%E9%85%8D%E5%A5%97%E6%95%99%E6%9D%90)&page=1&adapt=pc&fr=ftw#path=%252F
 	书籍 深入浅出node.js
