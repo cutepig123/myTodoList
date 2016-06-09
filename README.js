@@ -307,9 +307,10 @@ build you own angularjs
 	
 国内互联网公司待遇
 	BAT和微软应届生年薪应该都是20W出头（百度 13K*14.5，阿里 13K*16，腾讯记不太清了，微软加年终奖大约是24W），差距也不太大，英特尔应该低一些（12K*14）
+	外企的google 微软 雅虎，国内的 搜狗，有道，网易游戏 是出了名的高薪，高于阿里华为（以上仅比较普通offer，不包括特殊人才）
 	
 如何分析开源代码
-基于已有程序实现一个flowchart框架 F:\wamp\www\git_repos\GitHub\GeneralUtility\UI\scriptstudio_src
+
 lua c混合编程的框架
 实现大数加减乘除算法？
 multiple dispatch
@@ -343,9 +344,23 @@ wtl学习
 	光照算法
 	//MFC HTML dialog	俺已经弄了一个了，其实最烦的是好像在不同电脑上显示效果不一样，又不知道怎么搞的
 0509
-	各种一步的方法比较，aasyn await,自己实现多线程，coroutine,promise
+	各种一步的方法比较，asyn await,自己实现多线程，coroutine,promise
 0516	
 	F:\dfq\HJVision\HJVision
 0518
 	leecode
+	labview replacement	http://alternativeto.net/software/labview/
+		https://myopenlab.de/
+		https://github.com/jesseengel/PyView
+		
+	幼稚园
+0602	
+//	没啥用的东西，懒得整
+//	折腾一些好玩的 树莓派 公众号 sae
+//		https://zhuanlan.zhihu.com/p/21284127
+		
+	基于已有程序实现一个flowchart框架 F:\wamp\www\git_repos\GitHub\GeneralUtility\UI\scriptstudio_src
 	
+	//宝宝英语 -->已经 买了，不需要下载了
+	//	http://pan.baidu.com/share/link?shareid=1567382368&uk=657517708&third=0&dir=%2F%E5%B9%BC%E6%95%99%E7%B3%BB%E5%88%97%2F%E3%80%90%E8%8B%B1%E8%AF%AD%E5%90%AF%E8%92%99%E3%80%915%20%E8%BF%AA%E5%A3%AB%E5%B0%BC%E8%8B%B1%E8%AF%AD(%E9%85%8D%E5%A5%97%E6%95%99%E6%9D%90)&page=1&adapt=pc&fr=ftw#path=%252F
+	书籍 深入浅出node.js
