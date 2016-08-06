@@ -1,0 +1,28 @@
+20160806
+
+16.-16.25 	download F:\_codes\Zhihu\zhihu，没搞明白 1，如何跑里面的 test 2，如何配置.travis.yml 3，这个人使用的什么编辑器和调试器？
+	看他的ignore有.idea *.swp .DS_Store
+	
+-17.00 学习 node module 开发入门 https://nqdeng.github.io/7-days-nodejs/
+	
+-18.30		学习node test 框架mocha ，should.js
+			http://mochajs.org/#installation http://wiki.jikexueyuan.com/project/node-lessons/mocha-should-istanbul.html 
+			http://www.ifeenan.com/javascript/2015-02-26-Mocha%E4%B8%AD%E6%96%87%E6%8C%87%E5%8D%97/
+			
+			should源码分析 https://segmentfault.com/a/1190000004551456
+			
+-18.44		学习opencv的测试框架，文件如何组织
+			使用的是CMake，生成vc项目F:\wamp\www\git_repos\GitHub\MyAndroidTestAppsTest17_FromCpp\opencv\bin\OpenCV.sln，
+			每个测试是一个exe项目，通过依赖来测试每个模块
+			每个模块是一个dll项目
+			所以测试的都是每个dll的导出函数
+			
+		单元测试的项目组织	
+		
+		学习log4？？
+-19.00	学习CMake
+		学习CMake.test
+			例子https://github.com/chncwang/fool2048/blob/master/CMakeLists.txt
+			https://cmake.org/Wiki/CMake/Testing_With_CTest
+			http://stackoverflow.com/questions/14446495/cmake-project-structure-with-unit-tests
+21.40- 		

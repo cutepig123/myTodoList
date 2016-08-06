@@ -354,3 +354,13 @@ wtl学习
 	//宝宝英语 -->已经 买了，不需要下载了
 	//	http://pan.baidu.com/share/link?shareid=1567382368&uk=657517708&third=0&dir=%2F%E5%B9%BC%E6%95%99%E7%B3%BB%E5%88%97%2F%E3%80%90%E8%8B%B1%E8%AF%AD%E5%90%AF%E8%92%99%E3%80%915%20%E8%BF%AA%E5%A3%AB%E5%B0%BC%E8%8B%B1%E8%AF%AD(%E9%85%8D%E5%A5%97%E6%95%99%E6%9D%90)&page=1&adapt=pc&fr=ftw#path=%252F
 	书籍 深入浅出node.js
+0618	gui框架设计 GUI Architectures 
+	http://martinfowler.com/eaaDev/uiArchs.html
+	Which software design patterns do common GUI frameworks exhibit?
+	gui framework design 
+	
+0722
+	软件架构，软件设计，软件工程，UML
+	概要设计，详细设计
+	
+	
