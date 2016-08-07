@@ -53,12 +53,18 @@
 	leetcode a easy problem
 	Gedit中文乱码- Ubuntu中文	https://wiki.ubuntu.com.cn/Gedit%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81
 
-linux 启动的时候就mount
+0.00-1.05	leetcode
+		裴蜀定理	ax+by=c
+		扩展欧几里得算法
+
+
+	linux 启动的时候就mount
 	linux 文件管理器
 	linux 文件编辑器	vscode
 	linux git客户端		smartgit
 	linux 桌面
 	linux 系统安装，设置自动化
 
+	VS code 学习
 
 
