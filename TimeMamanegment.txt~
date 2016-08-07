@@ -46,11 +46,17 @@
 		考虑如何做公司appl的单元测试
 		
 20160807
-23.00-	linux 启动的时候就mount
+23.00-24.00	
+	linux 文件编辑器	vscode
+	linux git客户端		smartgit
+	linux c++ ide		Qt crtator is ok
+	leetcode a easy problem
+	Gedit中文乱码- Ubuntu中文	https://wiki.ubuntu.com.cn/Gedit%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81
+
+linux 启动的时候就mount
 	linux 文件管理器
-	linux 文件编辑器
-	linux git客户端
-	linux c++ ide	Qt crtator is ok
+	linux 文件编辑器	vscode
+	linux git客户端		smartgit
 	linux 桌面
-	ubuntu install Debian package (deb)	Just click， ubuntu s/w center will popup
+
 
