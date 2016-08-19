@@ -67,4 +67,36 @@
 
 	VS code 学习
 
+20160809
+22.00-23.00	Kindle PaperWhite WiFi价格	90-120MSD 800rmb 7.3 ounces (206 grams)https://www.amazon.com/Kindle-Paperwhite-Ereader/dp/B00AWH595M
+		http://www.price.com.hk/product.php?p=144641	80hkd
+		https://zh.wikipedia.org/wiki/Kindle_Paperwhite
+		不同型号间的 Kindle 有什么区别
+		http://kindlefere.com/post/2.html
+		http://www.readermemo.com/2015/02/kindle.html
+		kindle 破解 多看系统自动切边横屏看但是6寸屏还是觉得小了点 
+		kindle 为什么要破解
+		kindle 多看	https://tzangms.com/kindle-paperwhite-install-duokan/
+		如何确认KPW1还是KPW2
+		查询Kindle 序列号及辨别Kindle 型号的方法– Kindle伴侣
+		http://kindlefere.com/post/200.html
+		
+20160811
+22-23.30	leetcode
 
+20160813
+16.00-18.00	 search web based issue tracking system  + Email(JIRA, BugZilla, BugFree， Serema Mashup 。Redmine
+			http://www.thegeekstuff.com/2010/08/bug-tracking-system
+		free online-bug-tracking-systems + email
+			https://www.quora.com/What-are-some-free-and-usable-online-bug-tracking-systems
+		try https://app.yodiz.com/plan/pages/scrum-board.vz?cid=29676#/allissues
+			如何查询修改历史
+		大家都在用哪些在线的项目管理工具？国外的起步时间较早，有trello、asana、basecamp等，国内的有明道、worktile、tower、teambition等
+	-	保险比较
+20160814
+	2.00-9.00	去深圳房子换锁，换灯泡
+	10-11	买灯泡，。。。因为时间问题没下订单
+	11-		研究win平板
+20160816
+	23.30-1.00	leetcode miniparser
+	
