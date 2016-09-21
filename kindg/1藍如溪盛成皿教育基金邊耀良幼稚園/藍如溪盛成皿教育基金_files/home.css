@@ -1,0 +1,28 @@
+﻿body {
+	SCROLLBAR-FACE-COLOR: #84C446; 
+	
+
+	SCROLLBAR-ARROW-COLOR: #003300; 
+	SCROLLBAR-TRACK-COLOR: #A0F127; 
+
+
+ SCROLLBAR-DARKSHADOW-COLOR: #84C446; 
+    SCROLLBAR-BASE-COLOR: #84C446;
+margin-left: 0px;
+	margin-top: 0px;
+    margin-right: 0px;
+	margin-bottom: 0px;
+	overflow-X:hidden;
+	background-repeat:no-repeat;
+	
+}
+td{
+font-size:12px;
+color:#666666;
+
+
+
+
+}
+
+

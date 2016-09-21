@@ -1,0 +1,138 @@
+.footer {
+	color: rgb(102, 153, 204); font-family: "Helvetica"; font-size: 10px; font-weight: normal; text-decoration: none;
+}
+.deadline {
+	color: rgb(141, 195, 71); font-family: "Helvetica"; font-size: 60px; font-weight: normal; text-decoration: none;
+}
+.date {
+	color: rgb(51, 51, 51); letter-spacing: 1px; font-family: arial; font-size: 11px; font-weight: normal; text-decoration: none;
+}
+.copyright {
+	color: rgb(153, 153, 153); line-height: 3; letter-spacing: 1px; font-family: "Arial"; font-size: 10px; text-decoration: none;
+}
+.content6 {
+	color: rgb(0, 0, 0); font-family: arial; font-size: 14px; text-decoration: none;
+}
+.content {
+	color: rgb(102, 102, 102); line-height: 15px; font-family: "¼šÃ÷ów"; font-size: 13px; text-decoration: none;
+}
+.content9 {
+	color: rgb(102, 102, 102); line-height: 18px; font-family: "¼šÃ÷ów"; font-size: 13px; text-decoration: none;
+}
+.content8 {
+	color: rgb(102, 102, 102); line-height: 16px; font-family: "¼šÃ÷ów"; font-size: 13px; text-decoration: none;
+}
+.content2 {
+	color: rgb(102, 102, 102); line-height: 16px; font-family: Arial; font-size: 12px; text-decoration: none;
+}
+.support {
+	color: rgb(37, 122, 3); line-height: 18px; font-family: arial; font-size: 13px; font-weight: bold; text-decoration: none;
+}
+.title {
+	color: rgb(111, 184, 43); line-height: 18px; letter-spacing: 1px; font-family: arial; font-size: 13px; font-weight: bold; text-decoration: none;
+}
+.titleo {
+	color: rgb(255, 102, 0); line-height: 18px; letter-spacing: 1px; font-family: arial; font-size: 13px; font-weight: bold; text-decoration: none;
+}
+.title9 {
+	color: rgb(111, 184, 43); line-height: 24px; letter-spacing: 1px; font-family: arial; font-size: 18px; font-weight: bold; text-decoration: none;
+}
+.stitle {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.stitle2 {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.seemore {
+	color: rgb(51, 51, 51); font-family: "Helvetica"; font-size: 9px; font-weight: normal; text-decoration: underline;
+}
+email a:link {
+	color: rgb(153, 153, 153); font-family: "Helvetica"; font-size: 12px; text-decoration: underline;
+}
+.email a:link {
+	color: rgb(153, 153, 153); font-family: "Helvetica"; font-size: 12px; text-decoration: underline;
+}
+.email a:visited {
+	color: rgb(153, 153, 153); font-family: "Helvetica"; font-size: 12px; text-decoration: underline;
+}
+.email a:active {
+	color: rgb(153, 153, 153); font-family: "Helvetica"; font-size: 12px; text-decoration: underline;
+}
+.email a:hover {
+	color: rgb(255, 153, 0); font-family: "Helvetica"; font-size: 12px; text-decoration: underline;
+}
+link a:link {
+	color: rgb(153, 153, 153); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.link a:link {
+	color: rgb(153, 153, 153); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.link a:visited {
+	color: rgb(153, 153, 153); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.link a:active {
+	color: rgb(153, 153, 153); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.link a:hover {
+	color: rgb(255, 153, 0); font-family: "Helvetica"; font-size: 12px; text-decoration: underline;
+}
+news2 a:link {
+	color: rgb(255, 255, 0); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.news2 a:link {
+	color: rgb(255, 255, 0); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.news2 a:visited {
+	color: rgb(255, 255, 0); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.news2 a:active {
+	color: rgb(255, 255, 0); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.news2 a:hover {
+	color: rgb(239, 247, 223); font-family: "Helvetica"; font-size: 12px; text-decoration: underline;
+}
+success2 a:link {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.success2 a:link {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.success2 a:visited {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.success2 a:active {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.success2 a:hover {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: underline;
+}
+success a:link {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.success a:link {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.success a:visited {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.success a:active {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: none;
+}
+.success a:hover {
+	color: rgb(153, 102, 204); font-family: "Helvetica"; font-size: 12px; text-decoration: underline;
+}
+glink a:link {
+	color: rgb(141, 195, 71); font-family: "Helvetica"; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.glink a:link {
+	color: rgb(141, 195, 71); font-family: "Helvetica"; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.glink a:visited {
+	color: rgb(141, 195, 71); font-family: "Helvetica"; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.glink a:active {
+	color: rgb(141, 195, 71); font-family: "Helvetica"; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.glink a:hover {
+	color: rgb(255, 153, 0); font-family: "Helvetica"; font-size: 12px; font-weight: bold; text-decoration: underline;
+}

@@ -1,0 +1,201 @@
+/* RadMenu Black22 skin */
+
+.RadMenu_Black2
+{
+    /*background-image: url(Menu/bg1.png);*/
+
+}
+
+.RadMenu_Black2_Context
+{
+    background: none;
+    border-top: 0px solid #d2d8de;
+}
+
+.RadMenu_Black2 a.rmLink, .RadMenu_Black2 .rmTemplate
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 11px;
+    line-height: 23px;
+    background-color: #52a32a;
+
+}
+
+.MainLHS_Btn_Off {background-color:#52a32a; padding:1px 0px 1px 1px; margin-bottom:2px; clear:both;}
+.MainLHS_Btn_Off .BtnBorder {padding:2px 0px 2px 8px; border-top:1px solid #fff; border-bottom:1px solid #fff; border-left:1px solid #fff; color:#fff; }
+.MainLHS_Btn_Off .BtnBorder a { color:#fff;}
+
+.MainLHS_Btn_On {background-color:#49a3ff; padding:1px 0px 1px 1px; margin-bottom:2px; clear:both;}
+.MainLHS_Btn_On .BtnBorder {padding:2px 0px 2px 8px; border-top:1px solid #fff; border-bottom:1px solid #fff; border-left:1px solid #fff; color:#fff; }
+.MainLHS_Btn_On .BtnBorder a { color:#fff;}
+
+.cmd .RadMenu_Black2 .rmLink:hover, .cmd .RadMenu_Black2 .rmFocused, .cmd .RadMenu_Black2 .rmExpanded
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_over_cmd.gif) !important;
+}
+.cmd .RadMenu_Black2 .rmLink
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_on_cmd.gif) !important;
+}
+
+.ed .RadMenu_Black2 .rmLink:hover, .ed .RadMenu_Black2 .rmFocused, .ed .RadMenu_Black2 .rmExpanded
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_over_ed.gif) !important;
+}
+.ed .RadMenu_Black2 .rmLink
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_on_ed.gif) !important;
+}
+.esd .RadMenu_Black2 .rmLink:hover, .esd .RadMenu_Black2 .rmFocused, .esd .RadMenu_Black2 .rmExpanded
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_over_esd.gif) !important;
+}
+.esd .RadMenu_Black2 .rmLink
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_on_esd.gif) !important;
+}
+.mbd .RadMenu_Black2 .rmLink:hover, .mbd .RadMenu_Black2 .rmFocused, .mbd .RadMenu_Black2 .rmExpanded
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_over_mad.gif) !important;
+}
+.mbd .RadMenu_Black2 .rmLink
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_on_mad.gif) !important;
+}
+.wad .RadMenu_Black2 .rmLink:hover, .wad .RadMenu_Black2 .rmFocused, .wad .RadMenu_Black2 .rmExpanded
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_over_wad.gif) !important;
+}
+.wad .RadMenu_Black2 .rmLink
+{
+    background-image: url(/Skins/Black2/Menu/menu_c/bg_on_wad.gif) !important;
+}
+
+.RadMenu_Black2 .rmLink:hover, .RadMenu_Black2 .rmFocused, .RadMenu_Black2 .rmExpanded
+{
+    color: #FFFFFF;
+   /* background-image: url(/Skins/Black2/Menu/meunBG3.gif) !important;*/
+   background-image: url(/Skins/Black2/Menu/menu_c/bg_over_ed.gif) !important;
+    text-decoration: underline;
+}
+
+.RadMenu_Black2 .rmLink
+{
+    float: left !important;
+    outline: 0 none !important;
+    padding: 4 0 2 5 !important;
+    width: 143px !important;
+   /* background-image: url(/Skins/Black2/Menu/meunBG2.gif) !important;*/
+   background-image: url(/Skins/Black2/Menu/menu_c/bg_on_ed.gif) !important;
+}
+
+.RadMenu_Black2 .rmText
+{
+    cursor: pointer;
+}
+
+.RadMenu_Black2 .rmGroup
+{
+    background:none repeat scroll 0 0 transparent !important
+}
+
+.RadMenu_Black2 .rmVertical .rmGroup .rmlevel1
+{
+    background: #000000;
+}
+
+.RadMenu_Black2 .rmGroup .rmLink, .RadMenu_Black2 .rmGroup .rmTemplate
+{
+    border: 0px solid #FFFFFF;
+    text-align: left;
+    color: #FFFFFF;
+    min-width: 120px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 23px;
+}
+
+.RadMenu_Black2 .rmGroup .rmText
+{
+	color: #FFFFFF; /*height: 20px;*/
+	/*background-color: #B1B1B1;*/
+	text-align: left;
+	margin: 0 0 0 0px !important;
+	padding: 0 20px 0 20px !important;
+}
+
+.RadMenu_Black2 .rmGroup .rmLink:hover, .RadMenu_Black2 .rmGroup .rmFocused, .RadMenu_Black2 .rmGroup .rmExpanded
+{
+    /*background: #fff;*/
+    border: 0px solid #000000;
+    /*color: #000000;*/
+}
+
+.RadMenu_Black2 .rmVertical .rmSeparator
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.RadMenu_Black2 .rmExpandLeft,
+.RadMenu_Black2 .rmExpandRight
+{
+}
+
+.RadMenu_Black2 .rmLink:hover .rmExpandLeft,
+.RadMenu_Black2 .rmLink:hover .rmExpandRight,
+.RadMenu_Black2 .rmFocused .rmExpandLeft,
+.RadMenu_Black2 .rmFocused .rmExpandRight,
+.RadMenu_Black2 .rmExpanded .rmExpandLeft,
+.RadMenu_Black2 .rmExpanded .rmExpandRight
+{
+}
+
+.RadMenu_Black2 .rmLeftImage 
+{
+	margin: 0;
+}
+
+/*right-to-left support*/
+
+.RadMenu_Black2_rtl,
+.RadMenu_Black2_rtl *
+{
+    text-align:left;
+}
+
+.RadMenu_Black2_rtl .rmGroup .rmText
+{
+	padding: 0;
+}
+
+.RadMenu_Black2_rtl .rmExpandLeft,
+.RadMenu_Black2_rtl .rmExpandRight
+{
+}
+
+.RadMenu_Black2_rtl .rmLink:hover .rmExpandLeft,
+.RadMenu_Black2_rtl .rmLink:hover .rmExpandRight,
+.RadMenu_Black2_rtl .rmFocused .rmExpandLeft,
+.RadMenu_Black2_rtl .rmFocused .rmExpandRight,
+.RadMenu_Black2_rtl .rmExpanded .rmExpandLeft,
+.RadMenu_Black2_rtl .rmExpanded .rmExpandRight
+{
+}
+
+.RadMenu_Black2_rtl .rmGroup .rmLink:hover .rmExpandLeft,
+.RadMenu_Black2_rtl .rmGroup .rmLink:hover .rmExpandRight,
+.RadMenu_Black2_rtl .rmGroup .rmFocused .rmExpandLeft,
+.RadMenu_Black2_rtl .rmGroup .rmFocused .rmExpandRight,
+.RadMenu_Black2_rtl .rmGroup .rmExpanded .rmExpandLeft,
+.RadMenu_Black2_rtl .rmGroup .rmExpanded .rmExpandRight
+{
+}
+
+.RadMenu_Black2 a.rmDisabled,
+.RadMenu_Black2 .rmDisabled:hover
+{
+    background: none;
+}

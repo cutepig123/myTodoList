@@ -100,3 +100,96 @@
 20160816
 	23.30-1.00	leetcode miniparser
 	
+20160821
+	leetcode 3 Qs/day
+	架构师报名
+	windows平板
+21.20-	task scheduler
+-22.00	买机票
+-22.15 		384. Shuffle an Array
+-22.45		385	Mini Parser
+-23.10		3 easy questions
+287. Find the Duplicate Number
+
+22.00-22.40	FInd my possible pics:
+	F:\images\2007-01
+	
+-23.00	
+报名还不到时间？ http://zg2.cpta.com.cn/examfront/login!quitKS.action?myrandom=0.46870431505075927&myname=hejinshou	
+	http://www.gdkszx.com.cn/pt/WebRegister/index.aspx
+	http://www.testcenter.gov.cn/ksyweb/OnlineEnrol
+	2016下半年广东系统架构设计师考试报名时间：2016年8月23日9:00-9月9日17:00
+      报名入口：点击查看广东2016下半年报名入口
+      准考证打印时间：2016年11月6日至12日
+	
+	请记住报名序号，再次登录时必须填写报名序号！
+	报名序号：696637
+-找到几本书。。	
+	
+20160827
+13.20-	leetcode 388
+-0.00	挂墙架	http://www.hdlife.com.hk/home.php https://www.facebook.com/nbwallmount/ NB牌子幾可靠 north bayou
+	之前去鴨記買左個NB活動架P4都係$160
+	我都係sony 40", 之前去鴨記買左個NB活動架P4都係$160, 只要有電鑽+個六角螺絲套筒就可以自己裝, 除左搬起部電視套上個架囉下要太太借一借力, 基本上一個人都可以搞掂!
+個人意見係最好買活動架, 因為之後搞線可以移出部電視黎整, 同埋如果係想搵人裝, 最好搵裝開架既cfu(上網可以搵到, 之前問過連架都係$800), 搵裝修cfu要小心佢地識唔識裝, 同埋裝半日條數都係返度!
+
+	華輝行過二間  有間叫集安XX, 入面有架賣,我自己覺得搵返裝修佬裝好D, 佢會知你D線點行, 驚鑽錯位, 雖有有TESTER可以CHECK 牆身有無電喉,鋼根,
+	早兩日係鴨記興X電子公司（佢寫住自己係NB港澳總代理）買
+	P5：160
+	P6：230
+	http://search.jd.com/search?keyword=%E7%94%B5%E8%A7%86%E6%8C%82%E6%9E%B6&enc=utf-8&qrst=1&rt=1&stop=1&pt=1&vt=2&offset=1&suggest=7.def.0&wq=%E7%94%B5%E8%A7%86&stock=1&ev=exbrand_NB%EF%BC%88NORTH%20BAYOU%EF%BC%89%40&uc=0#J_crumbsBar
+	
+	file:///C:/Users/cutepig/Downloads/20150505172151dgcz.pdf
+	
+	去sham shui po la, nb 架就150-200蚊, 安裝300左右... 但唔好用nb 跟掛架比既screw, 太長, 隨時鑽爆牆
+	
+	有分鐵架同鋁架. 吾同價. 我買咗鋁架.
+	
+	
+20160828
+	考试复习-数据库
+	10.00-	公司email
+	23.20-	miix
+	
+20160830
+22-23.00	leetcode
+
+20160905
+-7.00	Mirget Hospital
+-8.30	修改电费扣款账号
+-23.30	python 手机通讯录管理 H:\vcf
+	python 自动完成 ide
+	vs code python?
+	
+22.40-22.55	read http://wenku.it168.com/d_000282469.shtml
+-	小米电视 vs 乐视电视
+
+20160910
+3.00-10.00	公司待遇
+1.00-3.00	leetcode
+	线段树 区间数 trie前缀树或字典樹 kd树 败者树 
+	 在一维坐标轴上有n个区间段，求重合区间最长的两个区间段。
+	 分而治之的策略
+	 系统有很多任务，任务之间有依赖，比如B依赖于A，则A执行完后B才能执行
+	 KMP算法
+	 跳台阶问题
+	 搜索 微软 社招 面试
+	 
+	
+20160911
+21.30-23.00	windows 10下载，破解
+
+20160916
+-9.50 修改windows10默认下载目录
+下载labview （no)
+确定如何买小米电视
+幼儿园报名信息
+windows10 屏保密码
+office iso
+
+
+20160917
+9.00-4.00	toshenzhen, toFanling
+-22.00	buy go home air ticket
+	preare baby kindgarden material
+	
