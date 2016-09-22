@@ -1,0 +1,142 @@
+body{background-color:#FFFFFF;font-size:16px;font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU","細明體","MingLiU","標楷體","DFKai-sb",Calibri;margin:0 !important;padding:0 !important;}
+h1{font-size:24px;text-decoration:none;color:#FFFFFF;font-weight:normal;margin:0px;text-align:center;}
+a:link{color:#00AFF9;}
+.headerpath{font-size:14px;color:#999999;}
+.headerpath a{font-size:14px;color:#999999;text-decoration:none;}
+.ad-google{width:100%;float:left;display:block;border:0px solid #CCCCCC;}
+.ad-pixel-VBar-R{height:600px;float:right;border:0px solid #CCCCCC;}
+.ad-pixel-VBar-L{height:600px;float:left;border:0px solid #CCCCCC;}
+.ad-pixel-VBox-R{height:210px;width:300px;float:right;border:1px solid #CCCCCC;}
+.ad-pixel-VBox-L{height:210px;width:300px;float:left;border:1px solid #CCCCCC;}
+.mad-pixel-header{width:100%;border:1px solid #cccccc;display:block;height:50px;text-align:center;}
+.mad-pixel-box{width:300px;border:1px solid #cccccc;display:block;height:250px;float:left}
+.mad-b{width:100%;border:1px solid #cccccc;display:block;height:50px;text-align:center;}
+.mad-c{width:300px;border:1px solid #cccccc;display:block;height:250px;float:left}
+.menuitem{margin:1%;margin-left:0;margin-top:0;padding:1%;border:1px solid #000000;cursor:pointer;float:left;width :150px;}
+.menucontainer{width:100%;}
+.maincontainer{margin-top:20px;width:98%;}
+.mainR{width:49%;float:right;}
+.mainL{width:49%;float:left;}
+.menu{width:100%;font-family:Calibri;font-size:24px;background-color:#ffffff;margin:0px;padding:0px;border:0px solid #999999;background-image:url(/image/bg/headerbg.png);min-height:48px;}
+.iconbar{width:210px;float:right;margin-top:0.4em;// margin-right:0.2em;height:32px;text-align:right;border:0px solid #000000;}
+.toolbar{width:100%;float:left;height:auto;border:0px solid #000000;}
+.subtoolbar{width:100%;display:block;height:auto;border:0px solid #000000;text-align:center;margin-bottom:20px;}
+.toolbarContainer{display:block;min-height:50px;}
+.toolitem{width:13%;float:left;height:32px;border:0px solid #000000;padding:5px;font-size:24px;text-align:center;margin-right:5px;margin-bottom:5px;color:#ffffff;cursor:pointer;}
+.subtoolitem{width:16%;display:inline-block;height:28px;border:0px solid #cccccc;padding:4px;font-size:22px;text-align:center;margin-right:5px;margin-bottom:5px;color:#ffffff;cursor:pointer;background:#D2B48C;}
+.subtoolitem:hover{background:#EEE3D5;color:#C0975F;}
+.toollogoContainer{width:27px;float:left;height:27px;border:0px solid #000000;}
+.subtoollogoContainer{width:25px;float:left;height:25px;border:0px solid #000000;}
+.toollogo{width:32px;height:32px;}
+.subtoollogo{width:28px;height:28px;}
+.iconcontainer{width:32px;float:right;margin-left:0.1em;height:32px;border:0px solid #000000;}
+.icon{fill:currentColor;width:24px;height:24px;position:relative;margin:5px;cursor:pointer;}
+.optIcon{display:none;}
+.indicatorbar{width:98%;margin-top:20px;}
+.indicator{width:14%;margin-left:2%;float:left;padding:5px;margin-top:1%;}
+.indicatorheader{font-size:16px;}
+.indicatortitle{font-size:48px;color:#ffffff;text-align:center;width:100%;}
+.indicatorfooterL{font-size:11px;}
+.indicatorfooterR{font-size:11px;float:right;}
+.imgclass{max-width:728px;width:100%;height:auto;}
+.colorGreen{background:#92d050;}
+.colorYellow{background:#ffcc00;}
+.colorRed{background:#ff7c80;}
+.colorBlue{background:#33CCFF;}
+.colorCyan{background:#33cccc;}
+.colorOrange{background:#FF9933;}
+.colorBrown{// background:#E4814C;background:#D2691E;}
+.colorPurple{// background:#cc99ff;background:#BA55D3;}
+.colorPink{// background:#FF99FF;//background:#ffb6c1;background:#FF69B4;}
+.colorGrey{background:#cccccc;}
+.colorTan{background:#D2B48C;}
+.FBSmall{display:none;}
+.FBBig{float:left;}
+.pageNum{font-size:16px; padding:1px; border:1px solid #33CCFF; margin-right:2px; cursor:pointer; display:inline-block;color:#999999; background:#ffffff;}
+.pageNum:hover{background:#33CCFF;color:#ffffff}
+.pageNumDim{float:left; width:auto; font-size:12px; padding:1px; height:16px; border:1px solid #CCC; margin-right:2px; background:#CCC}
+.pagecontainer{width:100%;padding-top:0px;border:0px solid #ccc;text-align:center;margin-top:10px}
+.tbl1{width:100%;max-width:800px;margin-left:auto;margin-right:auto;border:1px solid #30d0ff;margin-top:8px;border-spacing:0px;}
+.tbl-item{cursor:pointer;font-size:18px}
+.tbl-item:hover{// background:#30d0ff;// color:#ffffff;}
+.tc1 a{color:#ffffff;}
+.tc2 a{color:#777777;}
+.tbl2{width:100%;max-width:800px;margin-left:auto;margin-right:auto;border:1px solid #ffcc00;margin-top:8px;border-spacing:0px;}
+.tc1{background:#30d0ff;color:#ffffff;width:80px;text-align:center;}
+.tc2{color:#777777;width:720px;background:#E3F6FD;text-align:left;padding-left:10px;}
+.tc3 a{color:#ffffff;}
+.tc4 a{color:#777777;}
+.tc3{background:#ffcc00;color:#ffffff;width:80px;text-align:center;}
+.tc4{color:#777777;width:720px;background:#FFFAE6;text-align:left;padding-left:10px;}
+.noselect{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.articlePic{float:left;margin-right:10px}
+.articlePicR{float:right;margin-left:10px}
+.main-body{width:100%;display:block;max-width:800px;margin-left:auto;margin-right:auto;text-align:center;}
+.gadget-container{float:left;margin-right:4px;margin-top:10px;border:1px solid #dddddd;width:48%;// padding-top:10px;padding-bottom:10px;}
+.footer{border-top:1px solid #dddddd;width:100%;display:block;max-width:800px;margin-left:auto;margin-right:auto;text-align:left;clear:both;color:#999999;padding:5px;margin-top:10px;font-size:12px;}
+.footer a{color:#999999;}
+@media all and (max-width:1300px) and (orientation:landscape){.toolitem{font-size:20px;width:12%;}
+}
+@media all and (max-width:1170px) and (orientation:landscape){.toolitem{font-size:16px;padding:2px;}
+.toollogo{width:28px;height:28px;}
+}
+@media all and (max-width:1040px) and (orientation:landscape){.toolitem{font-size:14px;padding:1px;}
+.toollogo{width:24px;height:24px;}
+}
+@media all and (min-width:431px){.optIcon{display:block}
+}
+@media all and (max-width:640px){.headerextend{width:0px}
+}
+@media all and (min-width:640px){.headerextend{width:120px}
+}
+@media all and (max-width:980px){.ad-pixel-VBar-R{width:0px;display:none;}
+}
+@media all and (max-width:1100px){.ad-pixel-VBox-R{width:0px;display:none;}
+}
+@media all and (max-width:1140px){.ad-pixel-VBar-L{width:0px;display:none;}
+}
+@media all and (max-width:1400px){.ad-pixel-VBox-L{width:0px;display:none;}
+}
+@media all and (min-width:980px){.ad-pixel-VBar-R{width:160px;float:right;}
+.main-body{margin-left:0px;margin-right:0px;}
+}
+@media all and (min-width:1140px){.ad-pixel-VBar-L{width:160px;float:left;}
+.main-body{margin-left:auto;margin-right:auto;}
+}
+@media all and (max-width:800px) ,(orientation:portrait){.iconbar{height:48px;margin-top:0.3em;}
+.iconcontainer{width:38px;height:38px;}
+.icon{width:32px;height:32px;margin:0px;}
+.mainR{width:98%;display:block;}
+.mainL{width:98%;display:block;}
+.indicator{width:44%;}
+.menu{min-height:48px;}
+.toolitem{width:38%;height:26px;}
+.toollogo{width:27px;height:27px;}
+.toolbar{margin-left:5px;}
+.subtoolbar{min-height:40px;margin-left:5px;margin-bottom:5px;}
+.subtoolitem{width:30%;height:24px;float:left;}
+.subtoollogo{width:25px;height:27px;}
+.FBSmall{float:right;display:inline;}
+.FBBig{display:none;}
+.pageNum{padding:5px;}
+.pagecontainer{margin-bottom:20px}
+.tc1{width:50px;}
+.tc2{width:320px;}
+.header-sun{display:none;}
+.articlePic{float:none;display:block;margin-right:0px;}
+.articlePicR{float:none;display:block;margin-left:0px;}
+.toolbarContainer{display:block;min-height:100px;}
+.gadget-container{float:none;display:block;margin-top:10px;border:0px solid #dddddd;width:100%;}
+}
+@media all and (max-width:430px){.iconbar{width:120px;}
+.icon{width:24px;height:24px;}
+.iconcontainer{width:26px;height:26px;}
+}
+@media all and (max-width:405px){.toolitem{font-size:16px;}
+}
+@media all and (max-width:380px){.toolitem{width:33%;font-size:12px;}
+}
+@media all and (max-width:335px){.icon{width:18px;height:18px;}
+.iconcontainer{width:20px;height:20px;}
+.iconbar{width:100px;}
+}

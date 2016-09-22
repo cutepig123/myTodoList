@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async="" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/cbgapi.loaded_1"></script><script async="" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/cbgapi.loaded_0"></script><script src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/sdk.js" id="facebook-jssdk"></script><script src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/analytics.js" async=""></script><script src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/jquery.js"></script>
+<link rel="icon" type="image/png" href="http://www.myschool.hk/favicon.png">
+<link rel="stylesheet" type="text/css" href="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/RWD.css">
+<link rel="stylesheet" type="text/css" href="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/RWD.css" media="print">
+<link rel="publisher" href="https://plus.google.com/112554342164764369508">
+<!-- Place this tag in your head or just before your close body tag. -->
+<script gapi_processed="true" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/platform.js" async="" defer="defer">
+  {lang: 'zh-HK'}
+</script>
+<link rel="stylesheet" type="text/css" href="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/school.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26311889-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<link rel="stylesheet" type="text/css" href="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/animate.css">
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:25px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:15px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:19px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:13px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:13px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:17px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+<body>
+<div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="http://staticxx.facebook.com/connect/xd_arbiter/r/P5DLcu0KGJB.js?version=42#channel=f17d3c72e73511e&amp;origin=http%3A%2F%2Fwww.myschool.hk" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0"></iframe><iframe src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/P5DLcu0KGJB_002.htm" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="menu">
+<div class="iconbar" style="margin-left:0px;margin-right:0px">
+<div class="iconcontainer sendmail" data-address1="general" data-address2="myschool.hk" data-subject="查詢">
+<img class="icon" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/email.svg" alt="聯絡我們" title="聯絡我們">
+</div>
+
+<a href="http://www.myschool.hk/tools.php">
+<div class="iconcontainer">
+<img class="icon" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/tool.svg" alt="工具" title="工具">
+</div>
+</a>
+<a href="http://www.myschool.hk/searchSite.php"><div class="iconcontainer optIcon">
+<img class="icon" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/search.svg" alt="學校/內文搜尋" title="學校/內文搜尋">
+</div></a>
+<a href="http://www.myschool.hk/kg12toys.php"><div class="iconcontainer">
+<img class="icon" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/toy.svg" alt="幼稚園面試12件最常見的玩具" title="幼稚園面試12件最常見的玩具">
+</div></a>
+<a href="http://www.myschool.hk/"><div class="iconcontainer">
+<img class="icon" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/home.svg" alt="主頁" title="主頁">
+</div></a>
+</div>
+<div class="header-sun" style="float:right;width:40px;height:48px; background-image:url(/image/bg/headerbgr.png);background-repeat: no-repeat;"></div>
+<div style="float:left;margin-left:0px;margin-right:0px"><a href="http://www.myschool.hk/"><img src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/logo.svg" alt="Logo" height="48" width="48"><img src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/header.png" alt="標題" height="48" width="150"></a></div>
+<div class="headerextend" style="float:left;color:#ffffff;font-size:20px;height:48px; background-image:url(/image/bg/headerbgext2.png);background-repeat: no-repeat;"></div>
+
+</div> <!-- menu -->
+<div style="width:100%;text-align:center;position:relative">
+<table border="0" width="100%"> 
+<tbody><tr> 
+<td align="center">
+<script>
+	var randomstr = new String (Math.random());
+	randomstr = randomstr.substring(1,8);
+	var SID_PC = 445209234936;
+	var SID_Mobile = 949858099196;
+	var pixelSID;
+	if ($( window ).width() >= 800)
+	{
+		pixelSID=SID_PC;		
+	}
+	else
+	{
+		pixelSID=SID_Mobile;		
+	}
+	document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://servedby.adsfactor.net/adj.php?ts=" + randomstr + "&amp;sid="+pixelSID+ "'><" + "/script>");
+</script><script language="JavaScript" type="text/javascript" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/adj_002.js"></script>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="toolbarContainer">
+<div class="toolbar">
+<div class="FBSmall">
+<div fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2FMyschoolhk-221025824604277%2F&amp;layout=box_count&amp;locale=zh_HK&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;width=55" fb-xfbml-state="rendered" class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/Myschoolhk-221025824604277/" data-width="55" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"><span style="vertical-align: bottom; width: 0px; height: 0px;"><iframe class="" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/like.htm" style="border: medium none; visibility: visible; width: 0px; height: 0px;" title="fb:like Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fe5b0f6877874c" frameborder="0" height="1000px" width="55px"></iframe></span></div>
+<div class="animated pulse infinite" style="text-align:center"><img src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/like.svg" style="width:36px;height:36px" alt="Facebook like">   </div>
+<!-- Place this tag where you want the +1 button to render. -->
+<div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent none repeat scroll 0% 0%; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 32px; height: 20px;"><iframe title="+1" data-gapiattached="true" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/fastbutton.htm" name="I0_1474551926128" id="I0_1474551926128" vspace="0" tabindex="0" style="position: static; top: 0px; width: 32px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" scrolling="no" marginwidth="0" marginheight="0" hspace="0" frameborder="0" width="100%"></iframe></div>
+</div>
+<a href="http://www.myschool.hk/kg/guide.php"><div class="toolitem colorYellow"><div class="toollogoContainer"><img class="toollogo" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/kgguide.svg" alt="幼稚園攻"> </div>
+  幼稚園攻略 </div></a>
+<a href="http://www.myschool.hk/ps/guide.php">
+<div class="toolitem colorGreen"><div class="toollogoContainer"><img class="toollogo" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/p1gudie.svg" alt="小一選校"> </div>小一選校</div></a>
+<a href="http://www.myschool.hk/kg/dashboard.php"><div class="toolitem colorRed"><div class="toollogoContainer"><img class="toollogo" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/kginfo.svg" alt="幼稚園資訊"> </div>幼稚園資訊</div></a>
+<a href="http://www.myschool.hk/ps/dashboard.php"><div class="toolitem colorBlue"><div class="toollogoContainer"><img class="toollogo" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/p1info.svg" alt="小學資訊"> </div>小學資訊</div></a>
+<a href="http://www.myschool.hk/apps.php">
+<div class="toolitem colorCyan"><div class="toollogoContainer"><img class="toollogo" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/app.svg" alt="應用程式"> </div>應用程式<span style="font-size:12px">(App)</span></div>
+</a>
+<a href="http://www.myschool.hk/photo.php"><div class="toolitem colorOrange"><div class="toollogoContainer"><img class="toollogo" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/photo.svg" alt="專業學生相"> </div>專業學生相</div></a>
+<div class="FBBig">
+<div fb-iframe-plugin-query="adapt_container_width=false&amp;app_id=&amp;container_width=175&amp;height=70&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fmyschool.hk%2F&amp;locale=zh_HK&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=203" fb-xfbml-state="rendered" class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/myschool.hk/" data-tabs="timeline" data-width="203" data-height="70" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><span style="vertical-align: bottom; width: 203px; height: 70px;"><iframe class="" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/page.htm" style="border: medium none; visibility: visible; width: 203px; height: 70px;" title="fb:page Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f37f2ac8bf82cba" frameborder="0" height="70px" width="203px"></iframe></span></div>
+<div class="animated pulse infinite" style="text-align:center"><img src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/like.svg" style="width:36px;height:36px" alt="Facebook like"><img src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/like.svg" style="width:36px;height:36px" alt="Facebook like"><img src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/like.svg" style="width:36px;height:36px" alt="Facebook like">   
+</div>
+<!-- Place this tag where you want the +1 button to render. -->
+<div id="___plusone_1" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent none repeat scroll 0% 0%; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 32px; height: 20px;"><iframe title="+1" data-gapiattached="true" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/fastbutton_002.htm" name="I1_1474551926137" id="I1_1474551926137" vspace="0" tabindex="0" style="position: static; top: 0px; width: 32px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" scrolling="no" marginwidth="0" marginheight="0" hspace="0" frameborder="0" width="100%"></iframe></div>
+</div>
+</div>
+</div> <!-- ToolBarContainer -->
+	<div class="ad-pixel-VBar-L">
+		
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8022381553141577";
+/* side bar vertical */
+google_ad_slot = "0404766051";
+google_ad_width = 120;
+google_ad_height = 600;
+//
+</script>
+<script type="text/javascript" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/show_ads.js">
+</script>
+
+ 
+	</div>
+	<div class="ad-pixel-VBar-R">
+		
+<script language="JavaScript" type="text/javascript">
+
+randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);
+if ($( window ).width() >= 800) 
+{
+document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://servedby.adsfactor.net/adj.php?ts=" + randomstr + "&amp;sid=262226244960" + "'><" + "/script>");
+}
+</script><script language="JavaScript" type="text/javascript" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/adj.js"></script>
+
+ 
+	</div>
+<br>
+<title>《入讀名牌幼稚園便可直升小學名校？》@My School HK</title>
+    <meta property="og:title" content="《入讀名牌幼稚園便可直升小學名校？》@My School HK">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.myschool.hk/kg/guide811.php">
+    <meta property="og:image" content="http://www.myschool.hk/image/education/p1rule.gif">
+    <meta property="og:site_name" content="My School HK">
+    <meta property="fb:admins" content="100001815376406">
+    <meta property="fb:app_id" content="110091079056710">    
+    <meta property="og:description" content="《入讀名牌幼稚園便可直升小學名校？》">
+    <meta name="keywords" content="名牌,直升,小學,名校,幼稚園">
+    <meta name="description" content="幼稚園攻略之《入讀名牌幼稚園便可直升小學名校？》">
+      
+          
+<div class="headerpath"><a href="http://www.myschool.hk/kg/index.php">主頁</a>  » <a href="http://www.myschool.hk/kg/guide.php">幼稚園攻略</a> » <a href="http://www.myschool.hk/kg/guide811.php">入讀名牌幼稚園便可直升小學名校？</a></div>
+
+<div class="main-body" style="text-align:left">
+<script type="text/javascript">
+$(document).ready(function()
+{	
+	$("#fontInc").click(function() {
+//		alert("aaa");
+	       $('*[data-csize]').each(function(){
+	       var k =  parseInt($(this).css('font-size')); 
+	       var redSize = ((k*125)/100) ; 
+	           $(this).css('font-size',redSize);             	
+	       });
+	       $('*[data-csize]').children().each(function(){
+	       var k =  parseInt($(this).css('font-size')); 
+	       var redSize = ((k*125)/100) ; 
+	           $(this).css('font-size',redSize);             	
+	       });
+    });
+	$("#fontDec").click(function() {
+//		alert("aaa");
+	       $('*[data-csize]').each(function(){
+	       var k =  parseInt($(this).css('font-size')); 
+	       var redSize = ((k*80)/100) ; 
+	           $(this).css('font-size',redSize);             	
+	       });
+	       $('*[data-csize]').children().each(function(){
+	       var k =  parseInt($(this).css('font-size')); 
+	       var redSize = ((k*80)/100) ; 
+	           $(this).css('font-size',redSize);             	
+	       });
+    });
+    
+ });		
+</script>
+<div style="width:100%;height:20px;margin-bottom:10px;padding-top:10px">
+
+<div id="fontDec" style="float:right;margin-right:5px;border:0px solid #999999;min-width:20px;min-height:20px;cursor:pointer;margin-bottom:5px;text-align:center;color:#999999"><img src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/zoomout.svg" title="縮小" alt="縮小" height="20" width="20"></div>
+<div id="fontInc" style="float:right;margin-right:5px;border:0px solid #999999;min-width:20px;min-height:20px;cursor:pointer;margin-bottom:5px;text-align:center;color:#999999"><img src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/zoomin.svg" title="放大" alt="放大" height="20" width="20"></div>
+</div>
+<div style="width:100%" csize="Y" class="colorBlue title"> <h1>入讀名牌幼稚園便可直升小學名校？</h1></div>
+
+<div id="content" style="margin:20px 0px" csize="Y">
+<div class="articlePic"><img src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/lift.jpg"> </div>
+  坊間一直都在流傳著，如果能入讀某某名牌幼稚園，便保證能升上某某著名小學，家長便毋須再為升小而煩惱了。究竟這當中孰真孰假，入讀名牌幼稚園是否小學名校的入場劵，又或者是以訛傳訛的美麗誤會呢？<br><br>
+<span class="label-green">小學的分類</span>  <br><br>
+要清楚幼稚園與升讀小學的關係，首先便應先了解現行小學的分類。根本上全港的小學可分為官立、津貼、直資和私立小學四種(詳情可參考<a href="http://www.myschool.hk/kg/education-2-4.php">官立、津貼、直資、私立小學的分別</a>)，官立、津貼小學與直資、私立小學，有著截然不同的收生方法，所以想知道報讀的幼稚園能否幫助孩子升讀小學時，便應先搞清楚心儀的小學是屬於上述四類中，那一類型的小學。
+<br><br> 
+<span class="colorBlue" style="color:#ffffff">官立、津貼小學收生與幼稚園完全無關</span> 
+<br><br> 
+官立、津貼小學的收生方法，必須根據教育局的小一入學統籌辦法進行，分為「自行分配學位」及「統一派位」兩階段。<br><br> 
+「自行分配學位」是根據8項，例如學童的年齡、父母是否舊生等，公開的「計分辦法準則」(詳情可參考<a href="http://www.myschool.hk/kg/p1calculator.php">小一自行收生計分機</a>)而決定學童能否入讀申請的小學。而「統一派位」，則是根據家長的意願以隨機方式分派小學學位(詳情可參考<a href="http://www.myschool.hk/kg/education-2-1.php">小一統一派位必勝大拆解</a>)。所以，無論是「自行分配學位」或是「統一派位」，學童就讀的幼稚園根本就不是派位機制中的考慮因素，甚至可以說根本完全無關。
+<div style="width:100%"> 
+<script async="" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/adsbygoogle.js"></script>
+<!-- mad1 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8022381553141577" data-ad-slot="5338274993" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+</div>
+<br><br>
+<span class="colorBlue" style="color:#ffffff">直資、私立小學收生可留意有直升或聯繫的幼稚園</span> 
+<br>
+<br> 
+直資、私立小學在收生方面，擁有自主權。所以若家長心儀的小學若直資或私立，便可留意該小學有否直升或聯繫幼稚園的安排。直升或一條龍幼稚園，顧名思義，
+代表幼稚園的畢業生可直接升讀有相關安排的小學，而毋須經過面試，例如香港培正小學（幼稚園部）的畢業生便可升讀香港培正小學。至於聯繫幼稚園的畢業生，
+通常都可獲相關小學優先考慮。以下是部份設有升讀小學安排的幼稚園，以供各位家長參考。<br><br>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr class="colorBlue" style="color:#ffffff">
+      <td>幼稚園</td>
+      <td>小學</td>
+      <td>升讀安排</td>
+    </tr>
+    <tr>
+      <td>香港培正小學（幼稚園部）</td>
+      <td><span style="display:inline;font-size:16px">港培正小學</span></td>
+      <td>直升小一</td>
+    </tr>
+    <tr>
+      <td>神召第一小學暨幼稚園</td>
+      <td>神召第一小學暨幼稚園</td>
+      <td>直升小一</td>
+    </tr>
+    <tr>
+      <td>方方樂趣幼稚園</td>
+      <td>九龍塘方方樂趣英文小學</td>
+      <td>直升小一</td>
+    </tr>
+    <tr>
+      <td>蘇浙小學校（本地課程）</td>
+      <td>蘇浙小學</td>
+      <td>直升小一</td>
+    </tr>
+    <tr>
+      <td>香港培道小學(幼稚園部)</td>
+      <td>香港培道小學</td>
+      <td>直升小一</td>
+    </tr>
+    <tr>
+      <td>聖嘉勒幼稚園</td>
+      <td>聖嘉勒小學</td>
+      <td>直升小一</td>
+    </tr>
+    <tr>
+      <td>聖若望英文書院(幼稚園部)</td>
+      <td>聖若望英文書院 (小學部)</td>
+      <td>直升小一</td>
+    </tr>
+    <tr>
+      <td>香港真光中學(幼稚園部)</td>
+      <td>香港真光中學 (小學部)</td>
+      <td>直升小一</td>
+    </tr>
+    <tr>
+      <td>聖母幼稚園</td>
+      <td>聖母小學</td>
+      <td>女生可直升小一</td>
+    </tr>
+    <tr>
+      <td>崇真小學暨幼稚園</td>
+      <td>崇真小學</td>
+      <td>直升但須面試</td>
+    </tr>
+    <tr>
+      <td>救恩學校(幼稚園部)</td>
+      <td>救恩學校(小學部)</td>
+      <td>直升但須面試</td>
+    </tr>
+    <tr>
+      <td>玫瑰崗幼稚園</td>
+      <td>玫瑰崗學校(小學部)</td>
+      <td>直升但須面試</td>
+    </tr>
+    <tr>
+      <td>民生書院（幼稚園部）</td>
+      <td>民生書院（小學部）</td>
+      <td>小學預留8成半學位，但不保證百份百升讀</td>
+    </tr>
+    <tr>
+      <td>啟思小學附屬幼稚園</td>
+      <td>啟思小學</td>
+      <td>優先考慮(須另外報名/面試)</td>
+    </tr>
+    <tr>
+      <td>啟思幼稚園</td>
+      <td>啟基學校</td>
+      <td>優先考慮(須面試)</td>
+    </tr>
+    <tr>
+      <td>德望學校(幼稚園部)</td>
+      <td>德望學校</td>
+      <td>優先考慮(須面試)</td>
+    </tr>
+    <tr>
+      <td>聖保祿幼稚園</td>
+      <td>聖保祿學校(小學部)</td>
+      <td>女生優先考慮(須面試)</td>
+    </tr>
+    <tr>
+      <td>聖三一中心幼稚園</td>
+      <td>聖三一堂小學</td>
+      <td>免試優先取錄</td>
+    </tr>
+    <tr>
+      <td>聖公會聖三一堂曾肇添幼稚園</td>
+      <td>聖三一堂小學</td>
+      <td>免試優先取錄</td>
+    </tr>
+    <tr>
+      <td>地利亞英文小學暨幼稚園</td>
+      <td>地利亞英文小學暨幼稚園</td>
+      <td>須內部審核達標</td>
+    </tr>
+    <tr>
+      <td>激活幼稚園</td>
+      <td>激活英文小學</td>
+      <td>可持校長推薦書向小學部報名, 不保證直升</td>
+    </tr>
+    <tr>
+      <td>九龍塘禮賢學校(幼稚園部)</td>
+      <td>九龍塘禮賢學校(小學部)</td>
+      <td>優先取錄及豁免報名費，須另外報名/面試</td>
+    </tr>
+    <tr>
+      <td>嶺南小學暨幼稚園</td>
+      <td>嶺南小學暨幼稚園</td>
+      <td>獲校長推薦者可免試優先直升(須面試)</td>
+    </tr>
+    <tr>
+      <td>嘉諾撤聖心幼稚園</td>
+      <td>嘉諾撤聖心學校私立部</td>
+      <td>取錄與否私立部決定</td>
+    </tr>
+    <tr>
+      <td>香港浸會大學附屬幼稚園</td>
+      <td>香港浸會大學附屬學校王錦輝中小學</td>
+      <td>優先取錄</td>
+    </tr>
+  </tbody>
+</table>
+
+
+</div> <!--content--> 	
+
+</div>	 <!--main-body--> 	
+<div style="clear:both">&nbsp;
+<br><br>
+</div>
+<script language="JavaScript" type="text/javascript">
+
+var randomstrPOP = new String (Math.random());
+randomstrPOP = randomstrPOP.substring(1,8);
+var SID_PC_POP = 888537434934;
+var SID_Mobile_POP = 568863249195;
+var pixelSID_POP;
+	if ($( window ).width() >= 800)
+	{
+		pixelSID_POP=SID_PC_POP;		
+	}
+	else
+	{
+		pixelSID_POP=SID_Mobile_POP;		
+	}
+
+document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://servedby.adsfactor.net/adj.php?ts=" + randomstrPOP + "&amp;sid="+pixelSID_POP+ "'><" + "/script>");
+</script><script language="JavaScript" type="text/javascript" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/adj_003.js"></script>
+
+
+
+ 
+
+<script>
+
+$(document).ready(function() {
+$(".sendmail").click( function () { 
+	var maildtl = "mailto:"+$(this).attr("data-address1")+"@"+$(this).attr("data-address2")+"?subject="+$(this).attr("data-subject");
+	window.open(maildtl);
+});   
+
+});   
+
+</script>
+
+<div class="footer">
+<a href="http://www.myschool.hk/disclaimer.php">免責聲明</a> | <a href="http://www.myschool.hk/aboutus.php"> 關於我們 </a>| <span class="sendmail" data-address1="ads" data-address2="myschool.hk" data-subject="廣告查詢">廣告查詢</span> | 
+<div style="float:right">© myschool.hk All Rights Reserved.</div>
+</div>
+
+
+
+<iframe tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;" src="%E3%80%8A%E5%85%A5%E8%AE%80%E5%90%8D%E7%89%8C%E5%B9%BC%E7%A8%9A%E5%9C%92%E4%BE%BF%E5%8F%AF%E7%9B%B4%E5%8D%87%E5%B0%8F%E5%AD%B8%E5%90%8D%E6%A0%A1%EF%BC%9F%E3%80%8B@My%20School%20HK_files/postmessageRelay.htm" id="oauth2relay1210793345" name="oauth2relay1210793345"></iframe></body></html>

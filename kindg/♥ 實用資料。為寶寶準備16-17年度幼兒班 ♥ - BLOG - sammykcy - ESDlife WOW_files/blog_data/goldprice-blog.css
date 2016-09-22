@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gpWrapper { width: 300px;}
+.gpContent { width: 300px; height: 60px !important;}
+.gp {float: left; height: 14px;}
+.gpColL { float: left; width: 179px; height:18px; padding: 0px;}
+.gpPriceBox { float: left; width:300px; height:60px; background-image:url(../img/wu_blog_bg.jpg); }
+.gpPrice { float: left; line-height: normal !important; width:100px; height:22px; display: inline; color: #663926; overflow: hidden; font-weight: bold; font-size: 20px; font-family: arial, sans-serif;  margin-top:19px;  margin-left: 95px;}
+.gpColR { float: right; width: 55px; height:18px; padding: 0px;}
+.gpLink { position:absolute; top: 0px; width:300px; height:60px; }

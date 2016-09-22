@@ -1,0 +1,497 @@
+/*
+Theme Name: Twenty Thirteen
+Theme URI: https://wordpress.org/themes/twentythirteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+div{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    border:0;
+}
+
+.current-menu-item a {
+  background-color: #FF611A !important;
+}
+
+.layui-layer-title{ font-size: 18px !important;background-color: #ff9195 !important; border: 0 !important;font-weight: bold; }
+.layui-layer-content{ background-color: #fffedc ; border: 0 !important;font-weight: bold;min-height: 150px; }
+
+.cat_box_left{
+	text-align: center;
+}
+.cat_box_left img{
+	max-width: 100%;
+	max-height: 100%;
+}
+/*   yuen             
+
+                            	 */
+@media screen and (min-width:1000px)  {
+body {margin: 0 auto;}
+ul,li,span,div,a,table,img{margin:0;padding:0;}
+ul{list-style-type:none;}
+a{text-decoration:none;}
+.page{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Microsoft JhengHei;
+    background: #fff ;
+}
+
+/* header */
+.yuen-header{margin: 0 auto; max-width: 1000px;padding-top: 20px; position: relative;}
+.yuen-logo{ float: left; width:12%;padding: 0px 2%;} 
+.yuen-head{ float:right; width: 83%;padding: 10px 0 10px 1%;}
+.yuen-head nav{ padding-top: 10px; }
+/* menu */
+#mobile-menu-div{display: none;}
+.yuen-head .small-menu { display:none;}
+#hidden_menu {display: none;}
+.menu {  color:#8e8e8e;  }
+.menu div { float: left;  margin: 0 5px; text-align: center;  vertical-align: middle;}
+.menu div.item { float: left;    margin: 0 5px;  text-align: center; vertical-align: middle; }
+.menu div.item a {   color:#8e8e8e; }
+.menu div.item a:hover {   color:#FE8286;  }
+.menu div.item a .menu-name {   margin-top:5px;  }
+.menu div.item .submenu {   margin-left:20px;   position: absolute;   z-index: 999;}
+.menu div.item .submenu a:hover{    color:#FE8286;}
+.submenu{   display:none;   line-height:25px;   margin:0;   padding:0;   text-align:left;  font-size:15px;   font-weight:500;   background-color:#efefef;   }
+.menu div.item:hover .submenu{  display:block;  line-height:25px;  margin:0;  padding:0;   text-align:left;  font-size:15px;   font-weight:500;   background-color:#efefef;   }
+.submenu li{ padding:2px 5px ;width: 120px;  }
+
+.menu2{margin: 10px 0;}
+.menu2 .img1{ position:relative; z-index: 99;}
+.menu2 .img2{ position:absolute;display: none ;z-index: 98; top:0;}
+.lile .img2{display: block; z-index: 999; } 
+.menus .lile .img2{display: block; z-index: 999;margin:10px; } 
+
+/*   main */
+.yuen-main{ margin: 0 auto; max-width: 1000px;position: relative;z-index: 1;}
+.yuen-main-left{ float: left; width: 680px;padding-top: 20px; }
+.yt-logo{ padding-left: 15px;}
+
+.yuen-main-right{ float: right; width: 320px;padding-top: 20px;  position: relative;}
+.yuen-main-right a{color: #FEA758;}
+.news-logo{ border-bottom: 5px solid #FF9195; padding:0 0 5px 10px;}
+.yuen-news{ background-color: #FFEED0;text-align: center;}
+
+/* page */
+.yuen-main .main_left{float:left; width:17%; padding: 50px 0 0 0; } 
+.yuen-main .main_right{float: right;width: 80%;min-height: 400px; margin:2% 1% 5% 1%; overflow: hidden;}
+.page-title{ float: left; margin: 20px 0 0 5px; }
+
+/* footer */
+.yuen-campus{margin-top:10px; }
+.yuen-campus >div{ float: left; width: 16%; }
+.yuen-footer{ margin: 0 auto; max-width: 1000px; }
+
+
+/*      banner */
+.yuen-main .banner{width: 100%; height: 398px; background:#ffd; margin: 0 auto;}
+#sliderb_container{position: relative; top: 0px; left: 0px; width: 680px; height: 398px; overflow: hidden;  }
+.banner .banner-imgs{cursor: move; position: absolute; left: 0px; top: 0px; width:680px; height:398px;overflow: hidden; }
+ 
+/*  jssora05l：悬停（正常时）。 */
+.jssora05l , .jssora05r{
+    display: none;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url(images/a16.png) no-repeat;
+    overflow: hidden;
+}
+.banner:hover  .jssora05l{ display: block;}
+.banner:hover  .jssora05r{ display: block;}
+.jssora05l { background-position: -10px -40px; }
+.jssora05r { background-position: -70px -40px; }
+.jssora05l:hover { background-position: -130px -40px; }
+.jssora05r:hover { background-position: -190px -40px; }
+.jssora05l.jssora05ldn { background-position: -250px -40px; }
+.jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+
+
+.cat_box{
+	border-bottom-color:#bfbfbf;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	margin-left:25px;
+
+}
+.cat_box_left{
+	float:left;width:213px;margin-top:25px;margin-bottom:25px;margin-right:25px;height:144px;
+}
+.cat_box_right{
+	float:left;
+	padding-top:25px;
+	width:500px;
+}
+.cat_box_right .title{
+	padding-top:10px;
+}
+.cat_box_right .time{
+	padding-top:10px;
+}
+.cat_box_right .content{
+	padding-top:10px;
+}
+.cat_box a{
+	text-decoration: none;
+	color:#551a8b;
+	font-size: 16pagedpx;
+    font-weight: bold;
+}
+.paged a{
+    padding: 2px 5px;
+    margin: 2px;
+}
+
+.siblings-menu {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.siblings-menu .page-submenu-span {
+    margin: 5px;
+    padding: 3px;
+    width: 130px;
+    background-color: #965f62;
+    font-weight: bold;
+}
+.siblings-menu .page-submenu-span span{
+    padding:2px 5px;
+}
+.siblings-menu .page-submenu-span.current-submenu{
+    background-color: white;
+}
+.siblings-menu .page-submenu-span a{
+    color: white;
+}
+.siblings-menu .page-submenu-span.current-submenu a{
+     color: #f8b4c0;
+}
+.news_bg{
+    width: 100%; 
+    height: 350px;
+    position: absolute;
+    z-index: -1;
+    top: 74px;
+}
+
+.main-img{
+    padding: 5px;
+    text-align: center;
+}
+.main-img img{
+    width: 98%;
+    height: 260px;
+}
+
+}
+
+
+/******************************************************************************************************************* 1000px以下*******************************************************************************************************************************************************************************************************/         
+
+
+@media screen and (max-width:999px)  {
+
+body {margin: 0 auto;}
+ul,li,span,div,a,table,img{margin:0;padding:0;}
+ul{list-style-type:none;}
+a{text-decoration:none;}
+.page{     
+    background: #fff;
+    font-family: Microsoft JhengHei;
+}
+
+/* header */
+.yuen-header{margin: 0 auto; max-width: 1000px;padding-top: 20px;}
+.yuen-logo{margin: 0 auto; padding: 0px 2%;text-align: center;width: 20%;float: left;} 
+.yuen-head{margin: 0 auto; width: 75%;padding: 10px 0 10px 1%; float: right;}
+.yuen-head nav{ padding-top: 10px; }
+.yuen-logo img{ display: block;width: 100%;max-width: 120px; }
+/* menu */
+
+.menu {   display: none;}
+
+
+.menu2{margin: 10px 0;}
+.menu2 .img1{ position:relative; z-index: 99;}
+.menu2 .img2{ position:absolute;display: none ;z-index: 98; top:0;}
+.lile .img2{display: block; z-index: 100; } 
+.menus .lile .img2{display: block; z-index: 100;margin:10px; } 
+
+/*     small-menu */
+.yuen-head .small-menu {  display: block;  width: 96%; padding-top: 15px; }
+.yuen-head .small-menu .menu-bar {  background: #ff7676; width: 100%; 
+    height: 45px;  border-radius: 8px;  margin-top: 10px;}
+.yuen-head .small-menu .menu-bar .menu_icon { cursor: pointer;float: 
+    right;margin-right: 10px;margin-top: 3px; }
+
+#hidden_menu {  display: none; width: 96%;position: absolute; z-index: 999;border-radius: 5px; 
+    background: #ff7676;  padding-top: 10px;padding-bottom: 10px;left: 15px;}
+#hidden_menu .hidden_item { color: white; height: 35px;} 
+#hidden_menu .hidden_item .hidden_submenu {display: none;  background: #ff7670;position: relative; 
+    z-index: 9999;width: 100%; top: -2px;padding-top: 5px;padding-bottom: 10px; } 
+#hidden_menu .hidden_item a {color: white;display: block;padding: 8px; } 
+#hidden_menu .hidden_item a:hover { background: #ff4949;}
+#hidden_menu .hidden_item .hidden_submenu a:hover { background: #ff4949; } 
+#index-middle { padding: 25px; }
+#index-middle .recent-posts {   width: 86%;  }
+.menu_direction {float: right; margin-right: 10px; }
+
+
+/*   main */
+.yuen-main{ margin: 0 auto; max-width: 1000px;position: relative; z-index: 0;}
+.yuen-main-left{ width: 100%;padding-top: 6px; margin: 0 auto; }
+.yt-logo{ padding-left: 15px;}
+.yuen-main-right{width: 96%;padding-top: 20px;margin: 0 auto;padding-right: 10px; }
+.yuen-main-right a{color: #FEA758;}
+.news-logo{ border-bottom: 5px solid #FF9195; padding:0 0 5px 10px;}
+.yuen-news{ background-color: #FFEED0;text-align: center;}
+
+/* page */
+.yuen-main .main_left{float:left; width:17%; padding: 50px 0 0 0; } 
+.yuen-main .main_right{float: right;width: 80%;min-height: 400px; margin:2% 1% 5% 1%;}
+.page-title{ float: left; margin: 20px 0 0 5px; }
+
+/* footer */
+.yuen-campus{margin: 0 auto; margin-top:10px; width: 96%;  }
+.yuen-campus >div{ float: left; width: 16%; }
+.yuen-footer{ margin: 0 auto; max-width: 1000px; }
+/*      banner */
+.yuen-main .banner{width: 100%; height: 398px; background:#ffd; max-width: 680px;margin: 0 auto;}
+#sliderb_container{position: relative; top: 0px; left: 0px; overflow: hidden;  width: 680px; height: 398px;  }
+.banner .banner-imgs{cursor: move; position: absolute; left: 0px; top: 0px;overflow: hidden;  width: 680px; height: 398px; }
+ #img1{ width: 100%;}
+.news_bg{
+    width: 100%; 
+    height: 350px;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+}
+
+
+
+/*  jssora05l：悬停（正常时） */
+.jssora05l , .jssora05r{
+    display: none;
+    position: absolute;
+    size of arrow element
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url(images/a16.png) no-repeat;
+    overflow: hidden;
+}
+.banner:hover  .jssora05l{ display: block;}
+.banner:hover  .jssora05r{ display: block;}
+.jssora05l { background-position: -10px -40px; }
+.jssora05r { background-position: -70px -40px; }
+.jssora05l:hover { background-position: -130px -40px; }
+.jssora05r:hover { background-position: -190px -40px; }
+.jssora05l.jssora05ldn { background-position: -250px -40px; }
+.jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+
+
+        .yuen-mobile-menu {
+        position: relative;
+        z-index: 999;
+    }
+    .yuen-mobile-menu li {
+        background-color: #FF9195;
+        width: 100%;
+        line-height: 35px;
+        text-align: left;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        cursor: pointer;
+    }
+    .yuen-mobile-menu a {
+        font-size: 1em;
+        font-weight: bold;
+        margin-left: 20px;
+        color: black;
+        width: 100%;
+        display: block;
+    }
+    .mobile-menu-div {
+        width: 100%;
+        height: 40px;
+        margin: 0 -3%;
+        margin-top: 15px;
+        background:#FF9195;
+        position: relative;
+    }
+    .mobile-menu-div-down {
+        border-radius: 0px;
+    }
+    .mobile-menu-div-up {
+        border-radius: 10px;
+    }
+    .yuen-menu-icon {
+        float: right;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .yuen-mobile-menu .menu-item-has-children > a::after {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border-color: transparent transparent transparent #FFEED0;
+        border-image: none;
+        border-style: inset inset inset solid;
+        border-width: 5px;
+        content: "";
+        display: block;
+        height: 0;
+        margin-right: 35px;
+        margin-top: 15px;
+        float: right;
+    }
+    .yuen-mobile-menu .sub-menu {
+        display: none;
+    }
+    .yuen-mobile-menu .sub-menu li {
+        background-color: #FF9195;
+    }
+    .temporary-div li {
+        background-color: #FF9195;
+        width: 100%;
+        line-height: 35px;
+        text-align: left;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        cursor: pointer;
+    }
+    .temporary-div li a {
+        font-size: 1em;
+        font-weight: bold;
+        margin-left: 20px;
+        color: black;
+        width: 100%;
+        display: block;
+    }
+    .temporary-div .menu-item-has-children > a::after {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border-color: transparent transparent transparent #FFEED0;
+        border-image: none;
+        border-style: inset inset inset solid;
+        border-width: 5px;
+        content: "";
+        display: block;
+        height: 0;
+        margin-right: 35px;
+        margin-top: 15px;
+        float: right;
+    }
+	
+
+	
+	.cat_box{
+	border-bottom-color:#bfbfbf;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	
+	}
+	.cat_box_left{
+		height: 144px;
+        margin: 5px auto;
+        text-align: center;
+	}
+	.cat_box_right{
+
+	   margin:5px 10px;
+
+	}
+	.cat_box_right .title{
+		padding-top:10px;
+	}
+	.cat_box_right .time{
+		padding-top:10px;
+		
+	}
+	.cat_box_right .content{
+		padding-top:10px;
+	}
+	.cat_box a{
+		text-decoration: none;
+		color:#551a8b;
+		font-size: 18px;
+		font-weight: bold;
+	}
+    .paged a{
+        padding: 2px 5px;
+        margin: 2px;
+    }
+    
+.siblings-menu {
+
+}
+.siblings-menu .page-submenu-span {
+    margin: 5px;
+    padding: 3px;
+    font-size: 14px;
+    background-color: #965f62;
+    font-weight: bold;
+}
+.siblings-menu .page-submenu-span span{
+    padding:2px 5px;
+}
+.siblings-menu .page-submenu-span.current-submenu{
+    background-color: white;
+}
+.siblings-menu .page-submenu-span a{
+    color: white;
+}
+.siblings-menu .page-submenu-span.current-submenu a{
+     color: #f8b4c0;
+}
+
+
+.main-img{
+    padding: 5px;
+    text-align: center;
+}
+.main-img img{
+    width: 98%;
+    height: 260px;
+}
+
+}
+
+
+/******************************************************************************************************************* 767px以下******************************************************************************************************************************************************************************************************/
+
+@media screen and (max-width:767px)  {
+
+.yuen-main .main_left{float:none; display: none;} 
+.yuen-main .main_right{float: none;width: 98%; margin:0 auto; overflow: hidden;}
+.main-img{
+    padding: 5px;
+    text-align: center;
+}
+.main-img img{
+    width: 98%;
+    height: auto;
+}
+
+}

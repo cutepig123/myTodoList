@@ -1,0 +1,131 @@
+/* 
+ * Samuel Lai
+ * 20120831
+ * make 加入 button larger and move to another place 
+ */
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.clearfix{display:block;zoom:1}
+
+.clickable {cursor:pointer;}
+
+#page-left {float:left; width: 490px; display: inline; }
+#page-right {margin-left:510px;width:300px;}
+#page-right .sideboxs {padding-top:340px;}
+
+#page-header {margin-bottom:15px;}
+#page-header #page-logo {float:left;display:inline;}
+
+/* Begin Modified by Samuel Lai @20121122			WU logo change */
+/*
+#page-header #page-logo img {width:78px;height:76px;}
+*/
+#page-header #page-logo img {width:100px;height:101px;}
+/* End Modified by Samuel Lai @20121122				WU logo change */
+
+#page-header #page-content {margin-left:88px;}
+
+#page-header #page-content h1,
+#mrs-club-sidebar .title strong,
+#mrs-club-sidebar .title strong a { color:#4a2544; font-size:14px; line-height: 30px;}
+
+/* Begin Modified by Samuel Lai @20121122			WU logo change */
+/*
+#page-header #page-content .social-functions {margin-top:25px;}
+*/
+#page-header #page-content .social-functions {margin-top:25px;padding-left: 10px;}
+/* End Modified by Samuel Lai @20121122				WU logo change */
+
+#mrs-club-sidebar { background: #fff; margin-left:5px; border: #eae7c8 1px solid;padding:5px 0px 5px 5px;-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-right:0px;}
+#mrs-club-sidebar .title {position:relative;}
+#mrs-club-sidebar .title #notice-check {position:absolute;top:0px;right:0px;}
+
+/* Begin Modified by Samuel Lai @20121116			WU logo change */
+/*
+#mrs-club-sidebar .title img {width:26px;height:26px;vertical-align:middle;margin-right:5px;}
+ */
+#mrs-club-sidebar .title img {width:110px;height:30px;vertical-align:middle;margin-right:5px;}
+/* End Modified by Samuel Lai @20121116				WU logo change */
+
+#mrs-club-sidebar a {font-size: 12px; }
+#mrs-club-sidebar .link-wrapper {padding-left:5px;}
+#mrs-club-sidebar .link-wrapper .year-object-list {margin:0px;padding:0px;-webkit-padding-start:0px}
+a.expand-el {}
+
+/* Begin Modified by Samuel Lai @20120831			make button larger and move to another place */
+/*
+#page-join-btn {padding:0px 10px;cursor:pointer;}
+#page-join-btn a {border:none;background:url(/images/mrs-club/btn_add.gif) top left no-repeat;width:45px;height:16px;color:#fff;line-height:22px;font-size:11px;padding:2px 16px;}
+*/
+
+/* Begin Modified by Samuel Lai @20121116			WU logo change */
+#page-join-btn a {float:right; border:none; background:url(/images/mrs-club/btn_add.gif) 0 0 no-repeat; width:60px; height:35px; color:#fff; line-height:30px; font-size:15px; padding:5px 0 0 40px;}
+/* End Modified by Samuel Lai @20121116				WU logo change */
+
+#page-join-btn a:hover {background-position:0 -40px; text-decoration:none;}
+/* End Modified by Samuel Lai @20120831			make button larger and move to another place */
+
+#show-page-detail-btn {padding-left:15px;}
+
+/*.function-list li {float:left;display:inline;padding:3px 15px 3px 5px;}*/
+.function-list li {float:left;display:inline;padding:3px 12px 3px 5px;}
+
+.function-list li img {vertical-align:middle;padding-right:5px;}
+.function-list li:hover.blank-link {
+	background:url(/images/mrs-club/top-right-arrow.gif) 97% 3px no-repeat;
+	background-color:#eeeeee;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-top-left-radius: 3px;
+}
+.function-list li.current {background:url(/images/mrs-club/cur.gif) 10px bottom no-repeat;}
+
+.social-functions #moodform {}
+.social-functions #moodform textarea {width:394px;height:20px;border:1px solid #dcd5c1;}
+.social-functions #moodform textarea:focus {height:60px;}
+.social-functions #moodform .bottom-wrapper {text-align:right;}
+
+#memberlist li {padding: 8px 15px;width: 60px;overflow: hidden;}
+
+.feed-item {padding:10px 0px;border-top:1px solid #eee;}
+.feed-item .avatar {float:left;width:55px;}
+.feed-item .feed-content{margin-left:55px;}
+.feed-item .feed-content .timeline-info,
+.feed-item .feed-content .timeline-info em {font-size:11px;color:#999;font-style:normal;}
+
+.blog .blog-thumb {float: left; width: 110px; display: inline; text-align:center;}
+.blog .blog-thumb img.horizontal-thumb {width:100px;height:72px;}
+.blog .blog-thumb img.vertical-thumb {width:72px;height:100px;}
+.blog .blog-thumb img.cube-thumb {width:100px;height:100px;}
+.blog-text {color:#666;}
+
+.thumb-resize {width:100px;height:100px;}
+.more-btn {background: #fcf9e6;padding:5px 10px;width:100%;border:1px solid #eae7c8;text-align: center;cursor:pointer;margin-top: 15px;}
+
+#notice-check {float:right;background:#ff7602;width:20px;height:20px;text-align:center;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;margin-top: 5px;display:none;color: white;font-size: 11px;line-height: 20px;cursor:pointer;}
+.monitor-icon {float:left;}
+.monitor-list {border-top:12px solid #4d1f4e;margin-top:0px;float:left;width:247px; margin-left:5px;}
+.monitor-list li { overflow:hidden; padding:0px; width:55px;}
+
+/* icon */
+
+#mrs-club-sidebar i.note-icon {background:url(/images/mrs-club/icon.gif) left -30px no-repeat;padding:0px 8px;}
+
+#mrs-club-sidebar i.year-icon {background:url(/images/mrs-club/checkbox.gif) left -36px no-repeat;float:left;display:inline;width:12px;height:12px;margin:2px;}
+#mrs-club-sidebar i.month-icon {background:url(/images/mrs-club/checkbox.gif) left -24px no-repeat;float:left;display:inline;width:12px;height:12px;margin:2px;}
+
+.selected i.year-icon {background-position:left 0px;}
+.selected i.month-icon {background-position:left -12px;}
+
+#notice {margin-bottom:10px;position:relative;}
+.float_delete {top:3px;right:3px;margin-right:3px;}
+
+#notice .title {cursor:pointer;}
+
+#non-login-notice {padding:60px 0px;display:none; width: 400px;}
+#non-login-notice p { text-align:center; }

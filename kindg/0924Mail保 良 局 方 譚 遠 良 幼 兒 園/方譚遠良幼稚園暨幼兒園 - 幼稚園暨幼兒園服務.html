@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0046)http://kgn.poleungkuk.org.hk/tc/1124/page.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="pragma" content="no-cache"><meta http-equiv="expires" content="-1"><link rel="stylesheet" type="text/css" href="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/common.css">
+    <script type="text/javascript" async="" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/ga.js"></script><script type="text/javascript" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/jquery-1.9.1.js"></script><style type="text/css"></style>
+    <script type="text/javascript" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/plk.js"></script>
+    <link rel="stylesheet" href="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/jquery-ui-1.10.3.custom.min.css">
+    <script type="text/javascript" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#dialog-message").dialog({
+                autoOpen: false,
+                modal: true,
+                width: 620,
+                buttons: {
+                    Ok: function () {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+
+            $("#dialog-unsubscribe").dialog({
+                autoOpen: false,
+                modal: true,
+                width: 620,
+                buttons: {
+                    Ok: function () {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+        });
+
+        function submitForm() {
+            if (IsEmail($('#txtEmail').val())) {
+                var jqxhr = $.post("subscription.aspx", { txtEmail: $('#txtEmail').val(), centerid: $('#centerid').val(), centrename: $('#centrename').val(), typeid: $('#typeid').val(), pageid: $('#pageid').val(), type: "subscribe" }, function () {
+                })
+                .done(function () {
+                    $('#txtEmail').val('');
+                    $("#dialog-message").dialog("open");
+                })
+                .fail(function () { alert("Submission error."); });
+            }
+            else
+                alert("電郵格式不正確!");
+        }
+
+        function unsubscribeForm() {
+            if (IsEmail($('#txtEmail').val())) {
+                var jqxhr = $.post("subscription.aspx", { txtEmail: $('#txtEmail').val(), centerid: $('#centerid').val(), centrename: $('#centrename').val(), typeid: $('#typeid').val(), type: "unsubscribe" }, function () {
+                })
+                .done(function () {
+                    $('#txtEmail').val('');
+                    $("#dialog-unsubscribe").dialog("open");
+                })
+                .fail(function () { alert("Submission error."); });
+            }
+            else
+                alert("電郵格式不正確!");
+        }
+
+        function IsEmail(email) {
+            var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            return regex.test(email);
+        }
+    </script>
+<meta name="description" content="配合社會與家庭的需要，提供多元化的幼兒服務，包括日間育嬰服務、幼稚園暨幼兒園服務、特殊幼兒中心暨早期教育及訓練中心、以及兒童發展中心，透過悉心及妥善的照顧與關懷，讓幼兒在愛心下健康成長，並在富啟發性的環境下，培養其探索及自學精神，為終身學習奠基。同時，為顧及不同的需要，亦設有日間暫托幼兒服務、延長時間服務、兼收計劃、點滴創明天-關懷特殊兒童捐助計劃等。"><meta name="keywords" content="幼兒服務，育兒，照顧，幼兒園，幼稚園，托兒所，嬰幼兒，嬰兒，孩子，社會服務，保良局，使命，學前教育，幼兒教育，二至六歲，2-6歲，三至六歲，3-6歲，幼園，幼院，學前教育學券，幼稚園學券，幼兒教育學券，幼兒課程，非牟利幼稚園，非牟利幼兒園，，幼兒中心，幼兒學校，日間幼兒中心，幼稚園暨幼兒園，幼稚園暨幼兒中心，托兒服務，託兒中心，延展，延長時間服務，幼兒延長服務，幼兒延展服務，兒童照顧，幼兒中心延長時間服務，暫託，暫託幼兒服務，幼兒暫托服務中心，幼兒暫託服務名單，兼收，幼稚園暨幼兒中心兼收，幼稚園兼收，幼兒中心兼收，兼收計劃，輕度弱智，輕度肢體傷殘，特殊幼兒中心，早期訓練及訓練中心，兒童發展中心，特殊教育，特教，幼兒學習天地，幼兒學習中心東涌幼兒，東涌中心，逸東幼兒，逸東中心，點滴，點滴創明天，關懷特殊兒童，特殊兒童發展基金，學習困難，學習遲緩，融合教育，智障，智力障礙，讀寫障礙，讀寫困難，自閉症，亞氏保加症，肢體傷殘，聽覺障礙，聽障，視覺障礙，視障，注意力不足，過度活躍，過動症，過動兒，基層家庭特殊兒童"><script type="text/javascript" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/getAllAppDefault.esi"></script><script type="text/javascript" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/checkOAuth.esi"></script><link rel="stylesheet" type="text/css" href="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/buttons.ab966a004186897711de4a5ed256c924.css"></head>
+<body>
+    <form name="form1" method="post" action="http://kgn.poleungkuk.org.hk/tc/1124/page.html" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTQ4OTIzNTE1NGRk6bJXHpHblB+/VJZ8/WkGcGBDvA4ryY2Pu+jzw6OUt1c=">
+</div>
+
+    <div class="main">
+        <div style="display:none;">
+  <h1>主目錄</h1>
+</div>
+<div style="float:left; width:888px; position:relative;">
+  <div style="position:absolute; float:left; width:100%; height:75px;">
+    <div class="main_bg_flower"></div>
+    <div class="bt_lang" onclick="javascript:changelang();" title="Go to English Version"></div>
+    <div><a href="http://kgn.poleungkuk.org.hk/tc/0/index.html"><div class="logo_main" title="保良局"></div></a></div>
+  </div>
+  <div class="clear"></div>
+  <div class="menu_bts_main">
+    <ul id="navlist">
+      <li><a href="http://kgn.poleungkuk.org.hk/tc/753/childcare-youth.html"><div class="menu_bt1_main">
+            <div style="display:none;">日間育嬰服務</div>
+            <div style="margin-top:84px;"><img border="0" alt="日間育嬰服務" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/bt_main_bm_01.jpg"></div>
+          </div></a></li>
+      <li><a href="http://kgn.poleungkuk.org.hk/tc/1174/childcare-youth.html"><div class="menu_bt2_main">
+            <div style="display:none;">幼稚園暨幼兒園及兒童綜合服務</div>
+            <div style="margin-top:84px;"><img border="0" alt="幼稚園暨幼兒園及兒童綜合服務" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/bt_main_bm_02.jpg"></div>
+          </div></a></li>
+      <li><a href="http://kgn.poleungkuk.org.hk/tc/1175/childcare-youth.html"><div class="menu_bt3_main">
+            <div style="display:none;">學前特殊教育服務</div>
+            <div style="margin-top:84px;"><img border="0" alt="學前特殊教育服務" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/bt_main_bm_03.jpg"></div>
+          </div></a></li>
+      <li><a href="http://kgn.poleungkuk.org.hk/tc/1187/page.html"><div class="menu_bt4_main">
+            <div style="display:none;">其他服務計劃</div>
+            <div style="margin-top:84px;"><img border="0" alt="其他服務計劃" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/bt_main_bm_04.jpg"></div>
+          </div></a></li>
+      <li><a href="http://kgn.poleungkuk.org.hk/tc/1177/page.html"><div class="menu_bt5_main">
+            <div style="display:none;">最新消息</div>
+            <div style="margin-top:84px;"><img border="0" alt="最新消息" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/bt_main_bm_05.jpg"></div>
+          </div></a></li>
+      <li><a href="http://kgn.poleungkuk.org.hk/tc/1178/page.html"><div class="menu_bt6_main">
+            <div style="display:none;">人才招募</div>
+            <div style="margin-top:84px;"><img border="0" alt="人才招募" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/bt_main_bm_06.jpg"></div>
+          </div></a></li>
+    </ul>
+  </div>
+</div>
+
+        <div class="kindergarten" style="float:left; width:100%;">
+            <div class="banner_b"></div>
+<div class="banner_title">方譚遠良幼稚園<br>暨幼兒園</div>
+<div class="banner_sub_title"></div>
+<div class="banner_sub_title2"></div>
+<div class="banner_photo"></div>
+            <div class="body_all_main">
+                <div style="display:none;">
+  <h1>次目錄</h1>
+</div>
+<div class="menu_bt_group"><a href="http://kgn.poleungkuk.org.hk/tc/1124/page.html"><div class="select">幼稚園暨幼兒園服務</div></a><a href="http://kgn.poleungkuk.org.hk/tc/1125/page.html"><div class="menu_bt">日間暫託幼兒服務</div></a><a href="http://kgn.poleungkuk.org.hk/tc/1126/page.html"><div class="menu_bt">延長時間服務</div></a><a href="http://kgn.poleungkuk.org.hk/tc/1127/page.html"><div class="menu_bt">兼收弱能兒童計劃</div></a><a href="http://kgn.poleungkuk.org.hk/tc/1128/gallery.html"><div class="menu_bt">相片廊</div></a><a href="http://kgn.poleungkuk.org.hk/tc/1130/contact-us.html"><div class="menu_bt">聯絡我們</div></a><a href="http://kgn.poleungkuk.org.hk/tc/1131/page.html"><div class="menu_bt">相關連結</div></a><a href="http://kgn.poleungkuk.org.hk/tc/1303/page.html"><div class="menu_bt">最新消息</div></a></div>
+                <div class="body_right">
+                    <div class="body_top"></div>
+<div class="body_right_title">幼稚園暨幼兒園服務</div>
+<div class="body_area_right"><h2>本校簡介</h2>
+<p>本校為保良局轄下之幼稚園暨幼兒園，屬非牟利性質，並已參加學前教育學券計劃。本校創於1988年，並承蒙方譚遠良女士捐款命名為「方譚遠良幼稚園暨幼兒園」，致力為荃灣區內有需要的幼兒及其家庭，提供多元化的日間照顧及教育服務。</p>
+<div class="line_a"></div>
+<h2>教學特色</h2>
+<ul>
+  <li>貫徹全人發展，每日均有體能、創意音樂和藝術活動。</li>
+  <li>注重語文發展，積極推行中、英文閱讀計劃。</li>
+  <li>提供充足資源，鼓勵幼兒積極探索，培養自學精神，孕育學習上的九種共通能力。</li>
+  <li>採用主題式教學，透過活動區和不同層次的教材，深化不同學習範疇的內容，以鞏固兒童已學習的知識。</li>
+  <li>運用進展性的評估方法，持續地評估幼兒的學習和身心發展情況，並因應幼兒的學習需要，靈活調適教學策略。</li>
+  <li>每名兒童均設有個人工作檔案，有系統地紀錄及收集兒童日常活動的表現及作品，定期向家長匯報。</li>
+</ul>
+<div class="line_a"></div>
+<h2>學校環境</h2>
+<img src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/photo_center_kindergarten_23.jpg" width="300" height="119">
+<div class="line_a"></div>
+<h2>服務對象</h2>
+<p>2-6 歲幼兒</p>
+<div class="line_a"></div>
+<h2>服務時間</h2>
+<p>星期一至五 上午八時至下午六時</p>
+<p>星期六 上午八時至下午一時</p>
+<div class="line_a"></div>
+<h2>收費</h2>
+<p>全年12期，按教育局核准收費，每年作調整。</p>
+<p>家長可向學生資助辦事處申請繳費資助。</p>
+<p>幼兒班、低班或高班的學童，可透過「學前教育學劵計劃」獲得學費資助。</p>
+<div class="line_a"></div>
+<h2>膳食</h2>
+<p>設有廚房，每日提供款式多樣化、營養均衡的早餐、午餐、水果及下午茶點。不吃醃製食物，有助幼兒身體健康成長。</p>
+<div class="line_a"></div>
+<h2>申請手續</h2>
+<p>幼兒年齡足12個月可申請。</p>
+<p>家長親臨本校報名或下載<a href="http://kgn.poleungkuk.org.hk/tc/uploads/attachments/%E5%85%A5%E5%9C%92%E7%94%B3%E8%AB%8B%E8%A1%A8(20-6-2014).doc" target="_blank">報名表</a>，傳真或寄回本校。</p>
+<p>幼兒入學前需作體格檢查。<br>
+<br>
+有關2016-2017<a href="http://kgn.poleungkuk.org.hk/tc/uploads/attachments/DS23/%E6%94%B6%E7%94%9F%E7%A8%8B%E5%BA%8F/%E6%94%B6%E7%94%9F%E7%A8%8B%E5%BA%8F(%E5%B9%BC%E6%9A%A8)%E4%B8%8A%E8%BC%89%E7%B6%B2%E9%A0%81%E7%89%88%E6%9C%AC16-17.pdf" target="_blank">收生程序</a></p></div>
+                    
+
+<script type="text/javascript">
+    function sharetoFB() {
+        var sharer = "https://www.facebook.com/sharer/sharer.php?u=";
+        window.open(sharer + location.href, 'sharer', 'width=626,height=436');
+    }
+    </script>
+
+    
+    <script type="text/javascript">
+        var switchTo5x = true;
+    </script>
+    <script type="text/javascript" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/buttons.js">
+    </script>
+    <script type="text/javascript">
+        stLight.options({ doNotHash: false, doNotCopy: false, hashAddressBar: false, onhover: false });
+    </script>
+    <style type="text/css">
+    .st_sharethis_custom{
+        padding:0px 16px 0 0;
+        cursor:pointer;
+    }
+.copy_right .iconFacebook {position:relative; left:18px; top:55px; }
+.copy_right .iconSharethis {position:relative; left:53px; top:55px;}
+</style>
+
+
+<div class="copy_right">
+    <div style="float:left;">
+        <a href="javascript:sharetoFB();"><img src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/icon-facebook.png" alt=""></a>
+        <span class="st_sharethis_custom" st_processed="yes"><img src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/icon-sharethis.png" alt=""></span>
+    </div>
+    <div style="float:right; margin-right:120px;"><a href="http://kgn.poleungkuk.org.hk/tc/0/sitemap.html"><img src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/sitemap_text.gif" alt="網站索引" width="46" height="14"></a> <img src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/dot-footer.png" alt="其他分享" style="margin-bottom:3px;"> </div>
+    <div style="display:none;">版權所有©2013保良局</div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    
+    
+    </form>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-22366944-5']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-describedby="dialog-message" aria-labelledby="ui-id-1" style="display: none; position: absolute;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">活動通訊</span><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title="close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">close</span></button></div><div id="dialog-message" class="ui-dialog-content ui-widget-content">
+        <div id="subscribeThanks">
+            <div>
+                <div class="bg">
+                    <div class="message">謝謝您對我們的支持！</div>
+                    <div class="content">最新的活動通訊將會發送到您的電郵。</div>
+                </div>
+            </div>
+        </div>
+    </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Ok</span></button></div></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-describedby="dialog-unsubscribe" aria-labelledby="ui-id-2" style="display: none; position: absolute;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-2" class="ui-dialog-title">取消訂閱活動通訊</span><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title="close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">close</span></button></div><div id="dialog-unsubscribe" class="ui-dialog-content ui-widget-content">
+        <div id="unsubscribeThanks">
+            <div>
+                <div class="bg">
+                    <div class="message">取消訂閱活動通訊</div>
+                    <div class="content">閣樓的電郵地址已被剔除。如有需要,請重新登記。</div>
+                </div>
+            </div>
+        </div>
+    </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Ok</span></button></div></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div><div id="stcpDiv" style="position: absolute; top: -1999px; left: -1988px;">ShareThis Copy and Paste</div><iframe id="stSegmentFrame" name="stSegmentFrame" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/getSegment.html" frameborder="0" scrolling="no" width="0px" height="0px" style="display:none;"></iframe><div id="stwrapper" class="stwrapper stwrapper5x" style="display: none;"><iframe allowtransparency="true" id="stLframe" class="stLframe" name="stLframe" frameborder="0" scrolling="no" src="./方譚遠良幼稚園暨幼兒園 - 幼稚園暨幼兒園服務_files/index.82340bfed5900685ca1417023e04d781.html"></iframe></div><div id="stOverlay" onclick="javascript:stWidget.closeWidget();"></div></body></html>

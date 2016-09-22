@@ -1,0 +1,178 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#leftmenu {
+}
+#leftmenu table {
+	width:100%;
+	border-collapse:collapse;
+}
+#leftmenu li a span {
+	padding-right:20px;
+}
+#leftmenu li.children a span {
+	background:url(../../../../templates/plk_home/images/arrow_blue.gif) no-repeat right top;
+	line-height:31px;
+	display:block;
+}
+#leftmenu li a:hover, #leftmenu li.active a {
+	background:url(../../../../templates/plk_home/images/left_menu_bg.jpg) no-repeat left -31px;
+	color:#3777A5;
+	font-weight:bold;
+}
+
+bady#en-gb #leftmenu li a:hover,bady#en-gb #leftmenu li.active a { font-weight:normal;}
+
+#leftmenu li a {
+	text-decoration:none;
+	text-align:left;
+	margin:0;
+	line-height:31px;
+	display:block;
+	background:url(../../../../templates/plk_home/images/left_menu_bg.jpg) no-repeat left top;
+	color:#747474;
+	font-weight: normal;
+	padding-left:28px;
+	cursor:pointer;
+	 
+}
+#leftmenu ul.sublevel li a {
+	background:none;
+	line-height:31px;
+	padding-left:8px;
+	background:#D4EAF8 url(../../../../templates/plk_home/images/left_bg_pop.jpg) repeat-x left top;
+	border-bottom:#fff solid 1px;
+	font-weight:normal;
+}
+#leftmenu ul li.children ul li.nochildren a span {
+	background:none;
+}
+#leftmenu li.active a {
+	color:#0479A5;
+}
+#leftmenu li.active a.active {
+	color:#3777A5;
+	background:url(../../../../templates/plk_home/images/left_menu_bg.jpg) no-repeat left -31px; font-weight:bold;
+}
+
+bady#en-gb #leftmenu li.active a.active{ font-weight:normal;}
+
+#leftmenu li.active a:hover {
+	color:#3777A5;
+}
+#leftmenu ul li.active ul li.active a.active{background:#D4EAF8 url(../../../../templates/plk_home/images/left_bg_pop.jpg) repeat-x left top; font-weight:bold;}
+
+bady#en-gb #leftmenu ul li.active ul li.active a.active{ font-weight:normal;}
+
+#leftmenu li li a:hover, #leftmenu li li.active a { background:#D4EAF8 url(../../../../templates/plk_home/images/left_bg_pop.jpg) repeat-x left top; font-weight:bold;}
+
+bady#en-gb #leftmenu li li a:hover, bady#en-gb #leftmenu li li.active a { font-weight:normal;}
+
+#leftmenu ul ul {
+	position:absolute;
+	display:none;
+	left:100%;
+	top:-1px;
+	z-index:993;
+	z-index:993 !important;
+	
+}
+#leftmenu li {
+	position:relative;
+	_position:static;
+	float:left;
+	width:100%;
+	z-index:993;
+}
+*html div#pagecontent h3.atStart{ z-index:-888;}
+#leftmenu a.li {
+	position:relative;
+	z-index:99993;
+}
+#leftmenu .li:hover {
+	z-index:2;
+	background:transparent;
+}
+#leftmenu .li:hover ul {
+	display:block;
+}
+#leftmenu .li:hover ul ul {
+	display:none;
+}
+#leftmenu .li:hover ul .li:hover ul ul {
+	display:none;
+}
+#leftmenu .li:hover ul .li:hover ul .li:hover ul ul {
+	display:none;
+}
+#leftmenu .li:hover ul .li:hover ul .li:hover ul .li:hover ul ul {
+	display:none;
+}
+#leftmenu .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul ul {
+	display:none;
+}
+#leftmenu .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul ul {
+	display:none;
+}
+#leftmenu .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul ul {
+	display:none;
+}
+#leftmenu .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul .li:hover ul ul {
+	display:none;
+}
+#leftmenu .li:hover ul {
+	width:90%;
+	background:#fff;
+	padding:1px;
+}
+#leftmenu .li:hover li {
+	border-bottom:none;
+}
+#leftmenu .li:hover li .option {
+	padding:2px 5px;
+	background:transparent;
+}
+#leftmenu .li:hover li .option:hover {
+	background:#0096ff;
+	color:#fff;
+}
+#leftmenu .li:hover .li:hover ul {
+	display:block;
+	left:100%;
+	width:90%;
+	top:-2px;
+}
+#leftmenu .li:hover .li:hover .li:hover ul {
+	display:block;
+	left:100%;
+	width:90%;
+	top:-2px;
+}
+#leftmenu .li:hover .li:hover .li:hover .li:hover ul {
+	display:block;
+	left:100%;
+	width:90%;
+	top:-2px;
+}
+#leftmenu .li:hover .li:hover .li:hover .li:hover ul {
+	display:block;
+	left:100%;
+	width:90%;
+	top:-2px;
+}
+#leftmenu .li:hover .li:hover .li:hover .li:hover .li:hover ul {
+	display:block;
+	left:100%;
+	width:90%;
+	top:-2px;
+}
+#leftmenu .li:hover .li:hover .li:hover .li:hover .li:hover .li:hover ul {
+	display:block;
+	left:100%;
+	width:90%;
+	top:-2px;
+}
+
+#leftmenu ul li a.separator { cursor:default; }

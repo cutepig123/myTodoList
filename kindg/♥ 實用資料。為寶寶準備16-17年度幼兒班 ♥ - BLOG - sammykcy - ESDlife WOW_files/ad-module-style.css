@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+
+/**************************************/
+/**********Mobile first view***********/
+/**************************************/
+.ad-mobile-first-view-origin {}
+.ad-mobile-first-view-origin iframe {
+	height:0px;
+	display:none;  /* Prevent empty spacing when loading is incomplete */
+}
+
+
+/***********************************/
+/*************Billboard*************/
+/***********************************/
+.ad-billboard-origin {}
+.ad-billboard-origin iframe {
+	height:0px;
+	display:none; /* Prevent empty spacing when loading is incomplete */
+}
+	/**** Mrs Club ****/
+	.ad-mrs-club-homepage.ad-billboard-origin #ad-billboard-creative {
+		margin-bottom:7px;
+	}
+	/**** Wedding Union ****/
+	.ad-wedding-union-homepage.ad-billboard-origin #ad-billboard-creative {
+		margin-bottom:10px;
+	}
+	
+	
+/******************************************/
+/*************Crazy ad overlay*************/
+/******************************************/
+.ad-crazy-ad-origin {
+	z-index:9000; /* Fix <IE8 positioning issues, should be the same as the #ad-crazy-ad-creative-wrapper */
+}
+.ad-crazy-ad-origin iframe {
+	height:0px;
+	display:none; /* Prevent empty spacing when loading is incomplete */
+}
+	/***** Override the creative template style here *****/
+	.ad-crazy-ad-origin #ad-crazy-ad-creative-wrapper {
+		z-index:9000;
+		padding-top:180px;
+	}
+		.ad-crazy-ad-origin #ad-crazy-ad-creative-close-btn {
+			z-index:9001;
+		}
+	
+	
+/*************************************/
+/*************Baby banner*************/
+/*************************************/
+.ad-baby-banner-origin {
+	width:300px;
+	height:60px;
+	margin-bottom:10px;
+}
+	
+	
+/****************************************/
+/*************Content banner*************/
+/****************************************/
+.ad-content-banner-origin {
+	width:300px;
+	height:250px;
+	margin-bottom:10px;
+}
+	
+
+/*****************************************/
+/****************Skyscraper***************/
+/*****************************************/
+.ad-skyscraper-origin {
+	width:300px;
+	height:600px;
+	margin-bottom:10px;
+}
+	
+	
+/*****************************************/
+/**************In Feed banner*************/
+/*****************************************/
+.ad-in-feed-origin {
+	width:470px;
+	height:170px;
+}
+.ad-in-feed-origin iframe {
+	height:0px;
+	display:none;  /* Prevent empty spacing when loading is incomplete */
+}
+	/**** Mrs Club ****/
+	.ad-mrs-club-homepage.ad-in-feed-origin .ad-in-feed-creative-sponsor-text {
+		font-family:"Microsoft JhengHei";
+		color:#A0A0A0;
+	}
+	.ad-mrs-club-homepage.ad-in-feed-origin .ad-in-feed-creative-feed-title a {
+		font-family:"Microsoft JhengHei";
+		color:#eb228d;
+	}
+		.ad-mrs-club-homepage.ad-in-feed-origin .ad-in-feed-creative-feed-title a:hover {
+			color:#07a89d;
+		}
+	.ad-mrs-club-homepage.ad-in-feed-origin .ad-in-feed-creative-feed-content a {
+		color:#666666;
+		font-family:"Microsoft JhengHei";
+	}
+	/**** Wedding Union ****/
+	.ad-wedding-union-homepage.ad-in-feed-origin .ad-in-feed-creative-sponsor-text {
+		font-family:"Microsoft JhengHei";
+		color:#A0A0A0;
+	}
+	.ad-wedding-union-homepage.ad-in-feed-origin .ad-in-feed-creative-feed-title a {
+		font-family:"Microsoft JhengHei";
+		color:#a8774a;
+	}
+		.ad-wedding-union-homepage.ad-in-feed-origin .ad-in-feed-creative-feed-title a:hover {
+			color:#555;
+		}
+	.ad-wedding-union-homepage.ad-in-feed-origin .ad-in-feed-creative-feed-content a {
+		color:#666666;
+		font-family:"Microsoft JhengHei";
+	}
+	
+		
+/*****************************************/
+/**************In Blog banner*************/
+/*****************************************/
+.ad-in-blog-origin {
+	width:640px;
+	height:170px;
+}
+.ad-in-blog-origin iframe {
+	height:0px;
+	display:none;  /* Prevent empty spacing when loading is incomplete */
+}
+	/**** Mrs Club ****/
+	.ad-mrs-club-blog.ad-in-blog-origin .ad-in-blog-creative-sponsor-text {
+		font-family:"Microsoft JhengHei";
+		color:#A0A0A0;
+	}
+	.ad-mrs-club-blog.ad-in-blog-origin .ad-in-blog-creative-post-title a {
+		font-family:"Microsoft JhengHei";
+		color:#eb228d;
+	}
+		.ad-mrs-club-blog.ad-in-blog-origin .ad-in-blog-creative-post-title a:hover {
+			color:#07a89d;
+		}
+	.ad-mrs-club-blog.ad-in-blog-origin .ad-in-blog-creative-post-content a {
+		color:#666666;
+		font-family:"Microsoft JhengHei";
+	}
+	/**** Wedding Union ****/
+	.ad-wedding-union-blog.ad-in-blog-origin .ad-in-blog-creative-sponsor-text {
+		font-family:"Microsoft JhengHei";
+		color:#A0A0A0;
+	}
+	.ad-wedding-union-blog.ad-in-blog-origin .ad-in-blog-creative-post-title a {
+		font-family:"Microsoft JhengHei";
+		color:#a8774a;
+	}
+		.ad-wedding-union-blog.ad-in-blog-origin .ad-in-blog-creative-post-title a:hover {
+			color:#555;
+		}
+	.ad-wedding-union-blog.ad-in-blog-origin .ad-in-blog-creative-post-content a {
+		color:#666666;
+		font-family:"Microsoft JhengHei";
+	}
+		
+
+/*****************************************/
+/********Promotional heading text*********/
+/*****************************************/
+.ad-promotional-heading-origin {
+	max-width:470px;
+	max-height:20px;
+	margin-left:190px;
+	padding:0px !important;
+}
+.ad-promotional-heading-origin iframe {
+	height:0px;
+	display:none;  /* Prevent empty spacing when loading is incomplete */
+}
+	.ad-promotional-heading-origin .ad-promotional-heading-creative {
+		margin-top:10px;
+	}
+	/**** Mrs Club ****/
+	.ad-mrs-club-homepage.ad-promotional-heading-origin .ad-promotional-heading-creative-text a {
+		color:#eb228d;
+		font-weight:bold;
+		font-family:"Microsoft YaHei";
+	}
+		.ad-mrs-club-homepage.ad-promotional-heading-origin .ad-promotional-heading-creative-text a:hover{
+			color:#07a89d;
+		}
+	/**** Wedding Union ****/
+	.ad-wedding-union-homepage.ad-promotional-heading-origin {
+		padding:3px 0px 3px 10px;
+	}
+	.ad-wedding-union-homepage.ad-promotional-heading-origin .ad-promotional-heading-creative-text a {
+		color:#a8774a;
+		font-weight:bold;
+		font-family:"Microsoft YaHei";
+	}
+		.ad-wedding-union-homepage.ad-promotional-heading-origin .ad-promotional-heading-creative-text a:hover{
+			color:#555;
+		}
+
+/*****************************************/
+/**************PreFeed banner*************/
+/*****************************************/
+.ad-prefeed-origin {
+	width:470px;
+	height:220px;
+}
+
+/*****************************************/
+/******************PULL_AD****************/
+/*****************************************/
+.ad-pull_ad-origin {
+	width:300px;
+	height:250px;
+}
+

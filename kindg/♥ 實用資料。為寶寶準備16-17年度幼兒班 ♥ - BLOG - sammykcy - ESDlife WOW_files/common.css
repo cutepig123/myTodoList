@@ -1,0 +1,45 @@
+﻿#suggestedReadings {
+	top: 580px;
+	width: 300px;
+	position: absolute;
+	display: none;
+}
+
+#suggestedReadings .title {
+	margin: 10px 80px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Microsoft JhengHei', 微軟正黑體, 'Apple LiGothic Medium', 蘋果儷中黑, 'Lucida Grande', 'Lucida Sans Unicode', Helvetica;
+	color: #a8774a;
+}
+
+#suggestedReadingsData div {
+	margin-bottom: 10px;
+	display: block;
+}
+#suggestedReadingsData .img {
+	width: 140px;
+	height: 93px;
+	display: inline-block;
+    vertical-align: middle;
+	float: left;
+	background-size: cover;
+    background-position: 50% 50%;
+}
+
+#suggestedReadingsData span {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Microsoft JhengHei', 微軟正黑體, 'Apple LiGothic Medium', 蘋果儷中黑, 'Lucida Grande', 'Lucida Sans Unicode', Helvetica;
+
+    color: #a8774a;
+	
+	display: inline-block;
+	padding-left: 10px;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	width: 150px;
+	
+	white-space: nowrap;
+	overflow: hidden;
+}

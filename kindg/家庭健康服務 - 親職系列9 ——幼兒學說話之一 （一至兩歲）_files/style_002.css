@@ -1,0 +1,328 @@
+﻿/* TYPROGRAHPY */
+*[lang|='en'] {font-family:Arial, Helvetica, sans-serif;}
+.tc .en, .sc .en {font-family:Arial, Helvetica, sans-serif;} 	/*ie6*/
+*[lang|='zh'] {font-family:PMingLiu, MingLiu, Arial, Helvetica, sans-serif;}
+.en .zh-hk, .en .zh-cn {font-family:PMingLiu, MingLiu, Arial, Helvetica, sans-serif;}	/*ie6*/
+
+*[lang='ur'] {font-family:tahoma, Adobe Arabic, AlFars 23 Ahmed, AlFars 9 Badr, AlQalam Fawad Light, AlQalam Nabeel;}
+
+/* Override default styles */
+body{margin:0; width:760px; margin-left:auto; margin-right:auto;}
+a:link, a:visited {color:#871973; text-decoration:none;}
+a:active , a:hover, a:focus, a:active span, a:hover span, a:focus span{color:#bf0093; text-decoration:underline;}
+
+/* Common Layout */
+.outer-wrapper { margin:0 auto; width:760px;}
+.left-column {float:left; width:185px;}
+.right-column { float:left; width:575px;}
+.content-wrapper {padding-top:10px; padding-left:20px; padding-right:20px;}
+
+/* Common class */
+.reset { clear:both;}
+.disable{display:none;}
+.important{color:#AD0000; font-weight:bold;}
+.error{color:red;}
+
+.nav { font-size:1.3em; color:#1E725B}
+.frt_news { color:#656565}
+
+.body {color:#000000;}
+.body2 { color:#656565}
+.body_b { color:#0359A3;}
+.hdbody_p { color:#9F359A; font-weight:bold}
+
+.title {font-weight:bold;}
+.hd { color:#CF4603; font-weight:bold}
+.subhd_nom { color:#9F359A; font-style:italic}
+table .abs_mid{text-align:center; vertical-align:middle;}
+a.hoverU:link ,a.hoverU:visited {text-decoration:none;}
+a.hoverU:hover ,a.hoverU:focus,a.hoverU:active{ text-decoration:underline;}
+
+.hd { color: #CF4603; font-weight: bold}
+.subhd_nom { color: #9F359A; font-style: italic}
+.hd_Woman {	color:#660066; font-weight:bold;}
+.subhd_Woman { color:#993366; font-weight:bold }
+.hd_Woman2 { color:#660066; font-weight:bold }
+.subhd2_Woman { color:#8A008A; font-weight:bold }
+.hd_Child { color:#CF4603; font-weight:bold}
+.subhd_Child { color:#CF4603; font-weight:bold}
+.subhd2_Child { color:#CF4603; font-weight:bold }
+
+.clstable {color:#656565; width:85%; border:0; margin:0 50px;}
+.clstable tr{background-image:url(general/dot_o.gif)background-repeat: repeat-x/*padding-top: 10px;*/}
+.clstable span{display:inline-block;vertical-align:top}
+.clstable tr{background-image:url(../../english/images/general/dot_o.gif); background-repeat:repeat-x;}
+.clstable td{padding:10px 5px;line-height: 1.5;}
+
+.plist{list-style-image:url("../images/list_type_pink.gif");}
+.olist{list-style-image:url("../images/list_type_orange.gif");}
+
+.service_table{border:0px; border-collapse:separate; background-color:#000;}
+.service_table .th, .service_table th{background-color:#E6E0EC; color:#665E78; width:14.28%;}
+.service_table td{text-align:center; padding:5px;line-height: 1.5;height:30px}
+.service_table span{display:inline-block;}
+.service_table .child_health{background-color:#DBEEF4;}
+.service_table .family_planning{background-color:#FEEEDD;}
+.service_table .postnatal{background-color:#91CCDF;}
+.service_table .cervical_screening{background-color:#FECCFF;}
+.service_table .antenatal{background-color:#FEFF66;}
+/* new CSS for table 04/12/2014*/
+.service_table .antenatal_old{background-color:rgb(249,191,143);}
+.service_table .antenatal_new{background-color:rgb(239,255,255)}
+
+.service_table .woman_health{background-color:#CBCDFD;}
+.service_table .blank {background-color:#BFBFBF;}
+
+.real_table{margin:20px 0px; width:100%; border:0px; border-spacing:1px; background-color:#f68640; text-align:left;}
+.real_table caption{margin:1em 0px; text-align:left; font-weight:bold;}
+.real_table .th, .real_table th{text-align:left; padding:5px; font-weight:bold; background-color:#9F359A; color:#FFFFFF;}
+.real_table tr{vertical-align:top;}
+.real_table td{padding:5px; background-color:#FEECC6;line-height: 1.5;}
+.real_table .row2 td, .real_table .row2{background-color:#FFE2A3;}
+
+/* PDF Link or ICON */
+a.pdf, .pdf{background-repeat:no-repeat; display:inline-block; margin:3px 0px; padding:3px 0px 3px 20px; background-position:center left;}
+/* .pdf-icon{background-image:url(../images/pdf.gif); width:20px; height:18px; background-repeat:no-repeat; display:inline-block; background-position:center left; margin-bottom:-2px;} */
+.pdf-icon {margin-right:2px;}
+.pdf-icon img{vertical-align: text-top;}
+.pdf-text{ font-size:0.8em;}
+
+/* Table Styling */
+table.style-tbl,table.style-tbl th,table.style-tbl td {border:1px solid #f68640;}
+table.style-tbl{margin:1em 0px; width:100%; border-collapse:collapse; border:0px; border-spacing:1px; background-color:#f68640; text-align:left;}
+table.style-tbl th{text-align:left; padding:4px; font-weight:bold; background-color:#9F359A; color:#FFFFFF;}
+table.style-tbl tr{vertical-align:top; background-color:#FEECC6;}
+table.style-tbl tr.even{background-color:#FFE2A3;}
+table.style-tbl td{padding:4px; color:#000;line-height: 1.5;}
+table.style-tbl caption{text-align:left; font-weight:bold;margin-bottom:0.5em; margin-top:1em;}
+/* Note: caption > heading is not valid structure, to be fixed later */
+table.style-tbl caption h1, table.style-tbl caption h2, table.style-tbl caption h3,
+table.style-tbl caption h4, table.style-tbl caption h5, table.style-tbl caption h6{margin:0;}
+
+table.cells-align-centre td,table.cells-align-centre th { text-align:center;}
+
+/* OL - urdu table */
+div:lang(ur) table.style-tbl td{text-align:right;}
+
+/* Header */
+#headnav input#query{margin:4px 0 0 0;}
+
+/* nav */
+.page-in-lang-nav-to-en, .page-in-lang-nav-to-tc, .page-in-lang-nav-to-sc {margin:2em 0.5em;}
+
+/* Left Menu */
+div.leftmenu{z-index:9999;}
+
+/* Content Operation Bar */
+#content-op-bar{font-size:1.3em; clear:both; width:100%; text-align:right;height:1.5em;margin:10px 0;}
+#content-wrapper > #content-op-bar{/* Reset for new template */font-size:1em;}
+#content-op-bar > .button {display:inline-block;margin-left:5px;}
+#content-op-bar > .button > div{display:table-cell; height:22px; padding-left:27px; vertical-align:middle;}
+
+
+/* Bottom navigation bar (content footer nav) */
+#bottom-nav table{ width:540px; border:0px none; border-spacing:0; border-collapse:collapse;}
+#bottom-nav td { padding:0; border-spacing:0;}
+#bottom-nav .col1{ width:14px; background:url('../images/general/ftnav_bg_l.gif') no-repeat right top;}
+#bottom-nav .col2{ width:161px; background:url('../images/general/ftnav_bg_m.gif') repeat-x left top;}
+#bottom-nav .col3{ width:71px; text-align:center; white-space:nowrap; background:url('../images/general/ftnav_bg_m.gif') repeat-x left top;}
+#bottom-nav .col4{ width:113px; text-align:center; white-space:nowrap; background:url('../images/general/ftnav_bg_m.gif') repeat-x left top;}
+#bottom-nav .col5{ width:161px; background:url('../images/general/ftnav_bg_m.gif') repeat-x left top;}
+#bottom-nav .col6{ width:14px; background:url('../images/general/ftnav_bg_r.gif') no-repeat left top;}
+
+/* footer */
+#footer{margin-top:4px; background-image:url("../images/botdot.gif"); background-position:top left; background-repeat:repeat-x; /*border-top:1px dotted #000;*/
+font-size:1.2em; display:inline-block; width:100%; clear:both;}
+
+/* Content */
+#content{font-size:150%; clear:both;}
+#content h1 {font-size:1.8em;}/* 2em */
+#content h2 {font-size:1.35em;}/* 1.5em */
+#content h3 {font-size:1.053em;}/* 1.17em */
+#content h4 {font-size:1em;}/* 1em */
+#content h5 {font-size:0.83em;}/* 0.83em */
+#content h6 {font-size:0.67em;}/* 0.67em */
+
+#content p, #content li { line-height:1.5;}
+#content ol, #content ul{padding-top:0.5em; padding-bottom:0.5em;}
+#content li{ padding-bottom:0.4em;}
+#content .highlighted-box {margin:5px 10px; padding:0.5em 1em; background-color:#ffe0be; border:#FDCF9E 2px solid;}
+#content .speaker {clear:both; margin-bottom:40px;}
+#content .speaker .photo{float:right; margin:0px 0px 10px 10px;}
+#content .justify p{text-align:justify;}
+
+/* Sub-nav topbar */
+#content .sub-nav-topbar{vertical-align:top; margin:5px 0; padding: 5px 0; border-bottom: 1px #9F359A dotted; clear:both; width:100%; font-size:0.867em;}
+#content .sub-nav-topbar li{display:inline-block; border: 1px #F39C3E solid; margin: 4px 1px 0 1px; padding: 5px; background:#FFF9E7; border-radius: 5px;}
+#content .sub-nav-topbar li a{width:69px; line-height: 1;}
+#content .sub-nav-topbar li.rollover{background:#FBD9F6; color:#BF0093;}
+
+/* News and Event - Edited 04/09/2015 */
+#news {list-style-type:none; margin:0; padding:0;}
+#news li {border-bottom:#CDAFD3 1px solid; padding-top:0px;}
+#news li.first{border-top:#CDAFD3 1px solid;}
+#news li.last {border-bottom:none;}
+#news h2 {margin:10px 0 0 0;}
+#news h3 {margin:0 0 5px 0;}
+#news .news-content{padding:0 1em; clear:both;}
+#news .news-content li{border:0;}
+#news .news-sub-title{font-size:1em;font-weight:bold;}
+ul.news_cont h2,ul.news_cont h3{font-size:1em;margin:0;padding:0}
+
+/* Health Info Section */
+#section-header table{ border:0px none; border-spacing:0; border-collapse:collapse;}
+#section-header td { padding:0; border-spacing:0;}
+#section-header .subsection-block .child-woman-nav {margin-left:1px;}
+
+/* leaflets */
+#content .main-title{color:#CF4603;}
+#content .sub-nav-block{float:left; clear:both; width:535px; padding-bottom:10px;}
+#content .print-version{float:left; width:135px; margin-left:10px; padding-right:10px;}
+#content .pdf-download{}
+#content .pdf-version{}
+#content .left-border{border-left:#FD5604 dashed 1px;}
+#content .right-border{border-right:#FD5604 dashed 1px;}
+#content .cover img{width:130px; border:#666 solid 1px;margin-bottom:5px;}
+#content .related-sections{float:right; width:365px; clear:right;padding-left:14px}
+#content .related-sections>p{margin-top:0; margin-bottom:0;}
+#content .line-sepeartor{clear:both; background:#FD5604; height:1px; width:100%;}
+#content > h1.title{clear:both;}
+
+/* leaflets listing*/
+#content .leaflet-listing .cover img{border:1px black solid; width:80px;}
+
+/* Page listing */
+.fix{ display:block; clear:both;}
+#page-listing .article {border-radius:5px; border:1px solid #CCCCCC; padding:10px; clear:both; overflow:hidden; margin-bottom:10px;}
+#page-listing .header{/* let JS set to 4em */ padding-left:0;}
+#page-listing .title{float:left; width:100%; position:relative; margin:0; padding:0; box-sizing:border-box;}
+#page-listing .title h2{color:#000; margin:0 0 5px 0;/*let JS set to m-left to 5px*/ padding-bottom:5px; border-bottom:dotted 1px #CCCCCC;}
+#page-listing .article .date {border-radius:3px; border:solid 1px orange; background-color:orange; height:3em; width:3.2em; right:4em; text-align:center; padding:4px 2px 2px 2px; line-height:100%; float:left; position:relative; margin-left:-100%; margin-bottom:10px;}
+#page-listing .article .date span{color:#fff; display:block; text-align:center; padding-top:0;}
+#page-listing span.list {width:200px; display:inline-block; vertical-align:middle;}
+#page-listing .entry-content{}
+#page-listing .readmore{margin-bottom:0;}
+
+/* style for Old template */
+td#content table p {margin:0;}
+.old-template td.title{font-size:2.7em;}
+.old-template #content td.title{font-size:1.7em;}
+/* .old-template .nav, .old-template #content-op-bar{font-size:0.975em;} */
+
+/* print friendly, share */
+.printer-friendly.button > div{background:url("/common/images/printer-friendly.png") no-repeat center left;}
+.qrcode.button > div{background:url("/common/images/ico_share.png") no-repeat center left;}
+
+/* QR Code block */
+#content-qrcode-block {font-family:sans-serif;font-size:1.5em; min-height:1em;background-color:#FFF9E7; border:1px solid #f39c3e;margin-bottom:10px;overflow:hidden;display:none;padding:5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;-khtml-border-radius: 5px;}
+#content-qrcode-block .shorten-url,#content-qrcode-block .page-title {word-wrap: break-word;float:left;width:420px;margin-bottom:10px}
+#content-qrcode-block .shorten-url .name,#content-qrcode-block .page-title .name {font-weight:bold;margin-right: 5px;}
+#content-qrcode-block .shorten-url .app-url,#content-qrcode-block .page-title .title {font-weight:normal;}
+#content-qrcode-block .shorten-url .keyword {margin-left: 2px;font-weight:bold;}
+#content-qrcode-block .qrcode img{float:right;width:100px;height:100px;border:1px solid black;}
+
+/* Social Network Share */
+.sn-share {display: inline-block;}
+.sn-share .share-button {width:62px;height:20px}
+.sn-share .share-button.facebook-share{border:none;overflow:hidden;}
+
+/* CSS for Q&A section 10/11/2014*/
+.section-qa {list-style:decimal;}
+.section-qa .qus,.qus {font-weight:bold;}
+.section-qa .ans p, p.ans{margin-bottom:10px;font-weight:normal;}
+
+/* CSS for special Character 20/11/2014*/
+.wingding{font-family:Wingdings}
+
+/* CSS for 14272-like pages 20/11/2014*/
+.table-of-content,#rel-sec-content p,#rel-sec-content li,.table-of-content h3,#rel-sec-content h4,#rel-sec-content ul{margin:0;padding:0;font-size:0.95em!important;line-height:1.0!important;}
+.table-of-content h3{padding: 10px 5px;background: #871874;color: white;font-size:1em!important;border-radius:8px 8px 0 0;}
+#rel-sec-content{border: #cdafd3 1px solid; border-bottom-right-radius:10px; border-bottom-left-radius:10px; margin-bottom:10px;}
+#rel-sec-content ul{margin-bottom:10px;}
+#rel-sec-content li{list-style:none;background:#fff;padding:5px;}
+#rel-sec-content h4{padding: 5px;background: #FDCF9E;}
+#rel-sec-content .selected{font-weight:bold;}
+#rel-sec-content .toc-error{font-weight: bold;}
+#loadingIMG{margin:5px auto}
+#loadingIMG img{width:25px;height:25px;}
+#toc-error{font-size: 1em;font-weight:bold;}
+
+/* CSS for poster table 17/12/2014*/
+.poster-table th{text-align:center!important}
+.poster-table ul{padding:0 0 0 20px!important;margin:0!important;}
+/*IE hack for 3 layers list*/
+ol ol ul, ol ul ul, ul ol ul, ul ul ul{font-family:Arial, Helvetica, sans-serif\9;}
+
+/* Leftlet List new style by Max tsui 08/05/2015 */
+ul.ll-list{list-style:none;}
+ul.ll-list li{overflow: hidden;display: table;width: 100%;border-top:2px dotted rgb(232, 117, 42);padding:1em 0;}
+.ll-cover{width:20%;float:left;padding-bottom:0.5em;display:table-cell;}
+.ll-cover img{width:80px;}
+.ll-right{width:79%;float:right;padding-bottom:1em;display:table-cell;margin-top: 5%;}
+.ll-right a{display:block;}
+.ll-right .clear{clear:both;}
+
+/* qr-list 07/05/2015 by Max Tsui*/
+#qr-list,#qr-footer{list-style:none;padding:0;margin:0;}
+#qr-list li{border:1px solid black;float:left;width:46%;position:relative;padding:0;margin:0.3em;text-align:center;background: rgb(160, 179, 255);}
+#qr-list .qr-title{display:table;text-align:center; width: 100%;}
+#qr-list h2{display: table-cell;font-size:1em;vertical-align:middle;line-height:1.1em;padding:0.5em 0;}
+#qr-list .qr-img{width: 100%;text-align: center;background:white;}
+#qr-list img{width:150px;height:150px;padding:0.3em 0;}
+#qr-list p{width:100%;font-size:1em;margin: 0;padding: 0; word-wrap: break-word;}
+#qr-list a{display:block;}
+.qr-outro{clear:both;padding-top:1em}
+#qr-footer li{width:48%;float:left;text-align: center;}
+#content-rev-date{clear:both;}
+
+/* API table*/
+#api-pic {text-align:center;padding-bottom:1em}
+#api-table {width:100%;}
+#api-table td{padding:0;text-align:center; padding-bottom:1em;}
+.api-link {padding-bottom:1em}
+
+/* headlth professional list last item by Max Tsui 09/06/2015*/
+li.heaprof-li-last{list-style: none;margin-top: 1.5em;}
+
+/*list for news and event*/
+#news .news-list-article li{border:0;}
+
+/* service_chs is for enable or disable the right column bolock */
+.service_chs {display:block;}
+
+/*Add news-title and news-date**/
+.news-date {font-weight:bold;display:inline-block;float: left;padding:5px 0;}
+.news-title {font-weight:bold;font-size:1.1em;display:block;clear:both;}
+.news-pin{width:22px;height:22px;display:inline-block;float: left;padding:5px 5px 0 0;}
+
+/* Special handling for PRINT MEDIA, to be moved to external CSS */
+@media print {
+	body {
+		font-size: 100%;
+	}localhost:8080
+	#content {font-size:100%;}
+	#content h1.title{margin-top:1em!IMPORTANT;}
+
+	.no-print,#content .mediaplayerbutton,
+	#content-op-bar,#bottom-nav,#player-holder,
+	#content .sub-nav-topbar
+	{display:none;}
+
+	#transcript {border:0!IMPORTANT;}
+	table.style-tbl,
+	table.service_table,
+	table.real_table {
+		border-collapse: collapse !IMPORTANT;
+	}
+	table.style-tbl, table.style-tbl td,table.style-tbl th,
+	table.service_table, table.service_table td,table.service_table th,
+	table.real_table, table.real_table td,table.real_table th{
+		border:1px solid black !important;
+	}
+	table.style-tbl td,table.style-tbl th, table.style-tbl td *,table.style-tbl th *,
+	table.service_table td,table.service_table th,table.service_table td *,table.service_table th *,
+	table.real_table td,table.real_table th,table.real_table td *,table.real_table th *{
+		color:black !important;
+	}
+
+}
