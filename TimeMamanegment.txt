@@ -221,6 +221,16 @@ office iso
 20161002
 	C++ vs Objective C
 	dynamic dispatch
-	QT vs WPF vs Electron
+-11.20 QT vs WPF vs Electron
+	qt mvvm
+	learn  examples/quick/models/stringlistmodel 
+		ASSERT failure in void __cdecl QtFontFamily::ensurePopulated(void): "PMingLiU", file text\qfontdatabase.cpp,？
+-12.00		Fixed by regedit
+-12.00	English download
+	E:\Users\cutepig\Downloads\qq16-dynamicqobject-code
+	http://doc.qt.io/qt-5/qtqml-tutorials-extending-qml-example.html
+	http://doc.qt.io/qt-4.8/model-view-programming.html
+	http://stackoverflow.com/questions/8533859/applying-mvvm-pattern-in-a-qtquick
+	https://www.google.com.hk/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=qt%20mvvm
 	C++ ipc framework
 	
