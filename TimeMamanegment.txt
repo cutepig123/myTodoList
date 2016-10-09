@@ -233,4 +233,31 @@ office iso
 	http://stackoverflow.com/questions/8533859/applying-mvvm-pattern-in-a-qtquick
 	https://www.google.com.hk/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=qt%20mvvm
 	C++ ipc framework
+	https://forum.qt.io/topic/44242/mvvm-mvp-and-qml
+20161004
+-10.00	E:\wamp\www\git_repos\GitHub\AntyaDev-qtquickmvvmexample-8e5ee29f41f5\AntyaDev-qtquickmvvmexample-8e5ee29f41f5
+	--> build failure
+	
+	qml教程
+	:-1: error: No rule to make target '../CppQmlPatOne/MainForm.ui.qml', needed by 'debug/qrc_qml.cpp'.  Stop.
+	
+	http://stackoverflow.com/questions/32809169/use-d3d11-debug-layer-with-vs2013-on-windows-10
+	
+-12.00	https://www.youtube.com/watch?v=CR2qQebqv6I#t=1718.287866
+	
+	windows 10 dark theme
+	
+	https://ycheng.gitbooks.io/qt5_cadaques-zh_tw/content/quick_starter/qmlqml_syntax.html
+	
+	https://diro.gitbooks.io/advanced-qml/content/chapter1.html
+	
+20161008
+5.00-5.50	Company Email
+-6.20	whiteshuffle
+
+	C++面试题
+	Appl面试题：多线程，操作系统
+	算法面试题
+	机器视觉面试题：给一张图像，找到里面有多少个物体
+	微软面试题
 	
