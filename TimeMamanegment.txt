@@ -295,3 +295,34 @@ office iso
 20161027
 	KingGarden	address, interview time, Full day or half day, fees
 	
+20161203
+	买自闭症书籍 
+
+
+
+	买sd卡
+	rdi relatioship development intervention
+	
+	 窗口式浴室寶  http://www.price.com.hk/product.php?p=181185
+	https://www.overleaf.com/7482589rbvkxfgktpwt#/26010428/
+20161217
+	软件项目管理如何防止延期
+	微软为什么可以在一年内重写windows
+	为什么scrum可以两个星期出一个新版本
+	《C++ Concurrency in Action https://www.gitbook.com/book/chenxiaowei/cpp_concurrency_in_action/details
+	从std::thread、std::mutex、std::future和std::async等基础类的使用，到内存模型和原子操作、基于锁和无锁数据结构的构建，再扩展到并行算法、线程管理，最后还介绍了多线程代码的测试工作。
+	程序员面试金典
+	Actor 模型 http://www.theron-library.com/
+	CLR via C#
+	《比尔·盖茨的野蛮兵团 》	《Barbarians led by Bill Gates》
+	梦断代码
+	我是沃兹
+	亲历微软
+	
+
+	tbb E:\wamp\www\git_repos\GitHub\GeneralUtility\testTBB
+s950	刷机
+http://www.miui.com/download-174.html
+
+caf
+E:\wamp\www\git_repos\GitHub\actor-framework\examples\aout.cpp
