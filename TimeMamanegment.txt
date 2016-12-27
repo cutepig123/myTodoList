@@ -115,7 +115,7 @@
 	F:\images\2007-01
 	
 -23.00	
-报名还不到时间？ http://zg2.cpta.com.cn/examfront/login!quitKS.action?myrandom=0.46870431505075927&myname=hejinshou	
+报名还不到时间？ http://zg2.cpta.com.cn/examfront/login!quitKS.action?myrandom=0.46870431505075927&myname=xxx	
 	http://www.gdkszx.com.cn/pt/WebRegister/index.aspx
 	http://www.testcenter.gov.cn/ksyweb/OnlineEnrol
 	2016下半年广东系统架构设计师考试报名时间：2016年8月23日9:00-9月9日17:00
@@ -326,3 +326,20 @@ http://www.miui.com/download-174.html
 
 caf
 E:\wamp\www\git_repos\GitHub\actor-framework\examples\aout.cpp
+
+20161227
+整理硬盘
+拷贝tbb	Done
+android通讯录，短信，照片，程序如whatsapp，微信，自动备份软件
+	SMS	http://www.howtogeek.com/112852/how-to-backup-your-text-messages-to-your-gmail-account/
+	照片	android6
+	程序	android6
+	通讯录	
+找手机：待机长，屏幕大，可以控制程序的权限，自动同步功能
+	nexus
+Pending 如何同步windows chrome	已经查过，但不知道为啥不行
+iphone 7 plus上台
+http://iphonesite.smartone.com/jsp/iPhone7/tchinese/service-plan-iPhone7-Plus.jsp	HK$298 1GB	HK$40/200MB	2,500	24 個 月	HK$2,480 +HK$3,700 (預 繳 金 額)
+浴室宝
+
+ext2fsd how to format as ext3

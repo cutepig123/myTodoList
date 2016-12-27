@@ -35,7 +35,8 @@ Undertake R&D activities such as design, analysis, development of har
 Associate Consultant (Ref: AED188/16)	disciplines such as Mechanical Engineering, Automotive Engineer
 Associate Consultant Smart Manufacturing & Materials Division Ref: SMD199/16	develop new services related to 3D CAD/CAM, robotics application
 Consultant Automotive & Electronics Division Ref: AED187/16 opto-mechatronics technology, optics design through CAE software applications
->>Associate Consultant Automotive & Electronics Division Ref: AED181/16 Post Date : 26 October 2016 		2 years¡¯ relevant experience
+pendign Associate Consultant Automotive & Electronics Division Ref: AED181/16 Post Date : 26 October 2016 		2 years¡¯ relevant experience
 Senior Consultant IT & Business Process Division Ref: ITD179/16 Post Date: 15 November 2016	 degree in computer science or related disciplines or equivalent with 12 years¡¯ or more relevant experience in information security, application development or IT infrastructure management
 >>Senior Consultant Automotive & Electronics Division Ref: AED114/16 Post Date: 12 August 2016	Expert knowledge of and solid experience in at least two of the following areas: image processing, video coding,
->>Consultant Smart Manufacturing & Materials Division Ref: MTD58N/15 Post Date: 30 August 2016
+NA Consultant Smart Manufacturing & Materials Division Ref: MTD58N/15 Post Date: 30 August 2016
+
