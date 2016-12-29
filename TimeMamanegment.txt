@@ -328,18 +328,40 @@ caf
 E:\wamp\www\git_repos\GitHub\actor-framework\examples\aout.cpp
 
 20161227
-整理硬盘
+整理硬盘，删除win7
 拷贝tbb	Done
 android通讯录，短信，照片，程序如whatsapp，微信，自动备份软件
 	SMS	http://www.howtogeek.com/112852/how-to-backup-your-text-messages-to-your-gmail-account/
 	照片	android6
 	程序	android6
 	通讯录	
-找手机：待机长，屏幕大，可以控制程序的权限，自动同步功能
+找手机：待机长，屏幕大，可以控制程序的权限，自动同步功能，可以google play
 	nexus
+	https://item.jd.com/1684486.html#product-detail
+	千元机选择比较多，大多数是各国产厂商上代旗舰，像荣耀7，小米5，魅族mx6等等
+	小米Max
+	目前性价比最高的是小米mix，但是抢不到。剩下的华为p9，mate9，魅族什么的在我看来都不值得买
+	小米Note 2我觉得也不错。 再便宜点，可以选择荣耀8，努比亚Z11 miniS。
+	
 Pending 如何同步windows chrome	已经查过，但不知道为啥不行
 iphone 7 plus上台
 http://iphonesite.smartone.com/jsp/iPhone7/tchinese/service-plan-iPhone7-Plus.jsp	HK$298 1GB	HK$40/200MB	2,500	24 個 月	HK$2,480 +HK$3,700 (預 繳 金 額)
 浴室宝
 
 ext2fsd how to format as ext3
+
+20161229
+自提地址：新界荃灣青山公路264-298號南豐中心12樓1243號室【1086門店自取】
+
+自提點營業時間： 星期一至星期五：11:00 - 22:00星期六：12:00 - 20:00星期日及假期：12:00 - 20:00，其他時間並不提供服務。
+
+*特別提示：選擇自提取貨后，送貨地址不可更改，在Paypal中填寫不同地址無效。
+
+恭喜您！訂單已成功付款!
+
+訂單編號:
+5161229291752493
+商品名稱:
+小米Max 金色 32GB
+小米Max標準高透保護貼 高透
+即按小米 即按小米香港Facebook讚，取得小米最新資訊
