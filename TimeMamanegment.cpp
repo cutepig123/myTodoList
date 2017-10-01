@@ -1097,6 +1097,16 @@ Example使用General Grab实现HDOA Grab
 	
 	使用
 20170916
-	todo：改i位幼兒園
-	幼稚園k班報名
-	香港室內遊樂場
+todo：改i位幼兒園
+幼稚園k班報名
+香港室內遊樂場
+	第 1 站 九龍灣 Mabaland 遊樂設施豐富
+	屯門安定村H.A.N.D.S商場
+	北河街體育館兒童遊戲室 深水埗基隆街333號北河街市政大廈5字樓 每日9am-7:50pm (定期保養日除外)
+要能，申請會員，借玩具
+取消citibank信用卡
+簽署保誠自動付款
+查詢我的銀行信用卡關係，以及餘額額夠不夠個
+
+口及工具 http://www.speechtherapyhk.com/showroom/model/T0011/templateCustomWebPage.do?webId=1165175137408&editCurrentLanguage=1165175137424&customWebPageId=1224807537055
+
