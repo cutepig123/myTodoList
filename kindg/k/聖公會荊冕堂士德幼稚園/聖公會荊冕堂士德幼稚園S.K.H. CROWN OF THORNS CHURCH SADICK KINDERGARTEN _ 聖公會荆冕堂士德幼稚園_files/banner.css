@@ -1,0 +1,8 @@
+#the_menu_more .menu { margin-right: 15px; }
+#banner_results { margin-top: 20px; }
+#banner_submit_more { margin-left: 25px; }
+.banner-item-more { background: white; padding-left: 200px; cursor: move; height: 130px;}
+#jk_banner_more input.todel { position: relative; left: 50px; top: -50px; cursor: pointer; background: #2ea2cc; color: white; }
+#jk_banner_more input.urls { position: relative; left: 50px; top: -50px;width:250px;}
+#jk_banner_more img { height: 120px; margin-top: 5px; }
+#tips_more { color: green; display: inline-block; font-size: 20px; margin-left: 50px; margin-top: 5px; }

@@ -1,0 +1,30 @@
+$( document ).ready(function() {
+    console.log( "ready!" );
+	divResize();
+});
+
+$( window ).resize(function() {
+	divResize();
+});
+
+$(function() {
+	
+});
+
+function divResize(){
+	if(document.getElementById("textArea1") !=null){
+		document.getElementById("textArea1").style.height  = $("#textArea1").width()*193/225+"px";
+		document.getElementById("textArea2").style.height  = $("#textArea2").width()*193/225+"px";
+	}
+	
+	//document.getElementById("textWidth1").style.width  = $("#getTextWidth").width()-$("#getImgWidth").width()+"px";
+	//document.getElementById("textWidth2").style.width  = $("#getTextWidth").width()-$("#getImgWidth").width()+"px";
+}
+
+function openSiteTap(_url){
+	$.get("./"+_url, function(data){		
+	 	_html = $(data).find('.main').html();	
+		console.log(_html);	
+		$("#main").html(_html);
+	});	
+}

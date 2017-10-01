@@ -1,0 +1,82 @@
+15	"Annunciation Catholic Kindergarten
+天主教領報幼稚園"	"11 On Yin Street, Chai Wan Kok, Tsuen Wan, New Territories
+新界荃灣柴灣角安賢街11號"
+
+17	"Tsuen Wan Our Lady Kindergarten
+荃灣聖母幼稚園"	"G/F, 37-41 Tak Wah Street, Tsuen Wan, New Territories
+新界荃灣德華街37-41號地下"
+
+"Allway Kindergarten
+荃威幼稚園"	"Shop 10, G/F, Allway Garden, Phase 2, On Yuk Road, Tsuen Wan, New Territories
+新界荃灣安育路荃威花園第2期地下10號舖"
+
+"Christian Adrianne Kindergarten
+基督教安得兒幼稚園"	"M/F, Block 1, Belvedere Garden, Phase 1, Tsuen Wan, New Territories
+新界荃灣麗城花園第1期1座閣樓"
+
+"Christian Adrianne Kindergarten (Bayview)
+基督教安得兒幼稚園（灣景）"	"LG2/F, Bayview Garden, 633 Castle Peak Road, Tsuen Wan, New Territories
+新界荃灣青山公路633號灣景花園地庫2層"
+
+"Tsuen Wan Trade Association Chu Cheong Kindergarten
+荃灣商會朱昌幼稚園"	"G/F, Unit No 1, Hing Lok House, Kwai Hing Estate, Kwai Chung, New Territories
+新界葵涌葵興邨興樂樓地下1號室"
+
+"Alice Lan & Vera Shen Education Fund Gordon Pei Kindergarten
+藍如溪盛成皿教育基金邊耀良幼稚園"	"G/F, Block 3, Bo Shek Mansion, 328 Sha Tsui Road, Tsuen Wan, New Territories
+新界荃灣沙咀道328號寶石大廈3座地下"
+
+"Asbury Methodist Kindergarten
+循道衛理聯合教會亞斯理幼稚園"	"1 Sheung Kok Street, Tai Wo Hau, Tsuen Wan, New Territories
+新界荃灣大窩口上角街1號"
+
+"Hong Kong Sheng Kung Hui St Nicholas' Nursery School
+香港聖公會聖尼哥拉幼兒學校"	"6/F, Tai Wo Hau Estate Community Centre, Tsuen Wan, New Territories
+新界荃灣大窩口社區中心6樓"
+
+"S.K.H. Crown of Thorns Church Sadick Kindergarten
+聖公會荊冕堂士德幼稚園"	"Portion of G/F - 1/F & Portion of 3/F - 4/F 67 - 73 Texaco Road Tsuen Wan New Territories
+新界荃灣德士古道67-73號地下至1樓部份及3樓至4樓部份"
+
+"Hong Kong Young Women's Christian Association Tsuen Wan Nursery School
+香港基督教女青年會荃灣幼兒學校"	"4/F, Princess Alexandra Community Centre, Tai Ho Road, Tsuen Wan, New Territories
+新界荃灣大河道雅麗珊社區中心5樓"
+
+"Po Leung Kuk Fiona Cheung Sum Yu Kindergarten
+保良局張心瑜幼稚園"	"Units 208-214, Fu Ching House, Tai Wo Hau Estate, Tsuen Wan, New Territories
+新界荃灣大窩口邨富靜樓208-214號"
+
+"Po Leung Kuk Fong Tam Yuen Leung Kindergarten
+保良局方譚遠良幼稚園"	"M/F, Block 1, Belvedere Garden, Castle Peak Road, 9 1/2 Miles, Tsuen Wan, New Territories
+新界荃灣青山道九咪半麗城花園第1座高層地下"
+
+"Yan Chai Hospital Choi Pat Tai Kindergarten
+仁濟醫院蔡百泰幼稚園"	"1/F, Yan Chai Hospital Multi-Services Complex, 18 Yan Chai Street, Tsuen Wan, New Territories
+新界荃灣仁濟街18號仁濟醫院綜合服務大樓1樓"
+
+"The Church of Christ in China Fuk Yau Kindergarten
+中華基督教會福幼幼稚園"	"G/F, No. 14-17 Shek Tsui House, Shek Wai Kok Estate, Tsuen Wan, New Territories
+新界荃灣石圍角邨石翠樓14-17號地下"
+
+"Tsuen Wan Baptist Church Kindergarten
+荃灣浸信會幼稚園"	"G/F & 1/F, 99 Castle Peak Road, Tsuen Wan, New Territories
+新界荃灣青山道99號地下及2樓"
+
+"Hong Kong Taoist Association Yuen Yuen Kindergarten
+香港道教聯合會圓玄幼稚園"	"G/F, Units 33-54, Shek To House, Shek Wai Kok Estate, Tsuen Wan, New Territories
+新界荃灣石圍角邨石桃樓地下"
+
+"Hong Kong Ling Liang Church Tsuen Wan Kindergarten
+香港靈糧堂荃灣幼稚園"	"Kindergarten Podium C (Tower 9 - 12) P/F Riviera Gardens Tsuen Wan New Territories
+新界荃灣海濱花園平台C(第九至12座)P層幼稚園"
+
+"The Salvation Army Tai Wo Hau Nursery School
+救世軍大窩口幼兒學校"	"215,217,219 & 221-232, 1/F, Fu Keung House, Tai Wo Hau Estate, Tsuen Wan, New Territories
+新界大窩口邨富強樓2樓215,217,219及221-232室"
+"The Salvation Army Fu Keung Kindergarten
+救世軍富強幼稚園"	"Units 121 - 140, G/F, Fu Keung House, Tai Wo Hau Estate, Tsuen Wan, New Territories
+新界荃灣大窩口邨富強樓地下121-140室"
+"The Salvation Army Tsuen Wan Nursery School
+救世軍荃灣幼兒學校"	"1/F, Clague Garden Estate, 22 Hoi Shing Road, Tsuen Wan, New Territories
+新界荃灣海盛路22號祈德尊新邨1樓"
+
